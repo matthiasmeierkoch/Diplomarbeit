@@ -1,2 +1,2 @@
 # Diplomarbeit
-Abgabe meiner Diplomarbeit für den Studiengang HF Kommunikationsdesign in Vertiefung Interaction Design an der Schule für Gestaltung Zürich erfolgt via dieser Webseite.
+Die Abgabe meiner Diplomarbeit «Willkommen in Wiedikon» für den Studiengang Dipl. Gestalter/-in HF Fachrichtung Kommunikationsdesign mit Vertiefungsrichtung Interaction Design an der Schule für Gestaltung Zürich erfolgt mit diesem Github Repository.
