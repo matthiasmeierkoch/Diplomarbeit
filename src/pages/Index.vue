@@ -19,7 +19,7 @@
                 Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche hier
                 heruntergeladen werden kann.
                 <br>
-                <a href="../assets/uploads/html5-css-referenz.pdf">Auswertung des Vorprojekt als PDF
+                <a href="../assets/uploads/wiso-so-neugierig.pdf">Auswertung des Vorprojekt als PDF
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>
                         download_icon</title>
                         <g class="nc-icon-wrapper" fill="#ED8A53">
