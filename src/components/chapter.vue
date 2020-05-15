@@ -22,17 +22,18 @@
     }
 
     .chapter__title {
-        width: 50%;
+        width: 30%;
     }
 
     .chapter__content {
-        width: 50%;
+        width: 60%;
     }
 
 
     p {
         font-family: 'inter', sans-serif;
-        font-size: 1.125rem;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
         color: #0070BC ;
     }
 

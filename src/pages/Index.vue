@@ -9,7 +9,7 @@
                 Für viele ist ein Kantonswechsel und besonders ein Landeswechsel mit komplikationen und Unsicherheiten
                 verbunden. Wie verhält man sich richtig? und was ist hier anders als gewohnt? Und wo finde ich die
                 Antworten auf diese Fragen?
-                Zudem möchte man sich möglichst schnell einleben und im neuen Zuhause einleben und in der Gesellschaft
+                <br>Zudem möchte man sich möglichst schnell einleben und im neuen Zuhause einleben und in der Gesellschaft
                 integrienen. </p>
         </chapter>
 
