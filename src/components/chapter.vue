@@ -47,7 +47,7 @@
         font-family: 'inter', sans-serif;
         font-size: 3.5rem;
         line-height: 4rem;
-        color: #0066CC ;
+        color: #0066CC;
         -webkit-margin-before: 0.35em;
         margin-block-end: 0.35em;
     }

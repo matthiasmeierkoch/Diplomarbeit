@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-        <h1 class="item-a">Willkommen in Wiedikon</h1>
+        <h1 class="page__title">Willkommen in Zürich, Wiedikon</h1>
         <div class="container">
 
         <lead>
@@ -89,7 +89,7 @@
 
     export default {
         metaInfo: {
-            title: 'Willkommen in Wiedikon'
+            title: 'Willkommen in Zürich, Wiedikon'
         },
         components: {
             Chapter,
@@ -132,18 +132,18 @@
 
     }
 
-    h1 {
+    .page__title {
         font-size: 5.125rem;
         line-height: 5.125rem;
         color: #111111;
-        width: 30rem;
+        max-width: 43rem;
     }
 
     @media (max-width: 667px) {
 
-        h1 {
+        .page__title {
             font-size: 4.25rem;
-            width: 100%;
+            max-width: 100%;
             line-height: 4.25rem;
         }
     }
