@@ -1,7 +1,7 @@
 <template>
-    <div class="chapter">
-        <h2 class="chapter__title">{{ title }}</h2>
-        <div class="chapter__content">
+    <div class="lead">
+        <h2 class="lead__title">{{ title }}</h2>
+        <div class="lead__content">
             <slot></slot>
         </div>
     </div>
@@ -14,28 +14,28 @@
 </script>
 
 <style>
-    .chapter {
+    .lead {
         position: relative;
-        justify-content: space-between;
-        display: flex;
-        padding-top: 5rem;
+        margin: auto;
+        margin-top: 1.5rem;
         margin-bottom: 2rem;
+        max-width: 75ch;
     }
 
-    .chapter__title {
-        width: 30%;
+    .lead__title {
+
     }
 
-    .chapter__content {
-        width: 60%;
-        font-size: 1.3rem;
-        line-height: 1.8rem;
+   .lead__content {
+        color: #0070BC;
+        font-size: 2rem;
+        line-height: 3rem;
     }
 
 
     p {
         font-family: 'inter', sans-serif;
-        color: #111111 ;
+
     }
 
     h3{
@@ -45,8 +45,7 @@
 
     h2{
         font-family: 'inter', sans-serif;
-        font-size: 3.5rem;
-        line-height: 4rem;
+        font-size: 2.5rem;
         color: #0070BC ;
         -webkit-margin-before: 0.35em;
         margin-block-end: 0.35em;
@@ -54,18 +53,22 @@
 
     @media (max-width: 667px) {
 
-        .chapter {
+        .lead {
             display: contents;
+            font-size: 2rem;
+            line-height: 3rem;
         }
 
-        .chapter__title{
+        .lead__title{
             width: 100%;
             margin-top: 3rem;
         }
 
-        .chapter__content{
+        .lead__content{
             width: 100%;
             margin-top: 1rem;
+            font-size: 1.825rem;
+            line-height: 2.825rem;
         }
     }
 
