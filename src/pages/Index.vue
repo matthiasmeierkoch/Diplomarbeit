@@ -15,8 +15,7 @@
             <chapter title="Einleitung">
             <p> Wie verhält man sich richtig? wie integriere ich mich möglichst schnell und einfach in ein bestehendes Quartierleben?
                 und wo finde ich Antworten auf Fragen wie diese?
-                <br>
-
+            </p>
             </chapter>
 
             <g-image src="../assets/img/zurich.jpg" height="800" fit="cover"/>
