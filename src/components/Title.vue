@@ -27,9 +27,9 @@
     }
 
     .project__subtitle {
-        width: 30%;
-        font-size: 1.3rem;
-        line-height: 1.8rem;
+        width: 50%;
+        font-size: 1.375rem;
+        line-height: 2.0625rem;
     }
 
 
