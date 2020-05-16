@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-        <Title></Title>
+        <projectTitle></projectTitle>
         <div class="container">
 
             <lead>
@@ -98,7 +98,7 @@
 </template>
 
 <script>
-    import Title from "../components/title"
+    import projectTitle from "../components/project_title"
     import Chapter from "../components/chapter"
     import Lead from "../components/lead"
 
@@ -107,7 +107,7 @@
             title: 'Willkommen in Zürich, Wiedikon'
         },
         components: {
-            Title,
+            projectTitle,
             Chapter,
             Lead
         }
