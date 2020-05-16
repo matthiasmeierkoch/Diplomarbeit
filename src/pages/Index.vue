@@ -4,81 +4,96 @@
         <Title></Title>
         <div class="container">
 
-        <lead>
-            <p> Jedes Jahr ziehen zwischen 41000 und 46000 Personen nach Zürich und der grösste
-                Teil der Zuwanderer sind Ausländer. Im Jahr 2017 sind ca. 3500 Zürcher nach Wiedikon gezogen.
-                Für viele ist ein Umzug und besonders ein Kantons oder sogar Landeswechsel immer auch mit Komplikationen
-                und Unsicherheiten verbunden.
-            </p>
-        </lead>
+            <lead>
+                <p> Jedes Jahr ziehen zwischen 41&#x202F;000 und 46&#x202F;000 Personen nach Zürich und der grösste
+                    Teil der Zuwanderer sind Ausländer. Im Jahr 2017 sind ca. 3500 Zürcher nach Wiedikon gezogen.
+                    Für viele ist ein Umzug und besonders ein Kantons oder sogar Landeswechsel immer auch mit
+                    Komplikationen
+                    und Unsicherheiten verbunden.
+                </p>
+            </lead>
 
             <chapter title="Einleitung">
-            <p> Wie verhält man sich richtig? wie integriere ich mich möglichst schnell und einfach in ein bestehendes Quartierleben?
-                und wo finde ich Antworten auf Fragen zum Quartierleben?
-            </p>
+                <p> Wie verhält man sich richtig? wie integriere ich mich möglichst schnell und einfach in ein
+                    bestehendes Quartierleben?
+                    und wo finde ich Antworten auf Fragen zum Quartierleben?
+                </p>
             </chapter>
         </div>
-            <g-image src="../assets/img/zurich.jpg" height="800" fit="cover"/>
+        <g-image src="../assets/img/zurich.jpg" height="800" fit="cover"/>
         <div class="container">
             <chapter title="Auswertung der Umfrage">
-            <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf das
-                Verhalten und dernen Bedür-fnisse eingegangen bin.
-                Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche hier
-                heruntergeladen werden kann.
-                <br>
-                <a class="home-links" href="../assets/uploads/wiso-so-neugierig.pdf">Auswertung des Vorprojekt als PDF
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>
-                        download_icon</title>
-                        <g class="nc-icon-wrapper" fill="#0070BC">
-                            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-                        </g>
-                    </svg>
-                </a>
+                <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf
+                    das
+                    Verhalten und dernen Bedür-fnisse eingegangen bin.
+                    Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche
+                    hier
+                    heruntergeladen werden kann.
+                    <br>
+                </p>
+                <p>
+                    <a class="home-links" href="../assets/uploads/wiso-so-neugierig.pdf">Auswertung des Vorprojekt als
+                        PDF
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -5 24 24"><title>
+                            download_icon</title>
+                            <g class="nc-icon-wrapper" fill="#111111">
+                                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                            </g>
+                        </svg>
+                    </a>
+                </p>
 
+            </chapter>
+
+            <chapter title="User Journey">
+                <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf
+                    das
+                    Verhalten und dernen Bedür-fnisse eingegangen bin.
+                    Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche
+                    hier
+                    heruntergeladen werden kann.
+                    <br>
+                </p>
+            </chapter>
+
+            <chapter title="Benutzerrollen">
+                <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf
+                    das
+                    Verhalten und dernen Bedür-fnisse eingegangen bin.
+                    Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche
+                    hier
+                    heruntergeladen werden kann.
+                    <br>
+                </p>
+            </chapter>
+
+            <chapter title="Personas">
+                <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf
+                    das
+                    Verhalten und dernen Bedür-fnisse eingegangen bin.
+                    Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche
+                    hier
+                    heruntergeladen werden kann.
+                    <br>
+
+                </p>
+            </chapter>
+
+            <chapter title="Konzept">
+                <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf
+                    das
+                    Verhalten und dernen Bedür-fnisse eingegangen bin.
+                    Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche
+                    hier
+                    heruntergeladen werden kann.
+                    <br>
+                </p>
+            </chapter>
+
+            <p class="home-links">
+                <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
+                <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
             </p>
-        </chapter>
-
-        <chapter title="User Journey">
-            <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf das
-                Verhalten und dernen Bedür-fnisse eingegangen bin.
-                Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche hier
-                heruntergeladen werden kann.
-                <br>
-            </p>
-        </chapter>
-
-        <chapter title="Benutzerrollen">
-            <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf das
-                Verhalten und dernen Bedür-fnisse eingegangen bin.
-                Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche hier
-                heruntergeladen werden kann.
-                <br>
-            </p>
-        </chapter>
-
-        <chapter title="Personas">
-            <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf das
-                Verhalten und dernen Bedür-fnisse eingegangen bin.
-                Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche hier
-                heruntergeladen werden kann.
-                <br>
-
-            </p>
-        </chapter>
-
-        <chapter title="Konzept">
-            <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf das
-                Verhalten und dernen Bedür-fnisse eingegangen bin.
-                Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche hier
-                heruntergeladen werden kann.
-                <br>
-            </p>
-        </chapter>
-
-        <p class="home-links">
-            <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-            <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-        </p>
         </div>
     </Layout>
 </template>
@@ -112,8 +127,8 @@
         padding-top: 0.5rem;
     }
 
-    img{
-        width:100%;
+    img {
+        width: 100%;
         fit: cover;
 
     }
@@ -134,7 +149,6 @@
         color: #111111;
 
     }
-
 
 
 </style>

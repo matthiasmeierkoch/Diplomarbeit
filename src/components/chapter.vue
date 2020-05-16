@@ -26,8 +26,8 @@
 
     .chapter__content {
         width: 100%;
-        font-size: 1.3rem;
-        line-height: 1.8rem;
+        font-size: 1.375rem;
+        line-height: 2.0625rem;
     }
 
 
@@ -38,7 +38,8 @@
 
     h3{
         font-family: 'inter', sans-serif;
-        font-size: 1.325rem;
+        font-size: 1.375rem;
+        line-height: 2.0625rem;
     }
 
     h2{
