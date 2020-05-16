@@ -27,7 +27,7 @@
     }
 
    .lead__content {
-        color: #0070BC;
+        color: #003096;
         font-size: 2rem;
         line-height: 3rem;
     }
@@ -35,6 +35,7 @@
 
     p {
         font-family: 'inter', sans-serif;
+        color: #003096;
 
     }
 
@@ -46,7 +47,7 @@
     h2{
         font-family: 'inter', sans-serif;
         font-size: 2.5rem;
-        color: #0070BC ;
+        color: #111111 ;
         -webkit-margin-before: 0.35em;
         margin-block-end: 0.35em;
     }
@@ -69,6 +70,7 @@
             margin-top: 1rem;
             font-size: 1.825rem;
             line-height: 2.825rem;
+            color: #005C9B;
         }
     }
 

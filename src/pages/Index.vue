@@ -14,7 +14,7 @@
 
             <chapter title="Einleitung">
             <p> Wie verhält man sich richtig? wie integriere ich mich möglichst schnell und einfach in ein bestehendes Quartierleben?
-                und wo finde ich Antworten auf Fragen wie diese?
+                und wo finde ich Antworten auf Fragen zum Quartierleben?
             </p>
             </chapter>
 
@@ -26,7 +26,7 @@
                 Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche hier
                 heruntergeladen werden kann.
                 <br>
-                <a href="../assets/uploads/wiso-so-neugierig.pdf">Auswertung des Vorprojekt als PDF
+                <a class="home-links" href="../assets/uploads/wiso-so-neugierig.pdf">Auswertung des Vorprojekt als PDF
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>
                         download_icon</title>
                         <g class="nc-icon-wrapper" fill="#0070BC">
@@ -116,26 +116,26 @@
     }
 
     p a {
-        color: #0070BC;
+        color: #111111;
         text-decoration: none;
     }
 
     p a:hover {
-        color: #0070BC;
+        color: #111111;
         text-decoration: underline;
     }
 
     .home-links a {
         margin-top: 3rem;
         margin-right: 1rem;
-        color: #0070BC;
+        color: #111111;
 
     }
 
     h1 {
         font-size: 5.125rem;
         line-height: 5.125rem;
-        color: #0070BC;
+        color: #111111;
         width: 30rem;
     }
 
