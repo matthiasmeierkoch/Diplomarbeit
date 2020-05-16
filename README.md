@@ -5,23 +5,23 @@ Die Abgabe meiner Diplomarbeit «Willkommen in Wiedikon» für den Studiengang D
 ## How to use this repository:
 if not already installed, install Gridsome
 
-'npm install --global @gridsome/cli'
+`npm install --global @gridsome/cli`
 
 Clone this repo:
 
-'git clone https://github.com/matthiasmeierkoch/Diplomarbeit.git'
+`git clone https://github.com/matthiasmeierkoch/Diplomarbeit.git`
 
 Swith to the repository:
 
-'cd Diplomarbeit'
+`cd Diplomarbeit`
 
 Install dependencies:
 
-'npm install'
+`npm install`
 
 Start the development:
 
-'gridsome develop'
+`gridsome develop`
 
 develop enviroment starts at 
 http://localhost:8080/    
