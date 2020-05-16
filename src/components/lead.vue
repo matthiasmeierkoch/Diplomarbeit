@@ -27,7 +27,7 @@
     }
 
    .lead__content {
-        color: #003096;
+        color: #0066CC;
         font-size: 2rem;
         line-height: 3rem;
     }
@@ -35,7 +35,7 @@
 
     p {
         font-family: 'inter', sans-serif;
-        color: #003096;
+        color: #0066CC;
 
     }
 
@@ -70,7 +70,7 @@
             margin-top: 1rem;
             font-size: 1.825rem;
             line-height: 2.825rem;
-            color: #005C9B;
+            color: #0066CC;
         }
     }
 
