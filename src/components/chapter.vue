@@ -16,18 +16,16 @@
 <style>
     .chapter {
         position: relative;
-        justify-content: space-between;
-        display: flex;
-        padding-top: 5rem;
+        margin-top: 5rem;
         margin-bottom: 2rem;
     }
 
     .chapter__title {
-        width: 30%;
+        width: 100%;
     }
 
     .chapter__content {
-        width: 60%;
+        width: 100%;
         font-size: 1.3rem;
         line-height: 1.8rem;
     }

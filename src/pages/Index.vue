@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-        <h1 class="page__title">Willkommen in Zürich, Wiedikon</h1>
+        <Title></Title>
         <div class="container">
 
         <lead>
@@ -17,9 +17,9 @@
                 und wo finde ich Antworten auf Fragen zum Quartierleben?
             </p>
             </chapter>
-
+        </div>
             <g-image src="../assets/img/zurich.jpg" height="800" fit="cover"/>
-
+        <div class="container">
             <chapter title="Auswertung der Umfrage">
             <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf das
                 Verhalten und dernen Bedür-fnisse eingegangen bin.
@@ -84,6 +84,7 @@
 </template>
 
 <script>
+    import Title from "../components/title"
     import Chapter from "../components/chapter"
     import Lead from "../components/lead"
 
@@ -92,6 +93,7 @@
             title: 'Willkommen in Zürich, Wiedikon'
         },
         components: {
+            Title,
             Chapter,
             Lead
         }
@@ -102,7 +104,8 @@
     @import url('https://rsms.me/inter/inter.css');
 
     .container {
-
+        max-width: 75ch;
+        margin: auto;
     }
 
     svg {
@@ -132,21 +135,6 @@
 
     }
 
-    .page__title {
-        font-size: 5.125rem;
-        line-height: 5.125rem;
-        color: #111111;
-        max-width: 43rem;
-    }
-
-    @media (max-width: 667px) {
-
-        .page__title {
-            font-size: 4.25rem;
-            max-width: 100%;
-            line-height: 4.25rem;
-        }
-    }
 
 
 </style>
