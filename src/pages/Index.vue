@@ -42,7 +42,6 @@
                         </svg>
                     </a>
                 </p>
-
             </chapter>
 
             <chapter title="User Journey">
