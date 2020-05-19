@@ -15,25 +15,38 @@
 
             <chapter title="Einleitung">
                 <p> Wie verhält man sich richtig? wie integriere ich mich möglichst schnell und einfach in ein
-                    bestehendes Quartierleben?
-                    und wo finde ich Antworten auf Fragen zum Quartierleben?
+                    bestehendes Quartierleben? und wo finde ich Antworten auf Fragen zum Quartierleben? Mit diesen
+                    Fragestellungen habe ich mich in meiner Diplomarbeit auseinandergesetzt.
                 </p>
             </chapter>
         </div>
         <g-image src="../assets/img/zurich.jpg" height="800" fit="cover"/>
         <div class="container">
-            <chapter title="Auswertung der Umfrage">
-                <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf
-                    das
-                    Verhalten und dernen Bedür-fnisse eingegangen bin.
-                    Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche
-                    hier
-                    heruntergeladen werden kann.
-                    <br>
+            <chapter title="Befragung der Zielgruppe:">
+                <p> Um mich vertieft mit meiner Fragestellungen auseinander zusetzten habe ich als ersten schritt den
+                    betroffenen direkt ausgetauscht und habe 17 Zuzügler und Zuzüglerinnen nach Wiedikon befragt.
                 </p>
                 <p>
-                    <a class="home-links" href="../assets/uploads/wiso-so-neugierig.pdf">Auswertung des Vorprojekt als
-                        PDF
+                    In meiner Befragung habe ich besonders darauf abgezielt zu verstehen welche Probleme dass neue in
+                    einem Quartier haben. Zuwanderer die schon länger im Quartier wohnen habe ich über ihr
+                    informationsverhalten, ihr Engagement im Quartier, Tips und Tricks die ihnen geholfen haben als Sie
+                    neu im Quartier ware ect.
+                </p>
+                <p>
+                    «Profitiert habe ich vor allem von Personen die schon länger hier wohnen und Bescheid wissen was wo
+                    läuft»
+                    <br>
+                    - Zitat aus der Befragung
+                </p>
+                <p>
+                    Die Befragungen haben gezeigt dass die meisten Zuwanderer besonders von Tips und Empfehlungen von
+                    Freuenden und einem bestehenden Umfeld profitieren konnten. Nach dem persönlichen Empfehlungen ist
+                    bei meinen Befragungen Facebook auf dem zweiten Platz. Da jüngeren vermehrt auf Facebook verzichten,
+                    könnten Sie besonders auf ander Empfehlungen angewiesen sein.
+                </p>
+                <p>
+                    Eine Komplette Auswertung der Daten als CSV finden Sie
+                    <a class="home-links" href="../assets/uploads/wiso-so-neugierig.pdf"> hier.
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -5 24 24"><title>
                             download_icon</title>
                             <g class="nc-icon-wrapper" fill="#111111">
@@ -44,7 +57,7 @@
                 </p>
             </chapter>
 
-            <chapter title="User Journey">
+            <chapter title="Ideation">
                 <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf
                     das
                     Verhalten und dernen Bedür-fnisse eingegangen bin.
@@ -128,8 +141,6 @@
 
     img {
         width: 100%;
-        fit: cover;
-
     }
 
     p a {
@@ -146,8 +157,6 @@
         margin-top: 3rem;
         margin-right: 1rem;
         color: #111111;
-
     }
-
-
+    
 </style>
