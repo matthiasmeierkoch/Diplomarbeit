@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-        <welcome></welcome>
+        <welcome/>
         <div class="container">
 
             <lead>
@@ -12,7 +12,7 @@
                     und Unsicherheiten verbunden.
                 </p>
             </lead>
-
+            <map/>
             <chapter title="Einleitung">
                 <p> Wie verhält man sich richtig? wie integriere ich mich möglichst schnell und einfach in ein
                     bestehendes Quartierleben? und wo finde ich Antworten auf Fragen zum Quartierleben? Mit diesen
@@ -107,13 +107,18 @@
                 <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
             </p>
         </div>
+        <Weekday/>
     </Layout>
 </template>
 
 <script>
+    import * as d3 from 'd3'
+
     import welcome from "../components/welcome"
     import Chapter from "../components/chapter"
     import Lead from "../components/lead"
+    import Weekday from "../components/weekday"
+    import Map from "../components/map"
 
     export default {
         metaInfo: {
@@ -122,7 +127,9 @@
         components: {
             welcome,
             Chapter,
-            Lead
+            Lead,
+            Map,
+            Weekday
         }
     }
 </script>
