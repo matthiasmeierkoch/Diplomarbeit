@@ -1,129 +1,125 @@
 <template>
-
-    <div id="viz"></div>
-
+    <div>
+        <div style="position:relative;">
+            <div id="map" />
+            <div style="position:absolute;bottom:2.5rem;left:2.5rem;">
+                <div v-for="threshold in thresholds" style="display:flex;margin-bottom:0.25rem;align-items:center;">
+                    <div v-bind:style="{ background: threshold.color, width: '1.5rem', height: '1.5rem', marginRight: '0.75rem' }" />
+                    <div style="font-family:'Menlo';font-size:0.875rem;">
+                        {{ threshold.step }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
-    import * as d3 from 'd3'
+
+    import { json, csv } from "d3-fetch"
+    import { feature } from "topojson-client"
+    import { geoPath, geoAzimuthalEqualArea } from "d3-geo"
+    import { select } from "d3-selection"
+    import { scaleLinear, scaleQuantize } from "d3-scale"
+    import { extent } from "d3-array"
+
+    const width = 400
+    const height = 400
 
     export default {
-        name: "map",
-        data() {
-            document.addEventListener("DOMContentLoaded", () => {
-                d3.json("../assets/dataviz/cantons.json")
-                    .then(cantons => {
-                        d3.csv("../assets/dataviz/20170924_resulatate.csv")
-                            .then(yesVotes => {
+        data: function() {
+            return {
+                message: "Hello, world!",
+                thresholds: [],
+            }
+        },
+        methods: {
+            parseGeographies(d) {
+                return feature(d, d.objects.stadtkreise).features
+            },
+            getProjection(w, h) {
+                return geoAzimuthalEqualArea()
+                    .translate([w / 2, h / 2])
+                    .rotate([-8.5417, -47.3769, 0])
+                    .center([-0.01, -0.005])
+                    .scale(150000)
+            },
+            getGeographyData() {
+                return json("https://statistikstadtzuerich.github.io/sszvis/topo/stadt-zurich.json")
+            },
+            getDistrictsData() {
+                return csv("https://statistikstadtzuerich.github.io/sszvis/map-standard/data/M_kreis.csv")
+            },
+        },
+        async mounted() {
 
-                                const width = 1200;
-                                const height = 1200;
+            Promise.all([
+                this.getGeographyData(),
+                this.getDistrictsData(),
+            ]).then(([ geoData, csvData ]) => {
+                const features = this.parseGeographies(geoData)
+                const districtData = csvData
 
-                                const container = d3.select("#viz");
+                const svg = select("#map")
+                    .append("svg")
+                    .attr("viewBox", `0 0 ${width} ${height}`)
 
-                                const svg = container.append("svg")
-                                    .attr("width", width)
-                                    .attr("height", height);
+                const projection = this.getProjection(width, height)
+                const path = geoPath().projection(projection)
 
-                                const projection = d3.geoAlbers()
-                                    .center([0, 46.7])
-                                    .rotate([-9, 0, 0])
-                                    .parallels([40, 50])
-                                    .scale(12500);
+                const ext = extent(districtData, d => +d.Bevölkerung)
 
-                                const pathGenerator = d3.geoPath().projection(projection);
+                const colors = ["#9fe1fc", "#50a9dc", "#0070bc", "#004a7f", "#002541"]
 
-                                const colorScale = d3.scaleThreshold()
-                                    .domain([30, 35, 40, 45, 50, 55, 60, 65, 70, 100])
-                                    .range([
-                                        "#580000",
-                                        "#77040a",
-                                        "#921a1f",
-                                        "#a9322f",
-                                        "#c14741",
-                                        "#d95c54",
-                                        "#f17267",
-                                        "#ff8e81",
-                                        "#ffafa0",
-                                        "#ffcebe"]);
+                const scale = scaleQuantize()
+                    .domain([0, ext[1]])
+                    .range(colors)
+                    .nice()
 
-                                const switzerland = svg.selectAll("path")
-                                    .data(cantons.features)
-                                    .enter()
-                                    .append("path")
-                                    .attr("d", pathGenerator)
-                                    .attr("fill", "#DDD")
-                                    .attr("stroke", "white")
-                                    .attr("fill", function (d) {
-                                        const voteMetaData = yesVotes.find(yesVote => yesVote.id == d.properties.id);
+                const steps = [
+                    scale.domain()[0],
+                    ...scale.thresholds(),
+                    scale.domain()[1],
+                ]
 
-                                        return colorScale(voteMetaData.ja_anteil)
-                                    })
-                                    .on('mouseenter', function (d) {
-                                        const voteMetaData = yesVotes.find(yesVote => yesVote.id == d.properties.id);
-                                        tooltip
-                                            .style('opacity', 1)
-                                            .html("<b>" + d.properties.name + ": " + "</br>" + "</b>" + voteMetaData.ja_anteil + "% Ja")
+                this.thresholds = steps.map((d, i) => {
+                    return { step: `${d} - ${steps[i+1]}`, color: colors[i] }
+                }).slice(0, -1).reverse()
 
-                                    })
-                                    .on('mousemove', function (d) {
-                                        tooltip
-                                            .style('left', d3.event.pageX + 'px')
-                                            .style('top', d3.event.pageY + 'px')
-                                    })
-                                    .on('mouseleave', function () {
-                                        tooltip
-                                            .style('opacity', 0)
-                                    });
-
-                                svg.append("text").attr("x", 810).attr("y", 130).text("Ja-Stimmen:").style("font-size", "15px",).style("font-weight", 600).attr("alignment-baseline", "left");
-
-                                svg.append("circle").attr("cx", 810).attr("cy", 170).attr("r", 6).style("fill", "#660066");
-                                svg.append("text").attr("x", 830).attr("y", 170).text("0% - 30%").style("font-size", "15px").attr("alignment-baseline", "middle");
-
-                                svg.append("circle").attr("cx", 810).attr("cy", 200).attr("r", 6).style("fill", "#883988");
-                                svg.append("text").attr("x", 830).attr("y", 200).text("30% - 35%").style("font-size", "15px").attr("alignment-baseline", "middle");
-
-                                svg.append("circle").attr("cx", 810).attr("cy", 230).attr("r", 6).style("fill", "#aa71aa");
-                                svg.append("text").attr("x", 830).attr("y", 230).text("35% - 40%").style("font-size", "15px").attr("alignment-baseline", "middle");
-
-                                svg.append("circle").attr("cx", 810).attr("cy", 260).attr("r", 6).style("fill", "#ccaAcc");
-                                svg.append("text").attr("x", 830).attr("y", 260).text("40% - 45%").style("font-size", "15px").attr("alignment-baseline", "middle");
-
-                                svg.append("circle").attr("cx", 810).attr("cy", 290).attr("r", 6).style("fill", "#dfd3df");
-                                svg.append("text").attr("x", 830).attr("y", 290).text("45% - 50%").style("font-size", "15px").attr("alignment-baseline", "middle");
-
-                                svg.append("circle").attr("cx", 810).attr("cy", 320).attr("r", 6).style("fill", "#d9e2d3");
-                                svg.append("text").attr("x", 830).attr("y", 320).text("50% - 55%").style("font-size", "15px").attr("alignment-baseline", "middle");
-
-                                svg.append("circle").attr("cx", 810).attr("cy", 350).attr("r", 6).style("fill", "#b8d4aa");
-                                svg.append("text").attr("x", 830).attr("y", 350).text("55% - 60%").style("font-size", "15px").attr("alignment-baseline", "middle");
-
-                                svg.append("circle").attr("cx", 810).attr("cy", 380).attr("r", 6).style("fill", "#89b771");
-                                svg.append("text").attr("x", 830).attr("y", 380).text("60% - 65%").style("font-size", "15px").attr("alignment-baseline", "middle");
-
-                                svg.append("circle").attr("cx", 810).attr("cy", 410).attr("r", 6).style("fill", "#599a39");
-                                svg.append("text").attr("x", 830).attr("y", 410).text("65% - 70%").style("font-size", "15px").attr("alignment-baseline", "middle");
-
-                                svg.append("circle").attr("cx", 810).attr("cy", 440).attr("r", 6).style("fill", "#2a7d00");
-                                svg.append("text").attr("x", 830).attr("y", 440).text("70% - 100%").style("font-size", "15px").attr("alignment-baseline", "middle");
-
-
-                                const tooltip = container.append('div')
-                                    .style('opacity', 0)
-                                    .style('position', 'absolute')
-                                    .style('background', 'rgba(255, 255, 255, 0.8)')
-                                    .style('padding', '0.5rem')
-                                    .style('pointer-events', 'none');
-
-                            })
-
+                const countries = svg.selectAll("path")
+                    .data(features)
+                    .enter()
+                    .append("path")
+                    .attr("d", path)
+                    .attr("fill", d => {
+                        const relevantData = districtData.find(s => s.KNr === d.id)
+                        return scale(relevantData.Bevölkerung)
                     })
+                    .attr("stroke", "#FFF")
+                    .attr("stroke-width", 0.5)
+                    .on("click", d => {
+                        const relevantData = districtData.find(s => s.KNr === d.id)
+                        console.log(relevantData)
+                    })
+
+                const labels = svg.selectAll("text")
+                    .data(features)
+                    .enter()
+                    .append("text")
+                    .attr("x", d => {
+                        return path.centroid(d)[0]
+                    })
+                    .attr("y", d => {
+                        return path.centroid(d)[1]
+                    })
+                    .attr("textAnchor", "middle")
+                    .attr("alignment-baseline", "middle")
+                    .attr("font-size", "0.5rem")
+                    .text(d => d.id)
             })
+
         }
     }
 </script>
 
-<style scoped>
-
-</style>
+<style></style>

@@ -16,8 +16,7 @@
                 </p>
             </lead>
 
-
-            <map/>
+            <Map/>
 
             <chapter title="Einleitung">
                 <p> Wie integriere ich mich möglichst schnell und einfach in ein
