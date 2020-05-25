@@ -20,7 +20,7 @@
         padding: 1.8rem;
         border-radius: 1.5rem;
         width: 80%;
-        margin: 5%;
+        margin: auto;
     }
 
     .quote__autor {
@@ -30,7 +30,7 @@
 
     .quote__content {
         font-size: 1.75rem;
+        line-height: 2.5rem;
         font-weight: bold;
-
     }
 </style>
