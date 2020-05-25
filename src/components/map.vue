@@ -36,16 +36,16 @@
                                 const colorScale = d3.scaleThreshold()
                                     .domain([30, 35, 40, 45, 50, 55, 60, 65, 70, 100])
                                     .range([
-                                        "#660066",
-                                        "#883988",
-                                        "#aa71aa",
-                                        "#ccaAcc",
-                                        "#dfd3df",
-                                        "#d9e2d3",
-                                        "#b8d4aa",
-                                        "#89b771",
-                                        "#599a39",
-                                        "#2a7d00"]);
+                                        "#580000",
+                                        "#77040a",
+                                        "#921a1f",
+                                        "#a9322f",
+                                        "#c14741",
+                                        "#d95c54",
+                                        "#f17267",
+                                        "#ff8e81",
+                                        "#ffafa0",
+                                        "#ffcebe"]);
 
                                 const switzerland = svg.selectAll("path")
                                     .data(cantons.features)

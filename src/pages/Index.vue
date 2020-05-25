@@ -19,7 +19,6 @@
 
             <map/>
 
-
             <chapter title="Einleitung">
                 <p> Wie integriere ich mich möglichst schnell und einfach in ein
                     bestehendes Quartierleben? Wie kann ich mein Quartier besser kennenlernen und wo finde ich Antworten
@@ -27,6 +26,7 @@
                 <p> Mit diesen Fragestellungen habe ich mich in meiner Diplomarbeit auseinandergesetzt.</p>
                 </p>
             </chapter>
+
         </div>
         <!--<g-image src="../assets/img/zurich.jpg" height="800" fit="cover"/>-->
         <div class="container">
@@ -40,12 +40,9 @@
                     informationsverhalten, ihr Engagement im Quartier, Tips und Tricks die ihnen geholfen haben als Sie
                     neu im Quartier ware ect.
                 </p>
-                <p>
-                    «Profitiert habe ich vor allem von Personen die schon länger hier wohnen und Bescheid wissen was wo
-                    läuft»
-                    <br>
-                    - Zitat aus der Befragung
-                </p>
+                <Quote title="Zitat aus der Befragung">
+                    <p>«Profitiert habe ich vor allem von Personen die schon länger hier wohnen und Bescheid wissen was wo läuft»</p>
+                </Quote>
                 <p>
                     Die Befragungen haben gezeigt dass die meisten Zuwanderer besonders von Tips und Empfehlungen von
                     Freuenden und einem bestehenden Umfeld profitieren konnten. Nach dem persönlichen Empfehlungen ist
@@ -108,7 +105,9 @@
     import Weekday from "../components/weekday"
     import Map from "../components/map.vue"
     import Background from "../components/background.vue"
+    import Quote from "../components/Quote.vue"
     import VueReadProgress from "vue-read-progress";
+
 
     export default {
         metaInfo: {
@@ -121,7 +120,8 @@
             Map,
             Weekday,
             Background,
-            VueReadProgress
+            VueReadProgress,
+            Quote
         }
     }
 </script>

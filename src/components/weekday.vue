@@ -19,6 +19,8 @@
 
 <style>
     .weekday{
-        margin: 0, auto;
+        font-family: "Suisse BP Int";
+        font-size: 1.25rem;
+        margin: 1rem, auto;
     }
 </style>
