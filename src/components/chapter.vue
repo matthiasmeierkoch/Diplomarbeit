@@ -32,18 +32,18 @@
 
 
     p {
-        font-family: 'inter', sans-serif;
-        color: #111111 ;
+        font-family: 'Suisse BP Int', sans-serif;
+        color: #003041 ;
     }
 
     h3{
-        font-family: 'inter', sans-serif;
+        font-family: 'Suisse BP Int', sans-serif;
         font-size: 1.375rem;
         line-height: 2.0625rem;
     }
 
     h2{
-        font-family: 'inter', sans-serif;
+        font-family: 'Suisse BP Int', sans-serif;
         font-size: 3.5rem;
         line-height: 4rem;
         color: #0066CC;

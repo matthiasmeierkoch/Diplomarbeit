@@ -1,26 +1,34 @@
 <template>
     <Layout>
+        <vue-read-progress></vue-read-progress>
         <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-        <welcome/>
         <div class="container">
+            <welcome/>
 
             <lead>
-                <p> Jedes Jahr ziehen zwischen 41&#x202F;000 und 46&#x202F;000 Personen nach Zürich und der grösste
-                    Teil der Zuwanderer sind Ausländer. Im Jahr 2017 sind ca. 3500 Zürcher nach Wiedikon gezogen.
+                <p> In den letzten Jahren sind zwischen 41&#x202F;000 und 46&#x202F;000 Personen nach Zürich gezogen,
+                    davon sind rund 24&#x202F;334 Personen in die Stadt Zürich gezogen.
+                    Der Kreis 3 hat dadurch in den Letzten Jahren einen zuwachs von rund
+                    Im Jahr 2017 sind ca. 3500 Zürcher nach Wiedikon gezogen.
                     Für viele ist ein Umzug und besonders ein Kantons oder sogar Landeswechsel immer auch mit
                     Komplikationen
                     und Unsicherheiten verbunden.
                 </p>
             </lead>
+
+
             <map/>
+
+
             <chapter title="Einleitung">
-                <p> Wie verhält man sich richtig? wie integriere ich mich möglichst schnell und einfach in ein
-                    bestehendes Quartierleben? und wo finde ich Antworten auf Fragen zum Quartierleben? Mit diesen
-                    Fragestellungen habe ich mich in meiner Diplomarbeit auseinandergesetzt.
+                <p> Wie integriere ich mich möglichst schnell und einfach in ein
+                    bestehendes Quartierleben? Wie kann ich mein Quartier besser kennenlernen und wo finde ich Antworten
+                    auf Fragen zum Quartierleben?
+                <p> Mit diesen Fragestellungen habe ich mich in meiner Diplomarbeit auseinandergesetzt.</p>
                 </p>
             </chapter>
         </div>
-        <g-image src="../assets/img/zurich.jpg" height="800" fit="cover"/>
+        <!--<g-image src="../assets/img/zurich.jpg" height="800" fit="cover"/>-->
         <div class="container">
             <chapter title="Befragung der Zielgruppe:">
                 <p> Um mich vertieft mit meiner Fragestellungen auseinander zusetzten habe ich als ersten schritt den
@@ -45,11 +53,11 @@
                     könnten Sie besonders auf ander Empfehlungen angewiesen sein.
                 </p>
                 <p>
-                    Eine Komplette Auswertung der Daten als CSV finden Sie
-                    <a class="home-links" href="../assets/uploads/wiso-so-neugierig.pdf"> hier.
+                    Komplette Auswertung der Daten CSV:
+                    <a class="home-links" href="../assets/uploads/wiso-so-neugierig.pdf"> Download
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -5 24 24"><title>
                             download_icon</title>
-                            <g class="nc-icon-wrapper" fill="#111111">
+                            <g class="nc-icon-wrapper" fill="#E4665C">
                                 <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
                             </g>
                         </svg>
@@ -79,35 +87,15 @@
                 </p>
             </chapter>
 
-            <chapter title="Personas">
-                <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf
-                    das
-                    Verhalten und dernen Bedür-fnisse eingegangen bin.
-                    Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche
-                    hier
-                    heruntergeladen werden kann.
-                    <br>
-
-                </p>
-            </chapter>
-
-            <chapter title="Konzept">
-                <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf
-                    das
-                    Verhalten und dernen Bedür-fnisse eingegangen bin.
-                    Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche
-                    hier
-                    heruntergeladen werden kann.
-                    <br>
-                </p>
-            </chapter>
 
             <p class="home-links">
+                <Weekday/>
                 <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
                 <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
             </p>
         </div>
-        <Weekday/>
+
+        <Background/>
     </Layout>
 </template>
 
@@ -118,24 +106,27 @@
     import Chapter from "../components/chapter"
     import Lead from "../components/lead"
     import Weekday from "../components/weekday"
-    import Map from "../components/map"
+    import Map from "../components/map.vue"
+    import Background from "../components/background.vue"
+    import VueReadProgress from "vue-read-progress";
 
     export default {
         metaInfo: {
-            title: 'Willkommen in Zürich, Wiedikon'
+            title: 'Willkommen im Kreis 3 in Zürich'
         },
         components: {
             welcome,
             Chapter,
             Lead,
             Map,
-            Weekday
+            Weekday,
+            Background,
+            VueReadProgress
         }
     }
 </script>
 
 <style>
-    @import url('https://rsms.me/inter/inter.css');
 
     .container {
         max-width: 75ch;
@@ -146,24 +137,26 @@
         padding-top: 0.5rem;
     }
 
+
     img {
         width: 100%;
     }
 
     p a {
-        color: #111111;
+        color: #E4665C;
         text-decoration: none;
     }
 
     p a:hover {
         color: #111111;
+        fill: #111111;
         text-decoration: underline;
     }
 
     .home-links a {
         margin-top: 3rem;
         margin-right: 1rem;
-        color: #111111;
+        color: #E4665C;
     }
 
 </style>

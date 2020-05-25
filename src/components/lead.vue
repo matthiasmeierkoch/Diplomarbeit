@@ -27,28 +27,28 @@
     }
 
    .lead__content {
-        color: #0066CC;
+        color: #003041;
         font-size: 2rem;
         line-height: 3rem;
     }
 
 
     p {
-        font-family: 'inter', sans-serif;
-        color: #0066CC;
+        font-family: 'Suisse BP Int', sans-serif;
+        color: #003041;
 
     }
 
     h3{
-        font-family: 'inter', sans-serif;
+        font-family: 'Suisse BP Int', sans-serif;
         font-size: 1.375rem;
         line-height: 2.0625rem;
     }
 
     h2{
-        font-family: 'inter', sans-serif;
+        font-family: 'Suisse Neue', sans-serif;
         font-size: 2.5rem;
-        color: #111111 ;
+        color: #003041 ;
         -webkit-margin-before: 0.35em;
         margin-block-end: 0.35em;
     }
