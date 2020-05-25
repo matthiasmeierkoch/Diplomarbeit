@@ -1,7 +1,7 @@
 <template>
 
     <div class="welcome">
-        <h1 class="project__title">Willkommen im Kreis 3 von Zürich</h1>
+        <h1 class="project__title">Willkommen im Kreis 3</h1>
         <div class="project__subtitle">
             <p>Eine Arbeit von Matthias Koch<br>Mentoriert von Richard Zimerman</p>
         </div>
@@ -35,8 +35,8 @@
     }
 
     .project__title {
-        font-size: 5.125rem;
-        line-height: 5.125rem;
+        font-size: 6.5rem;
+        line-height: 7.3rem;
         color: #003041;
         max-width: 43rem;
     }
