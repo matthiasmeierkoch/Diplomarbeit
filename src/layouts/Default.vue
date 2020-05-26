@@ -1,7 +1,7 @@
 <template>
 
     <div class="layout">
-        <Navigation/>
+        <!--<Navigation/>-->
         <slot/>
     </div>
 
@@ -16,13 +16,7 @@
 </static-query>
 
 <script>
-    import Navigation from "../components/navigation.vue"
 
-    export default {
-        components: {
-            Navigation
-        }
-    }
 </script>
 
 <style>

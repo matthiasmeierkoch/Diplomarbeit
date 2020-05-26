@@ -1,8 +1,8 @@
 <template>
     <Layout>
-        <Navigation/>
-        <vue-read-progress></vue-read-progress>
-
+<!--
+        <vue-read-progress/>
+-->
         <!-- Learn how to use images here: https://gridsome.org/docs/images -->
         <div class="container">
             <welcome/>
@@ -24,8 +24,8 @@
                 <p> Wie integriere ich mich möglichst schnell und einfach in ein
                     bestehendes Quartierleben? Wie kann ich mein Quartier besser kennenlernen und wo finde ich Antworten
                     auf Fragen zum Quartierleben?
-                <p> Mit diesen Fragestellungen habe ich mich in meiner Diplomarbeit auseinandergesetzt.</p>
                 </p>
+                <p> Mit diesen Fragestellungen habe ich mich in meiner Diplomarbeit auseinandergesetzt.</p>
             </chapter>
 
         </div>
@@ -106,7 +106,9 @@
     import Map from "../components/map.vue"
     import Background from "../components/background.vue"
     import Quote from "../components/Quote.vue"
+/*
     import VueReadProgress from "vue-read-progress";
+*/
 
     export default {
         metaInfo: {
@@ -119,7 +121,9 @@
             Map,
             Weekday,
             Background,
+/*
             VueReadProgress,
+*/
             Quote
         }
     }
