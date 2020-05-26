@@ -3,7 +3,6 @@
     <div class="welcome">
         <h1 class="project__title">Willkommen im Kreis 3</h1>
         <div class="project__subtitle">
-            <p>Eine Arbeit von Matthias Koch<br>Mentoriert von Richard Zimerman</p>
         </div>
     </div>
 
@@ -16,16 +15,18 @@
 </script>
 
 <style scoped>
+
     .welcome {
         position: relative;
         margin-top: 5rem;
         margin-bottom: 5rem;
-        color: #003041;
-        font-family: "Suisse Neue";
     }
 
     .project__title {
         width: 100%;
+        text-align: center;
+        color: #ffffff;
+        font-family: "SangBleu";
     }
 
     .project__subtitle {
@@ -37,16 +38,18 @@
     .project__title {
         font-size: 6.5rem;
         line-height: 7.3rem;
-        color: #003041;
+        color: #fff;
         max-width: 43rem;
+        margin-top: 25vh;
     }
 
     @media (max-width: 667px) {
 
         .project__title {
-            font-size: 4.25rem;
+            font-size: 3.65rem;
             max-width: 100%;
             line-height: 4.25rem;
+            margin-top: 20vh;
         }
 
         .project__subtitle {

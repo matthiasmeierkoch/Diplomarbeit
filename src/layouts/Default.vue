@@ -11,7 +11,9 @@
             </nav>
         </header>
         <slot/>
-
+        <div>
+            <g-image class="background__image" src="../assets/img/zurich.jpg"/>
+        </div>
     </div>
 
 </template>
@@ -25,14 +27,20 @@
 </static-query>
 
 <style>
+
     @font-face {
         font-family: "Suisse Neue";
-        src: url(../assets/font/SuisseNeue-Regular-WebS.woff);
+        src: url(../assets/font/SuisseNeue-Medium-WebS.woff);
     }
 
     @font-face {
         font-family: "Suisse BP Int";
         src: url(../assets/font/SuisseIntl-Regular-WebS.woff);
+    }
+
+    @font-face {
+        font-family: "SangBleu";
+        src: url(../assets/font/SangBleuRepublic-Bold-WebS.woff);
     }
 
     body {
@@ -41,7 +49,13 @@
         padding: 0;
         line-height: 1.5;
         background: #FCFBF9;
+        overflow-x: hidden;
+        background-size: auto;
+
+
     }
+
+
 
     .layout {
         max-width: 1110px;
@@ -63,12 +77,30 @@
     .site_name {
         display: flex;
         width: 100%;
-        color: #E4665C;
+        color: #ffffff;
         text-decoration: none;
     }
 
     .nav__link {
         margin-left: 2rem;
+        color: #ffffff;
+    }
+
+    .nav__link:hover{
+        margin-left: 2rem;
         color: #E4665C;
+    }
+
+    @media (max-width: 667px) {
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            height: 80px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
     }
 </style>

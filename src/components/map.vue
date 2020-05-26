@@ -96,7 +96,7 @@
                         return scale(relevantData.Bevölkerung)
                     })
                     .attr("stroke", "#FFF")
-                    .attr("stroke-width", 0.5)
+                    .attr("stroke-width", 0.7)
                     .on("click", d => {
                         const relevantData = districtData.find(s => s.KNr === d.id)
                         console.log(relevantData)
@@ -115,6 +115,7 @@
                     .attr("textAnchor", "middle")
                     .attr("alignment-baseline", "middle")
                     .attr("font-size", "0.5rem")
+                    .attr("fill", "#FFF")
                     .text(d => d.id)
             })
 

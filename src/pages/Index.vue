@@ -17,7 +17,7 @@
             </lead>
 
             <Map/>
-
+            <p>Quelle der Daten: <a href="https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_nationalitaet_od3361">Open Data Zürich</a></p>
             <chapter title="Einleitung">
                 <p> Wie integriere ich mich möglichst schnell und einfach in ein
                     bestehendes Quartierleben? Wie kann ich mein Quartier besser kennenlernen und wo finde ich Antworten
@@ -90,7 +90,6 @@
                 <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
             </p>
         </div>
-
         <Background/>
     </Layout>
 </template>
