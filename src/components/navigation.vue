@@ -21,7 +21,7 @@
 </static-query>
 
 <script>
-    let prevScrollpos = window.pageYOffset;
+/*    let prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
         let currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
@@ -30,7 +30,7 @@
             document.getElementById("navbar").style.top = "-80px";
         }
         prevScrollpos = currentScrollPos;
-    }
+    }*/
 </script>
 
 <style>
@@ -56,6 +56,7 @@
         transition: top 0.3s;
         background-color: #FCFBF9;
         padding: 30px;
+        border-radius: 8px;
     }
 
     .site_name {

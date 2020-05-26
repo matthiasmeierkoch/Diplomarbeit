@@ -96,7 +96,6 @@
 </template>
 
 <script>
-    import * as d3 from 'd3'
 
     import welcome from "../components/welcome"
     import Chapter from "../components/chapter"
