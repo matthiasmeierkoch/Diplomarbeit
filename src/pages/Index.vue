@@ -1,8 +1,5 @@
 <template>
     <Layout>
-<!--
-        <vue-read-progress/>
--->
         <!-- Learn how to use images here: https://gridsome.org/docs/images -->
         <div class="container">
             <welcome/>
@@ -19,6 +16,7 @@
             </lead>
 
             <Map/>
+
             <p>Quelle der Daten: <a href="https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_nationalitaet_od3361">Open Data Zürich</a></p>
             <chapter title="Einleitung">
                 <p> Wie integriere ich mich möglichst schnell und einfach in ein
@@ -26,6 +24,7 @@
                     auf Fragen zum Quartierleben?
                 </p>
                 <p> Mit diesen Fragestellungen habe ich mich in meiner Diplomarbeit auseinandergesetzt.</p>
+
             </chapter>
 
         </div>
@@ -106,9 +105,6 @@
     import Map from "../components/map.vue"
     import Background from "../components/background.vue"
     import Quote from "../components/Quote.vue"
-/*
-    import VueReadProgress from "vue-read-progress";
-*/
 
     export default {
         metaInfo: {
@@ -121,9 +117,6 @@
             Map,
             Weekday,
             Background,
-/*
-            VueReadProgress,
-*/
             Quote
         }
     }
