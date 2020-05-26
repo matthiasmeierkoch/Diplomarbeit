@@ -25,7 +25,7 @@
     }
 
     .background {
-        width: 100vw;
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%);
     }
 
 </style>

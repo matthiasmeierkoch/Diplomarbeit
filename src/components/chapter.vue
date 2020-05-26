@@ -18,6 +18,7 @@
         position: relative;
         margin-top: 5rem;
         margin-bottom: 2rem;
+        max-width: 65ch;
     }
 
     .chapter__title {

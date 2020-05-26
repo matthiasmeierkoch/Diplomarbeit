@@ -1,0 +1,93 @@
+<template>
+    <div id="navbar">
+        <header id="header">
+            <div>
+                <g-link class="site_name" to="/">{{ $static.metadata.siteName }}</g-link>
+            </div>
+            <nav class="nav">
+                <g-link class="nav__link" to="/">Über das Projekt</g-link>
+                <g-link class="nav__link" to="/about/">Kreis 3 App</g-link>
+            </nav>
+        </header>
+    </div>
+</template>
+
+<static-query>
+    query {
+    metadata {
+    siteName
+    }
+    }
+</static-query>
+
+<script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-80px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+</script>
+
+<style>
+
+    #navbar{
+        top: 0;
+        z-index: 100;
+    }
+
+    .nav{
+        right: 0;
+    }
+
+    #header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        height: 48px;
+        font-size: 1.25rem;
+        font-weight: bold;
+        position: relative;
+        transition: top 0.3s;
+        background-color: #FCFBF9;
+        padding: 30px;
+    }
+
+    .site_name {
+        display: flex;
+        width: 100%;
+        color: #E4665C;
+        text-decoration: none;
+    }
+
+     .nav__link {
+        margin-left: 2rem;
+        color: #E4665C;
+         text-decoration: none;
+    }
+
+    .nav__link:hover {
+        margin-left: 2rem;
+        color: #E4665C;
+        border-bottom: 4px solid #E4665C;
+        stroke-linecap: round;
+    }
+
+    @media (max-width: 667px) {
+
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            height: 80px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    }
+</style>

@@ -17,9 +17,9 @@
     .lead {
         position: relative;
         margin: auto;
-        margin-top: 70vh;
+        margin-top: 50vh;
         margin-bottom: 2rem;
-        max-width: 75ch;
+        max-width: 70ch;
     }
 
     .lead__title {

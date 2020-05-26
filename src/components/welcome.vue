@@ -18,7 +18,7 @@
 
     .welcome {
         position: relative;
-        margin-top: 5rem;
+        margin-top:3rem;
         margin-bottom: 5rem;
     }
 

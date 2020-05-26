@@ -1,6 +1,8 @@
 <template>
     <Layout>
+        <Navigation/>
         <vue-read-progress></vue-read-progress>
+
         <!-- Learn how to use images here: https://gridsome.org/docs/images -->
         <div class="container">
             <welcome/>
@@ -106,7 +108,6 @@
     import Quote from "../components/Quote.vue"
     import VueReadProgress from "vue-read-progress";
 
-
     export default {
         metaInfo: {
             title: 'Willkommen im Kreis 3 in Zürich'
@@ -129,6 +130,7 @@
     .container {
         max-width: 75ch;
         margin: auto;
+        z-index: 10;
     }
 
     svg {
