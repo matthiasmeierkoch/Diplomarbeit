@@ -1,15 +1,28 @@
 <template>
-  <Layout>
-    <h1>Kreis 3 App</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
-  </Layout>
+    <Layout>
+        <Leftstage title="So lebt der Kreis 3">
+            <p>Die Kreis 3 App ist ein soziales Netzwerk für alle Bewohner des Kreis 3. Mithilfe
+                dieser App können sich neue Bewohner schneller integrieren und besser einleben und von Tipps anderer
+                Kreis 3 Bewohner profitieren.
+            </p>
+        </Leftstage>
+    </Layout>
 </template>
 
 <script>
+    import sal from 'sal.js';
+    import Leftstage from "../components/leftstage";
 
-export default {
-  metaInfo: {
-    title: 'Kreis 3 App'
-  },
-}
+    export default {
+      metaInfo: {
+        title: 'Kreis 3 App'
+      },
+      components: {
+        Leftstage
+      },
+      props: ['title'],
+      mounted() {
+        this.$nextTick(() => sal());
+      }
+    }
 </script>

@@ -9,7 +9,7 @@
   "dependencies": {
     "d3": "^5.16.0",
     "gridsome": "^0.7.0",
-    "sal.js": "^0.7.5",
+    "sal.js": "^0.7.6",
     "sszvis": "^2.1.1",
     "swiper": "^5.4.1",
     "topojson-client": "^3.1.0",
