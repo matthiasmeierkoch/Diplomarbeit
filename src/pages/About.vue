@@ -1,9 +1,8 @@
 <template>
     <Layout>
+        <AboutBackground/>
         <Leftstage title="So lebt der Kreis 3">
-            <p>Die Kreis 3 App ist ein soziales Netzwerk für alle Bewohner des Kreis 3. Mithilfe
-                dieser App können sich neue Bewohner schneller integrieren und besser einleben und von Tipps anderer
-                Kreis 3 Bewohner profitieren.
+            <p>Profitiere von Tipps und Tricks anderer Bewohner des Kreis 3 und entdecke deinen Kreis jeden Tag neu.
             </p>
         </Leftstage>
     </Layout>
@@ -11,18 +10,20 @@
 
 <script>
     import sal from 'sal.js';
-    import Leftstage from "../components/leftstage";
+    import Leftstage from "../components/leftstage.vue";
+    import AboutBackground from "../components/aboutbackground.vue";
 
     export default {
-      metaInfo: {
-        title: 'Kreis 3 App'
-      },
-      components: {
-        Leftstage
-      },
-      props: ['title'],
-      mounted() {
-        this.$nextTick(() => sal());
-      }
+        metaInfo: {
+            title: 'Kreis 3 App'
+        },
+        components: {
+            AboutBackground,
+            Leftstage
+        },
+        props: ['title'],
+        mounted() {
+            this.$nextTick(() => sal());
+        }
     }
 </script>

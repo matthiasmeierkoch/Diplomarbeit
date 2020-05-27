@@ -30,6 +30,7 @@
         color: #003041;
         font-size: 2rem;
         line-height: 3rem;
+        font-family: "Suisse Neue";
     }
 
     h3{

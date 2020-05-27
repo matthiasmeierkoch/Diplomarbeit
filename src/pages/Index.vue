@@ -29,7 +29,7 @@
                 </p>
             </chapter>
 
-            <Map/>
+            <Map title="Bevölkerung Stadt Zürich 2019"></Map>
             <p>Quelle der Daten:
                 <a href="https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_nationalitaet_od3361">
                     Open Data Zürich</a></p>

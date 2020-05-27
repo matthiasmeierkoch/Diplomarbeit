@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h3 class="map__title">{{title}}:</h3>
         <div style="position:relative;">
             <div id="map" />
             <div style="position:absolute;bottom:2.5rem;left:2.5rem;">
@@ -69,7 +70,7 @@
 
                 const ext = extent(districtData, d => +d.Bevölkerung)
 
-                const colors = ["#9fe1fc", "#50a9dc", "#0070bc", "#004a7f", "#002541"]
+                const colors = ["#c4dcff", "#a7bfe5", "#8ba3c7", "#6f88ab", "#556e90", "#3b5575", "#213d5c", "#032743",]
 
                 const scale = scaleQuantize()
                     .domain([0, ext[1]])
@@ -119,8 +120,13 @@
                     .text(d => d.id)
             })
 
-        }
+        },
+        props: ['title']
     }
 </script>
 
-<style></style>
+<style>
+.map__title{
+    color: #003041;
+}
+</style>
