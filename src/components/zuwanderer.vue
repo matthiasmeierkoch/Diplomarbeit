@@ -1,17 +1,20 @@
 <template>
-    <div>
+    <div class="map2">
         <h3 class="map__title">{{title}}:</h3>
         <div style="position:relative;">
-            <div id="map" />
-            <div style="position:absolute;bottom:2.5rem;left:2.5rem;">
+            <div id="map2" />
+            <div class="legend" style="position:absolute;bottom:2.5rem;left:2.5rem;">
                 <div v-for="threshold in thresholds" style="display:flex;margin-bottom:0.25rem;align-items:center;">
                     <div v-bind:style="{ background: threshold.color, width: '1.5rem', height: '1.5rem', marginRight: '0.75rem' }" />
-                    <div style="font-family:'Menlo';font-size:0.875rem;">
+                    <div style="font-family:'Suisse BP Int';font-size:0.875rem;">
                         {{ threshold.step }}
                     </div>
                 </div>
             </div>
         </div>
+        <p>Quelle der Daten:
+            <a href="https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_nationalitaet_od3361">
+                Open Data Zürich</a></p>
     </div>
 </template>
 
@@ -61,7 +64,7 @@
                 const features = this.parseGeographies(geoData)
                 const districtData = csvData
 
-                const svg = select("#map")
+                const svg = select("#map2")
                     .append("svg")
                     .attr("viewBox", `0 0 ${width} ${height}`)
 
@@ -126,7 +129,33 @@
 </script>
 
 <style>
-.map__title{
-    color: #003041;
-}
+    .map2{
+        background-color: #FCFBF9;
+        padding-top:2rem;
+        padding-left:4rem;
+        padding-right:4rem;
+        padding-bottom:2rem;
+        max-width: 100%;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        border-radius: 24px;
+    }
+
+    #map2{
+        margin-top: -1.5rem;
+    }
+    .map__title{
+        color: #003041;
+    }
+
+    @media (max-width: 667px) {
+        .legend{
+            position: relative;
+        }
+
+        #map2{
+            margin-top: auto;
+        }
+    }
+
 </style>

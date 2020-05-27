@@ -1,8 +1,8 @@
 <template>
-    <div class="map">
+    <div class="map1">
         <h3 class="map__title">{{title}}:</h3>
         <div style="position:relative;">
-            <div id="map" />
+            <div id="map1" />
             <div class="legend" style="position:absolute;bottom:2.5rem;left:2.5rem;">
                 <div v-for="threshold in thresholds" style="display:flex;margin-bottom:0.25rem;align-items:center;">
                     <div v-bind:style="{ background: threshold.color, width: '1.5rem', height: '1.5rem', marginRight: '0.75rem' }" />
@@ -64,7 +64,7 @@
                 const features = this.parseGeographies(geoData)
                 const districtData = csvData
 
-                const svg = select("#map")
+                const svg = select("#map1")
                     .append("svg")
                     .attr("viewBox", `0 0 ${width} ${height}`)
 
@@ -129,7 +129,7 @@
 </script>
 
 <style>
-    .map{
+    .map1{
         background-color: #FCFBF9;
         padding-top:2rem;
         padding-left:4rem;
@@ -142,7 +142,7 @@
         border-radius: 24px;
     }
 
-    #map{
+    #map1{
         margin-top: -1.5rem;
     }
 .map__title{
@@ -154,7 +154,7 @@
             position: relative;
         }
 
-        #map{
+        #map1{
             margin-top: auto;
         }
     }

@@ -29,7 +29,13 @@
                 </p>
             </chapter>
 
-            <Bevoelkerung title="Bevölkerung Stadt Zürich 2019"></Bevoelkerung>
+            <div>
+                <Bevoelkerung title="Bevölkerung Stadt Zürich 2019"></Bevoelkerung>
+            </div>
+
+            <div>
+            <Zuwanderer title="Zuwanderer aus einem anderen Kreis 2019"></Zuwanderer>
+            </div>
 
 
             <chapter title="Research & Befragung der Zielgruppe:">
@@ -127,12 +133,14 @@
     import Background from "../components/background.vue"
     import Quote from "../components/Quote.vue"
     import Bevoelkerung from "../components/bevölkerung.vue";
+    import Zuwanderer from "../components/zuwanderer.vue";
 
     export default {
         metaInfo: {
             title: 'Willkommen im Kreis 3 in Zürich'
         },
         components: {
+            Zuwanderer,
             Bevoelkerung,
             welcome,
             Chapter,
