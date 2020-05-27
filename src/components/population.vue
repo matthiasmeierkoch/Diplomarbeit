@@ -120,7 +120,10 @@
                     .attr("alignment-baseline", "middle")
                     .attr("font-size", "0.5rem")
                     .attr("fill", "#FFF")
-                    .text(d => d.id)
+                    .text(d => {
+                        const relevantData = districtData.find(s => s.KNr === d.id)
+                        return relevantData.Bevölkerung
+                    })
             })
 
         },
