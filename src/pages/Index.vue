@@ -30,7 +30,7 @@
             </chapter>
 
             <div>
-                <Bevoelkerung title="Bevölkerung Stadt Zürich 2019"></Bevoelkerung>
+                <Population title="Bevölkerung Stadt Zürich 2019"></Population>
             </div>
 
             <div>
@@ -132,7 +132,7 @@
     import Weekday from "../components/weekday"
     import Background from "../components/background.vue"
     import Quote from "../components/Quote.vue"
-    import Bevoelkerung from "../components/bevölkerung.vue";
+    import Population from "../components/population.vue";
     import Zuwanderer from "../components/zuwanderer.vue";
 
     export default {
@@ -141,7 +141,7 @@
         },
         components: {
             Zuwanderer,
-            Bevoelkerung,
+            Population,
             welcome,
             Chapter,
             Lead,
