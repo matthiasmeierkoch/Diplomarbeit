@@ -1,6 +1,7 @@
 <template>
-
-    <p class="weekday">Happy {{ weekday }} !</p>
+    <div class="weekday">
+    <p class="">Happy {{ weekday }} !</p>
+    </div>
 
 </template>
 
@@ -18,9 +19,11 @@
 
 
 <style>
+
     .weekday{
         font-family: "Suisse BP Int";
-        font-size: 1.25rem;
-        margin: 1rem, auto;
+        font-size: 1.5rem;
+        margin-top: 4rem;
+        text-align: center;
     }
 </style>

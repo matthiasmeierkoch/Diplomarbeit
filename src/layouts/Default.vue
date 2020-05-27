@@ -44,7 +44,7 @@
 
     body {
         font-family: "Suisse BP Int", system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        margin: 0;
+        margin: 0, auto;
         padding: 0;
         line-height: 1.5;
         background: #EFE8DC;

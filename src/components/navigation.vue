@@ -49,14 +49,17 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 20px;
-        height: 48px;
         font-size: 1.25rem;
         font-weight: bold;
         position: relative;
         transition: top 0.3s;
         background-color: #FCFBF9;
-        padding: 30px;
-        border-radius: 8px;
+        padding-left: 48px;
+        padding-top: 24px;
+        padding-right: 48px;
+        padding-bottom: 24px;
+        border-radius: 100px;
+
     }
 
     .site_name {

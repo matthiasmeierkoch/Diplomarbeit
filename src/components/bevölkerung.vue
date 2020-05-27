@@ -3,7 +3,7 @@
         <h3 class="map__title">{{title}}:</h3>
         <div style="position:relative;">
             <div id="map" />
-            <div style="position:absolute;bottom:2.5rem;left:2.5rem;">
+            <div class="legend" style="position:absolute;bottom:2.5rem;left:2.5rem;">
                 <div v-for="threshold in thresholds" style="display:flex;margin-bottom:0.25rem;align-items:center;">
                     <div v-bind:style="{ background: threshold.color, width: '1.5rem', height: '1.5rem', marginRight: '0.75rem' }" />
                     <div style="font-family:'Suisse BP Int';font-size:0.875rem;">
@@ -136,6 +136,8 @@
         padding-right:4rem;
         padding-bottom:2rem;
         max-width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         margin: auto;
         border-radius: 24px;
     }
@@ -146,4 +148,15 @@
 .map__title{
     color: #003041;
 }
+
+    @media (max-width: 667px) {
+        .legend{
+            position: relative;
+        }
+
+        #map{
+            margin-top: auto;
+        }
+    }
+
 </style>

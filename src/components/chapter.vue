@@ -19,10 +19,12 @@
         margin-top: 5rem;
         margin-bottom: 2rem;
         max-width: 65ch;
+        margin:auto;
     }
 
     .chapter__title {
         width: 100%;
+        margin-top: 4rem;
     }
 
     .chapter__content {
