@@ -19,24 +19,17 @@
         margin: auto;
         margin-top: 28rem;
         margin-bottom: 2rem;
-        max-width: 70ch;
+        max-width: 65ch;
     }
 
     .lead__title {
 
     }
 
-   .lead__content {
+    .lead__content {
         color: #003041;
         font-size: 2rem;
         line-height: 3rem;
-    }
-
-
-    p {
-        font-family: 'Suisse BP Int', sans-serif;
-        color: #003041;
-
     }
 
     h3{

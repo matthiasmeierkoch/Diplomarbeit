@@ -19,18 +19,22 @@
         background: #FFDBBB;
         padding: 1.8rem;
         border-radius: 1.5rem;
-        width: 80%;
+        width: 70%;
         margin: auto;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
     }
 
     .quote__autor {
-        font-size: 1.75rem;
-
+        font-size: 1rem;
+        padding-left: 1.5rem;
     }
 
     .quote__content {
         font-size: 1.75rem;
         line-height: 2.5rem;
         font-weight: bold;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
 </style>

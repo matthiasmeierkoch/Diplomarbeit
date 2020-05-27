@@ -33,12 +33,11 @@
     import LightBox from 'components/LightBox'
     import siteLoading from './siteloading.gif'
     import media from './dummy'
-
     export default {
         components: {
             LightBox,
         },
-        data() {
+        data () {
             return {
                 media,
                 siteLoading,

@@ -5,49 +5,58 @@
             <welcome/>
 
             <lead>
-                <p> In den letzten Jahren sind zwischen 41&#x202F;000 und 46&#x202F;000 Personen nach Zürich gezogen,
-                    davon sind rund 24&#x202F;334 Personen in die Stadt Zürich gezogen.
-                    Der Kreis 3 hat dadurch in den Letzten Jahren einen zuwachs von rund
-                    Im Jahr 2017 sind ca. 3500 Zürcher nach Wiedikon gezogen.
-                    Für viele ist ein Umzug und besonders ein Kantons oder sogar Landeswechsel immer auch mit
-                    Komplikationen
-                    und Unsicherheiten verbunden.
+                <p> In den letzten Jahren sind zwischen 41&#x202F;000 und 46&#x202F;000 Personen nach Zürich gezogen.
+                    Für viele ist
+                    ein Umzug und besonders ein Kantons oder sogar Landeswechsel immer auch mit Komplikationen und
+                    Unsicherheiten verbunden.
                 </p>
             </lead>
 
-            <Map/>
 
-            <p>Quelle der Daten: <a href="https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_nationalitaet_od3361">Open Data Zürich</a></p>
             <chapter title="Einleitung">
-                <p> Wie integriere ich mich möglichst schnell und einfach in ein
-                    bestehendes Quartierleben? Wie kann ich mein Quartier besser kennenlernen und wo finde ich Antworten
-                    auf Fragen zum Quartierleben?
-                </p>
-                <p> Mit diesen Fragestellungen habe ich mich in meiner Diplomarbeit auseinandergesetzt.</p>
-
-            </chapter>
-
-        </div>
-        <!--<g-image src="../assets/img/zurich.jpg" height="800" fit="cover"/>-->
-        <div class="container">
-            <chapter title="Befragung der Zielgruppe:">
-                <p> Um mich vertieft mit meiner Fragestellungen auseinander zusetzten habe ich als ersten schritt den
-                    betroffenen direkt ausgetauscht und habe 17 Zuzügler und Zuzüglerinnen nach Wiedikon befragt.
+                <p> Wie integriere ich mich möglichst schnell und einfach in das bestehendes Quartierleben des Kreis 3?
+                    Wie kann ich den Kreis 3 besser kennenlernen und wo finde ich Antworten auf meine Fragen zu meinem
+                    Kreis?
                 </p>
                 <p>
-                    In meiner Befragung habe ich besonders darauf abgezielt zu verstehen welche Probleme dass neue in
-                    einem Quartier haben. Zuwanderer die schon länger im Quartier wohnen habe ich über ihr
-                    informationsverhalten, ihr Engagement im Quartier, Tips und Tricks die ihnen geholfen haben als Sie
-                    neu im Quartier ware ect.
+                    Mit diesen Problemen habe ich mich in meiner Diplomarbeit auseinandergesetzt. Dafür habe ich eine
+                    App konzipiert und gestaltet welche neuen und bestehenden Bewohner des Kreis 3 eine neue Möglichkeit
+                    gibt Ihr Kreis zu entdecken und sich in der Community mit einzubringen.
+                </p>
+                <p>
+                    Der Kreis 3 umfasst die Quartiere: Sihlfeld, Alt-Wiedikon und Friesenberg. 2019 lebten 51 122
+                    Personen im Kreis 3, damit ist es der am zweit stärksten bevölkerte Kreis in Zürich.
+                </p>
+            </chapter>
+
+            <Map/>
+            <p>Quelle der Daten:
+                <a href="https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_nationalitaet_od3361">
+                    Open Data Zürich</a></p>
+
+        </div>
+        <div class="container">
+            <chapter title="Research & Befragung der Zielgruppe:">
+                <p> Besonders weil ich einen persönlichen Bezug zu diesem Thema habe, da ich selber neu in den Kreis 3
+                    gezogen bin war es mir wichtig in meiner Erarbeitung objektive Entscheidungen zu treffen und diese
+                    wenn immer möglich auf Daten zu stützen. Daher und um mich vertieft mit meiner Fragestellungen
+                    auseinander zusetzten habe ich mich als ersten Schritt mit den betroffenen direkt ausgetauscht und
+                    habe 17 Zuzügler und Zuzüglerinnen von Wiedikon befragt.
+                </p>
+                <p>
+                    In meiner Befragung habe ich darauf abgezielt zu verstehen welche Bedürfnisse neue Bewohner im Kreis
+                    3 haben. Zuwanderer die schon länger im Quartier wohnen habe ich über ihr Informationsverhalten, ihr
+                    Engagement im Kreis, Tips und Tricks die ihnen geholfen haben als Sie neu im Quartier ware befragt.
                 </p>
                 <Quote title="Zitat aus der Befragung">
-                    <p>«Profitiert habe ich vor allem von Personen die schon länger hier wohnen und Bescheid wissen was wo läuft»</p>
+                    <p>«Profitiert habe ich vor allem von Personen die schon länger hier wohnen und Bescheid wissen was
+                        wo läuft»</p>
                 </Quote>
                 <p>
                     Die Befragungen haben gezeigt dass die meisten Zuwanderer besonders von Tips und Empfehlungen von
-                    Freuenden und einem bestehenden Umfeld profitieren konnten. Nach dem persönlichen Empfehlungen ist
+                    Freuenden und einem bestehenden Umfeld profitieren konnten. Nach den persönlichen Empfehlungen ist
                     bei meinen Befragungen Facebook auf dem zweiten Platz. Da jüngeren vermehrt auf Facebook verzichten,
-                    könnten Sie besonders auf ander Empfehlungen angewiesen sein.
+                    könnten Sie besonders auf die Empfehlungen anderer angewiesen sein.
                 </p>
                 <p>
                     Komplette Auswertung der Daten CSV:
@@ -62,15 +71,39 @@
                 </p>
             </chapter>
 
+            <chapter title="Markt- und Konkurrenzanalyse»">
+                <p> Gibt es bereits Applikationen die meine Problemstellung lösen? Oder zumindest Teilweise abdecken?
+                    Ich habe mir folgende Angebote genauer angesehen:
+                </p>
+                <p>
+                    «Hello Zürich» Das Stadtmagazin punktet mit seinen besonders gut aufbereiteten redaktionellen
+                    Artikel und den Möglichkeiten seine Lieblingsorte zu speichern. Leider kommt dafür der Austausch in
+                    einer Community und das Profitieren von anderen Erfahrungen zu kurz.
+                </p>
+                <p>
+                    «AirBnb» AirBnb gehört mit seinem breiten Angebo und den Entdeckungsmöglichkeiten ebenfalls zu einer
+                    art Konkurrenz, auch hier fehlt leider der Community teil.
+                </p>
+                <p>
+                    Wer also pflegt eine Community?
+                    Ich habe mir dazu Applikationen der Bauindustrie angesehen, in den letzten Jahren sind bei grösseren
+                    Überbauungen vermehrt Applikationen eingesetzt worden welche die Community innerhalb der Überbauung
+                    fördern soll, bei diesen Applikationen steht jedoch oft auch die Wohnung eines Mieter im
+                    Vordergrund.
+                </p>
+            </chapter>
+
             <chapter title="Ideation">
                 <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf
                     das
                     Verhalten und dernen Bedür-fnisse eingegangen bin.
                     Mithilfe dieser Einblicke habe ich eine Zielgruppe und Bedürfnissanalyse Zusammengestellt welche
                     hier
-                    heruntergeladen werden kann.
-                    <br>
-                </p>
+                    heruntergeladen werden kann. </p>
+                <br>
+                <Quote title="Linus Pauling">
+                    <p>«Der einfachste Weg zu einer guten Idee, ist viele Ideen zu haben.»</p>
+                </Quote>
             </chapter>
 
             <chapter title="Benutzerrollen">
@@ -83,7 +116,6 @@
                     <br>
                 </p>
             </chapter>
-
 
             <p class="home-links">
                 <Weekday/>
@@ -117,6 +149,7 @@
             Weekday,
             Background,
             Quote
+
         }
     }
 </script>
