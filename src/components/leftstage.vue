@@ -82,7 +82,26 @@
         }
 
         .Section__content {
-            width: 100%;
+            max-width: 100%;
+            margin-top: 2rem;
+        }
+    }
+
+    @media (max-width: 900px) {
+
+        .Section {
+            display: contents;
+        }
+
+        .Section__title {
+            max-width: 100%;
+            font-size: 3.5rem;
+            margin-top: 4rem;
+
+        }
+
+        .Section__content {
+            max-width: 100%;
             margin-top: 2rem;
         }
     }

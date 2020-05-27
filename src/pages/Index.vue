@@ -29,13 +29,9 @@
                 </p>
             </chapter>
 
-            <Map title="Bevölkerung Stadt Zürich 2019"></Map>
-            <p>Quelle der Daten:
-                <a href="https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_nationalitaet_od3361">
-                    Open Data Zürich</a></p>
+            <Bevoelkerung title="Bevölkerung Stadt Zürich 2019"></Bevoelkerung>
 
-        </div>
-        <div class="container">
+
             <chapter title="Research & Befragung der Zielgruppe:">
                 <p> Besonders weil ich einen persönlichen Bezug zu diesem Thema habe, da ich selber neu in den Kreis 3
                     gezogen bin war es mir wichtig in meiner Erarbeitung objektive Entscheidungen zu treffen und diese
@@ -133,19 +129,19 @@
     import Chapter from "../components/chapter"
     import Lead from "../components/lead"
     import Weekday from "../components/weekday"
-    import Map from "../components/map.vue"
     import Background from "../components/background.vue"
     import Quote from "../components/Quote.vue"
+    import Bevoelkerung from "../components/bevölkerung.vue";
 
     export default {
         metaInfo: {
             title: 'Willkommen im Kreis 3 in Zürich'
         },
         components: {
+            Bevoelkerung,
             welcome,
             Chapter,
             Lead,
-            Map,
             Weekday,
             Background,
             Quote

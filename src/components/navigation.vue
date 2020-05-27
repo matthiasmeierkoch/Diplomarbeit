@@ -21,7 +21,7 @@
 </static-query>
 
 <script>
-/*    let prevScrollpos = window.pageYOffset;
+    let prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
         let currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
@@ -30,7 +30,7 @@
             document.getElementById("navbar").style.top = "-80px";
         }
         prevScrollpos = currentScrollPos;
-    }*/
+    }
 </script>
 
 <style>
@@ -81,7 +81,7 @@
 
     @media (max-width: 667px) {
 
-        #header {
+        #header >>>{
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -89,6 +89,20 @@
             height: 80px;
             font-size: 1rem;
             font-weight: bold;
+            width: 100vw;
         }
+        .nav__link {
+            margin-left: 1rem;
+            color: #E4665C;
+            text-decoration: none;
+        }
+
+        .nav__link:hover {
+            margin-left: 1rem;
+            color: #E4665C;
+            border-bottom: 4px solid #E4665C;
+            stroke-linecap: round;
+        }
+
     }
 </style>

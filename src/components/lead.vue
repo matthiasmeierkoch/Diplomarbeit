@@ -34,9 +34,9 @@
     }
 
     h3{
-        font-family: 'Suisse BP Int', sans-serif;
-        font-size: 1.375rem;
-        line-height: 2.0625rem;
+        font-family: 'Suisse Neue', sans-serif;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
     }
 
     h2{

@@ -28,4 +28,10 @@
         background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%);
     }
 
+    @media (max-width: 900px) {
+
+        .background__image {
+            position: fixed;
+        }
+    }
 </style>

@@ -16,7 +16,7 @@
 
 <style scoped>
     .quote {
-        background: #FFDBBB;
+        background: #FCFBF9;
         padding: 1.8rem;
         border-radius: 1.5rem;
         width: 70%;
