@@ -37,4 +37,13 @@
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
+
+    @media (max-width: 667px) {
+
+        .quote {
+            width: 80%;
+        }
+
+    }
+
 </style>
