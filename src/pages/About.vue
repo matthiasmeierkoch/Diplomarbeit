@@ -5,6 +5,11 @@
             <p>Profitiere von Tipps und Tricks anderer Bewohner des Kreis 3 und entdecke deinen Kreis jeden Tag neu.
             </p>
         </Leftstage>
+
+        <Leftstage title="Entdecke dein Zuhause neu">
+            <p>Teile deine Erfahrungen und deine Lieblingsorte des Kreis 3 mit deinen Freunden und bewohner des Kreis.
+            </p>
+        </Leftstage>
     </Layout>
 </template>
 

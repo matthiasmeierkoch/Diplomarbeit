@@ -13,8 +13,8 @@
         </div>
     </div>
     <p>Quelle der Daten:
-        <a href="https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_nationalitaet_od3361">
-            Open Data Zürich</a></p>
+        <a href="https://opendata.swiss/de/dataset/umzuge-nach-stadtquartier-geschlecht-altersgruppe-und-zivilstand-seit-19931/resource/27051ba4-ccf1-43de-8d4e-a97ea1c37959">
+            opendata.swiss</a></p>
     </div>
 </template>
 
