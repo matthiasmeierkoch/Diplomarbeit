@@ -16,9 +16,7 @@
 <style>
     .lead {
         position: relative;
-        margin: auto;
-        margin-top: 28rem;
-        margin-bottom: 2rem;
+        margin: 28rem auto 2rem;
         max-width: 65ch;
     }
 

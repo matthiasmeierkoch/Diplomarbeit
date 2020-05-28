@@ -16,10 +16,8 @@
 <style>
     .chapter {
         position: relative;
-        margin-top: 5rem;
-        margin-bottom: 2rem;
+        margin: 5rem auto 2rem;
         max-width: 65ch;
-        margin:auto;
     }
 
     .chapter__title {

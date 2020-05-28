@@ -21,7 +21,7 @@
 </static-query>
 
 <script>
-    let prevScrollpos = window.pageYOffset;
+/*    let prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
         let currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
@@ -30,17 +30,17 @@
             document.getElementById("navbar").style.top = "-80px";
         }
         prevScrollpos = currentScrollPos;
-    }
+    }*/
 </script>
 
 <style>
 
-    #navbar{
+    #navbar {
         top: 0;
         z-index: 100;
     }
 
-    .nav{
+    .nav {
         right: 0;
     }
 
@@ -53,10 +53,7 @@
         font-weight: bold;
         position: relative;
         transition: top 0.3s;
-        background-color: #FCFBF9;
-        padding-left: 48px;
         padding-top: 24px;
-        padding-right: 48px;
         padding-bottom: 24px;
         border-radius: 100px;
 
@@ -64,27 +61,37 @@
 
     .site_name {
         display: flex;
-        width: 100%;
-        color: #E4665C;
+        margin-left: 2rem;
+        color: #ffffff;
+        padding: 16px 24px;
+        border-radius: 5rem;
+        background-color: #E4665C;
         text-decoration: none;
+
     }
 
-     .nav__link {
+    .nav__link {
         margin-left: 2rem;
-        color: #E4665C;
-         text-decoration: none;
+        color: #ffffff;
+        padding: 16px 24px;
+        border-radius: 5rem;
+        background-color: #E4665C;
+        text-decoration: none;
     }
 
     .nav__link:hover {
         margin-left: 2rem;
-        color: #E4665C;
-        border-bottom: 4px solid #E4665C;
-        stroke-linecap: round;
+        background-color: #92423B;
+    }
+
+    .site_name:hover {
+        margin-left: 2rem;
+        background-color: #92423B;
     }
 
     @media (max-width: 667px) {
 
-        #header >>>{
+        #header >>> {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -94,6 +101,7 @@
             font-weight: bold;
             width: 100vw;
         }
+
         .nav__link {
             margin-left: 1rem;
             color: #E4665C;
