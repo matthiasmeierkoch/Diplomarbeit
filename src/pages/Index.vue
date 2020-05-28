@@ -34,7 +34,7 @@
             </div>
 
             <div>
-            <Zuwanderer title="Zuwanderer aus einem anderen Kreis 2019"></Zuwanderer>
+                <Zuwanderer title="Zuwanderer aus einem anderen Kreis 2019"></Zuwanderer>
             </div>
 
 
@@ -62,7 +62,7 @@
                 </p>
                 <p>
                     Komplette Auswertung der Daten CSV:
-                    <a class="home-links" href="../assets/uploads/wiso-so-neugierig.pdf"> Download
+                    <a class="home-links" href="../assets/uploads/Zürcher%20Zuwanderer%20Umfrage.csv"> Download
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -5 24 24"><title>
                             download_icon</title>
                             <g class="nc-icon-wrapper" fill="#E4665C">
