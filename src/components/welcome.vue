@@ -30,10 +30,7 @@
     }
 
     .project__title {
-        width: 100%;
-        text-align: center;
-        color: #ffffff;
-        font-family: "SangBleu";
+
     }
 
     .project__subtitle {
@@ -45,13 +42,29 @@
     .project__title {
         font-size: 6.5rem;
         line-height: 7.3rem;
-        color: #fff;
         max-width: 43rem;
         margin-top: 25vh;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        font-family: "SangBleu";
     }
 
-    @media (max-width: 667px) {
 
+    @media (max-width: 768px) {
+        .project__title {
+            font-size: 4rem;
+            width: 100%;
+            line-height:4rem;
+            margin-top: 20vh;
+        }
+
+        .project__subtitle {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 420px) {
         .project__title {
             font-size: 3rem;
             width: 100%;

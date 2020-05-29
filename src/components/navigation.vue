@@ -95,7 +95,7 @@
         background-color: #E4665C;
     }
 
-    @media (max-width: 667px) {
+    @media (max-width: 768px) {
 
         .site_name{
             padding:8px 16px;

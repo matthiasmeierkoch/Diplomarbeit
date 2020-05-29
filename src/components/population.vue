@@ -158,7 +158,7 @@
 .map__title{
     color: #003041;
 }
-    @media (max-width: 667px) {
+    @media (max-width: 768px) {
         .legend {
             position: relative;
 

@@ -71,7 +71,7 @@
         text-align: center;
     }
 
-    @media (max-width: 667px) {
+    @media (max-width: 768px) {
 
         .Section {
             display: contents;

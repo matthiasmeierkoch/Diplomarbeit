@@ -45,7 +45,7 @@
         margin-block-end: 0.35em;
     }
 
-    @media (max-width: 667px) {
+    @media (max-width: 768px) {
 
         .lead {
             display: contents;

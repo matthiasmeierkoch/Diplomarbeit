@@ -38,7 +38,7 @@
         padding-right: 1.5rem;
     }
 
-    @media (max-width: 667px) {
+    @media (max-width: 768px) {
 
         .quote {
             width: 80%;

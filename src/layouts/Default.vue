@@ -67,7 +67,7 @@
         padding-right: 30px;
     }
 
-    @media (max-width: 667px) {
+    @media (max-width: 768px) {
         .layout{
             padding-left: 16px;
             padding-right: 16px;
