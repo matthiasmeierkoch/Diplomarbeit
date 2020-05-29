@@ -1,7 +1,7 @@
 <template>
     <div class="persona">
         <div class="persona__content">
-            <LightBox class="lightbox" :thumbnail="images[0]" :images="images"/>
+            <LightBox class="thumbnail" :thumbnail="images[0]" :images="images"/>
         </div>
     </div>
 </template>
@@ -32,7 +32,7 @@
     }
 
 
-    .lightbox {
+    .thumbnail {
         width: 100%;
     }
 

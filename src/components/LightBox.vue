@@ -104,17 +104,35 @@
     };
 </script>
 
-<style>
+<style scoped>
+
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .lightbox {
         background: rgba(0, 0, 0, 0.8);
-        width: 100%;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 200;
+    }
+
+    .lightbox-image {
+        max-width: 100%;
         height: 100vh;
     }
 
     .lightbox-image img {
-        width: auto;
-        height: auto;
-        max-width: 100%;
-        max-height: calc(100vh - 90px);
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
     }
+
+
+
 </style>

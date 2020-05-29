@@ -23,9 +23,9 @@
 
 <style scoped>
 
-    .welcome {
+    .welcome{
         position: relative;
-        margin-top:3rem;
+        margin-top: $test;
         margin-bottom: 5rem;
         z-index: 10;
     }
@@ -56,7 +56,7 @@
         .project__title {
             font-size: 4rem;
             width: 100%;
-            line-height:4rem;
+            line-height: 4rem;
             margin-top: 20vh;
         }
 
@@ -69,7 +69,7 @@
         .project__title {
             font-size: 3rem;
             width: 100%;
-            line-height:4rem;
+            line-height: 4rem;
             margin-top: 20vh;
         }
 
