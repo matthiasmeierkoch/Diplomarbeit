@@ -107,12 +107,10 @@
         }
 
         #header {
-            display: flex;
-            justify-content: space-between;
             align-items: center;
             margin-bottom: 20px;
             height: 80px;
-            font-size: 1rem;
+            font-size: 0.7rem;
             font-weight: bold;
             width: 100%;
         }
