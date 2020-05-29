@@ -23,6 +23,7 @@
         components: {
             Navigation
         },
+
         mounted() {
             this.$nextTick(() => sal());
         }
@@ -32,6 +33,7 @@
 </script>
 
 <style>
+    @import "../../node_modules/sal.js/dist/sal.css";
 
     html{
         overflow-x: hidden;
