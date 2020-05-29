@@ -2,15 +2,16 @@
     <div class="content" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
          data-sal-easing="ease-out-bounce">
         <div class="Section">
+
+            <div class="Section__content">
+                <h2 class="Section__title">{{ title }}</h2>
+                <slot></slot>
+            </div>
             <div class="Section__image">
                 <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                      data-sal-easing="ease-out-bounce">
                     <g-image calss="Section__image" width="400" src="../assets/img/Startseite.png"></g-image>
                 </div>
-            </div>
-            <div class="Section__content">
-                <h2 class="Section__title">{{ title }}</h2>
-                <slot></slot>
             </div>
         </div>
     </div>

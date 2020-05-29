@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'Kreis 3',
+
   plugins: [
     {
       use: '@gridsome/transformer-csv',

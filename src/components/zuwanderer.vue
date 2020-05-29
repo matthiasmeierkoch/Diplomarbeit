@@ -49,7 +49,7 @@
                     .scale(150000)
             },
             getGeographyData() {
-                return json("https://statistikstadtzuerich.github.io/sszvis/topo/stadt-zurich.json")
+                return json("/stadt-zurich.json")
             },
             getDistrictsData() {
                 return csv("/Zuwanderer.csv")

@@ -62,31 +62,33 @@
     .site_name {
         display: flex;
         margin-left: 2rem;
-        color: #ffffff;
+        color: #E4665C;
         padding: 16px 24px;
         border-radius: 5rem;
-        background-color: #E4665C;
+        background-color: #ffffff;
         text-decoration: none;
 
     }
 
     .nav__link {
         margin-left: 2rem;
-        color: #ffffff;
+        color: #E4665C;
         padding: 16px 24px;
         border-radius: 5rem;
-        background-color: #E4665C;
+        background-color: #ffffff;
         text-decoration: none;
     }
 
     .nav__link:hover {
         margin-left: 2rem;
-        background-color: #92423B;
+        color: #ffffff;
+        background-color: #E4665C;
     }
 
     .site_name:hover {
         margin-left: 2rem;
-        background-color: #92423B;
+        color: #ffffff;
+        background-color: #E4665C;
     }
 
     @media (max-width: 667px) {
@@ -104,7 +106,7 @@
 
         .nav__link {
             margin-left: 1rem;
-            color: #E4665C;
+            color: #ffffff;
             text-decoration: none;
         }
 

@@ -49,10 +49,10 @@
                     .scale(150000)
             },
             getGeographyData() {
-                return json("https://statistikstadtzuerich.github.io/sszvis/topo/stadt-zurich.json")
+                return json("/stadt-zurich.json")
             },
             getDistrictsData() {
-                return csv("https://statistikstadtzuerich.github.io/sszvis/map-standard/data/M_kreis.csv")
+                return csv("/M_kreis.csv")
             },
         },
         async mounted() {
