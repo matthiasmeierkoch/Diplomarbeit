@@ -16,11 +16,16 @@
 </static-query>
 
 <script>
+    import sal from 'sal.js';
+
     import Navigation from "../components/navigation.vue"
 
     export default {
         components: {
             Navigation
+        },
+        mounted() {
+            this.$nextTick(() => sal());
         }
     }
 </script>

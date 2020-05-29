@@ -134,6 +134,7 @@
     import Quote from "../components/Quote.vue"
     import Population from "../components/population.vue";
     import Zuwanderer from "../components/zuwanderer.vue";
+    import sal from "sal.js";
 
     export default {
         metaInfo: {
@@ -148,7 +149,10 @@
             Weekday,
             Background,
             Quote
+        },
 
+        mounted() {
+            this.$nextTick(() => sal());
         }
     }
 </script>

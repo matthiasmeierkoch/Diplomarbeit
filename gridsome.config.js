@@ -7,9 +7,14 @@
 module.exports = {
   siteName: 'Kreis 3',
 
+  css: [
+    './node_modules/sal.js/dist/sal.css'
+  ],
+
   plugins: [
     {
       use: '@gridsome/transformer-csv',
     },
   ]
+
 }

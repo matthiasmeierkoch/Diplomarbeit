@@ -1,6 +1,7 @@
 <template>
 
-    <div class="welcome">
+    <div class="welcome" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+         data-sal-easing="ease-out-bounce">
         <h1 class="project__title">Willkommen im Kreis 3</h1>
         <div class="project__subtitle">
         </div>
@@ -9,8 +10,14 @@
 </template>
 
 <script>
+    import sal from "sal.js";
+
     export default {
-        name: "title"
+        name: "title",
+
+        mounted() {
+            this.$nextTick(() => sal());
+        }
     }
 </script>
 

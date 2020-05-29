@@ -8,7 +8,9 @@
                 <slot></slot>
             </div>
             <div class="Section__image">
-                <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                <div data-sal="slide-up"
+                     data-sal-delay="100"
+                     data-sal-duration="1000"
                      data-sal-easing="ease-out-bounce">
                     <g-image calss="Section__image" width="400" src="../assets/img/Startseite.png"></g-image>
                 </div>
