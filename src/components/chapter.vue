@@ -1,6 +1,6 @@
 <template>
     <div class="chapter">
-        <h2 class="chapter__title">{{ title }}</h2>
+        <h2 class="chapter__title" >{{ title }}</h2>
         <div class="chapter__content">
             <slot></slot>
         </div>

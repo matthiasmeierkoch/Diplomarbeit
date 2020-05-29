@@ -12,7 +12,6 @@
                 </p>
             </lead>
 
-
             <chapter title="Einleitung">
                 <p> Wie integriere ich mich möglichst schnell und einfach in das bestehendes Quartierleben des Kreis 3?
                     Wie kann ich den Kreis 3 besser kennenlernen und wo finde ich Antworten auf meine Fragen zu meinem
@@ -120,6 +119,8 @@
 
             <Personas/>
 
+            <iframe class="prototype" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FmAZXKAf5XL25AJiwQECGzP%2FDiplomarbeit%3Fnode-id%3D458%253A0%26viewport%3D125%252C198%252C0.1115327849984169%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
+
             <Weekday/>
         </div>
         <Background/>
@@ -198,6 +199,10 @@
         margin-top: 3rem;
         margin-right: 1rem;
         color: #E4665C;
+    }
+
+    .prototype{
+        margin-top: 4rem;
     }
 
 </style>

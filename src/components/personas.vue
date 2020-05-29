@@ -2,6 +2,9 @@
     <div class="persona">
         <div class="persona__content">
             <LightBox class="thumbnail" :thumbnail="images[0]" :images="images"/>
+            <LightBox class="thumbnail" :thumbnail="images[1]" :images="images"/>
+            <LightBox class="thumbnail" :thumbnail="images[2]" :images="images"/>
+            <LightBox class="thumbnail" :thumbnail="images[3]" :images="images"/>
         </div>
     </div>
 </template>
@@ -31,9 +34,12 @@
         justify-content: space-between;
     }
 
-
+    .persona__content{
+        display:flex;
+    }
     .thumbnail {
-        width: 100%;
+        width: 25%;
+        margin-left: 1rem;
     }
 
 </style>
