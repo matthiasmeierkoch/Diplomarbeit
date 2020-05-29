@@ -1,4 +1,5 @@
 <template>
+    <div class="navigation_wrapper">
     <div id="navbar">
         <header id="header">
             <div>
@@ -9,6 +10,7 @@
                 <g-link class="nav__link" to="/about/">Kreis 3 App</g-link>
             </nav>
         </header>
+    </div>
     </div>
 </template>
 
@@ -21,19 +23,27 @@
 </static-query>
 
 <script>
-    /*    let prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            let currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("navbar").style.top = "0";
-            } else {
-                document.getElementById("navbar").style.top = "-80px";
+
+
+
+    export default {
+        mounted() {
+            let prevScrollpos = window.pageYOffset;
+            window.onscroll = function () {
+                let currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("navbar").style.top = "0";
+                } else {
+                    document.getElementById("navbar").style.top = "-100px";
+                }
+                prevScrollpos = currentScrollPos;
             }
-            prevScrollpos = currentScrollPos;
-        }*/
+        }
+    }
 </script>
 
 <style>
+
     template{
         padding-left: 0;
         padding-right: 0;
@@ -42,10 +52,12 @@
     #navbar {
         top: 0;
         z-index: 100;
+        position: fixed;
+        transition: .3s;
     }
 
     .nav {
-        right: 0;
+
     }
 
     #header {
@@ -71,11 +83,11 @@
         border-radius: 5rem;
         background-color: #ffffff;
         text-decoration: none;
-
     }
 
     .nav__link {
-        margin-left: 2rem;
+        justify-content: right;
+        margin-left: 4rem;
         color: #E4665C;
         padding: 16px 24px;
         border-radius: 5rem;
@@ -84,18 +96,50 @@
     }
 
     .nav__link:hover {
-        margin-left: 2rem;
         color: #ffffff;
         background-color: #E4665C;
     }
 
     .site_name:hover {
-        margin-left: 2rem;
         color: #ffffff;
         background-color: #E4665C;
     }
 
     @media (max-width: 768px) {
+
+        .site_name{
+            padding:8px 16px;
+            margin-left: 1rem;
+        }
+
+        .site_name:hover{
+
+        }
+
+        #header {
+            align-items: center;
+            margin-bottom: 20px;
+            height: 80px;
+            font-size: 1rem;
+            font-weight: bold;
+            width: 100%;
+        }
+
+        .nav__link {
+            margin-left: 1rem;
+            color: #E4665C;
+            text-decoration: none;
+            padding:8px 16px;
+        }
+
+        .nav__link:hover {
+            margin-left: 1rem;
+            color: #ffffff;
+        }
+
+    }
+
+    @media (max-width: 420px) {
 
         .site_name{
             padding:8px 16px;

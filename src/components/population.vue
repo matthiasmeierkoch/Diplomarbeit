@@ -103,7 +103,6 @@
                     .attr("stroke-width", 0.7)
                     .on("click", d => {
                         const relevantData = districtData.find(s => s.KNr === d.id)
-                        console.log(relevantData)
                     })
 
                 const labels = svg.selectAll("text")

@@ -45,6 +45,8 @@
     .Section__image {
         max-width: 50%;
         margin: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .Section__image img {
@@ -69,6 +71,12 @@
         margin-top: -3rem;
         font-family: "Suisse Neue";
         text-align: center;
+    }
+
+    @media (max-width: 420px) {
+        .Section__image img {
+            width: auto;
+        }
     }
 
     @media (max-width: 768px) {

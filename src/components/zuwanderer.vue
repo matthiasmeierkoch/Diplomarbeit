@@ -56,14 +56,12 @@
             },
         },
         async mounted() {
-            console.log("Hello")
             Promise.all([
                 this.getGeographyData(),
                 this.getDistrictsData(),
             ]).then(([geoData, csvData]) => {
                 const features = this.parseGeographies(geoData)
                 const districtData = csvData
-                console.log(csvData)
                 const svg = select("#map2")
                     .append("svg")
                     .attr("viewBox", `0 0 ${width} ${height}`)

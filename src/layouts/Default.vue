@@ -17,7 +17,6 @@
 
 <script>
     import sal from 'sal.js';
-
     import Navigation from "../components/navigation.vue"
 
     export default {
@@ -27,7 +26,9 @@
         mounted() {
             this.$nextTick(() => sal());
         }
+
     }
+
 </script>
 
 <style>

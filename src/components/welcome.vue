@@ -13,7 +13,7 @@
     import sal from "sal.js";
 
     export default {
-        name: "title",
+        name: "welcome",
 
         mounted() {
             this.$nextTick(() => sal());
@@ -27,6 +27,7 @@
         position: relative;
         margin-top:3rem;
         margin-bottom: 5rem;
+        z-index: 10;
     }
 
     .project__title {
@@ -43,7 +44,7 @@
         font-size: 6.5rem;
         line-height: 7.3rem;
         max-width: 43rem;
-        margin-top: 25vh;
+        margin-top: 35vh;
         width: 100%;
         text-align: center;
         color: #ffffff;

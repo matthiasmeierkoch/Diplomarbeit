@@ -24,7 +24,7 @@
                     gibt Ihr Kreis zu entdecken und sich in der Community mit einzubringen.
                 </p>
                 <p>
-                    Der Kreis 3 umfasst die Quartiere: Sihlfeld, Alt-Wiedikon und Friesenberg. 2019 lebten 51 122
+                    Der Kreis 3 umfasst die Quartiere: Sihlfeld, Alt-Wiedikon und Friesenberg. 2019 lebten 51&#x202F;122
                     Personen im Kreis 3, damit ist es der am zweit stärksten bevölkerte Kreis in Zürich.
                 </p>
             </chapter>
@@ -36,7 +36,6 @@
             <div>
                 <Zuwanderer title="Zuwanderer aus einem anderen Kreis 2019"></Zuwanderer>
             </div>
-
 
             <chapter title="Research & Befragung der Zielgruppe:">
                 <p> Besonders weil ich einen persönlichen Bezug zu diesem Thema habe, da ich selber neu in den Kreis 3
@@ -118,6 +117,9 @@
                     <br>
                 </p>
             </chapter>
+
+            <Personas/>
+
             <Weekday/>
         </div>
         <Background/>
@@ -125,6 +127,7 @@
 </template>
 
 <script>
+    import sal from "sal.js";
 
     import welcome from "../components/welcome"
     import Chapter from "../components/chapter"
@@ -134,7 +137,7 @@
     import Quote from "../components/Quote.vue"
     import Population from "../components/population.vue";
     import Zuwanderer from "../components/zuwanderer.vue";
-    import sal from "sal.js";
+    import Personas from "../components/personas.vue";
 
     export default {
         metaInfo: {
@@ -148,18 +151,20 @@
             Lead,
             Weekday,
             Background,
-            Quote
+            Quote,
+            Personas
         },
 
         mounted() {
             this.$nextTick(() => sal());
-        }
+        },
+
     }
 </script>
 
 <style>
-    html{
-        overflow-x:hidden;
+    html {
+        overflow-x: hidden;
     }
 
 
