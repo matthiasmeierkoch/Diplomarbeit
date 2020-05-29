@@ -41,7 +41,7 @@
     }
 </script>
 
-<style>
+<style scoped>
 
     template {
         padding-left: 0;
@@ -50,7 +50,7 @@
 
     #navbar {
         top: 0;
-        left:0;
+        left: 0;
         z-index: 100;
         transition: top 0.3s;
         display: flex;
@@ -67,11 +67,11 @@
         justify-content: space-between;
         font-size: 1.25rem;
         font-weight: bold;
+        margin: auto;
     }
 
     #header {
-
-
+        margin: auto;
     }
 
     .site_name {
@@ -89,7 +89,6 @@
         color: #E4665C;
         padding: 16px 24px;
         border-radius: 5rem;
-        background-color: #ffffff;
         text-decoration: none;
     }
 
