@@ -34,6 +34,10 @@
 </script>
 
 <style>
+    template{
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     #navbar {
         top: 0;

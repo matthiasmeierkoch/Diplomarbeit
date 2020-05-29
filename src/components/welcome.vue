@@ -53,9 +53,9 @@
     @media (max-width: 667px) {
 
         .project__title {
-            font-size: 3.65rem;
+            font-size: 3.25rem;
             max-width: 100%;
-            line-height: 4.25rem;
+            line-height:4rem;
             margin-top: 20vh;
         }
 
