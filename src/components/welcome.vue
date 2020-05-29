@@ -54,7 +54,7 @@
 
         .project__title {
             font-size: 3.25rem;
-            max-width: 100%;
+            width: 100%;
             line-height:4rem;
             margin-top: 20vh;
         }

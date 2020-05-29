@@ -32,6 +32,10 @@
 
 <style>
 
+    html{
+        overflow-x: hidden;
+    }
+
     @font-face {
         font-family: "Suisse Neue";
         src: url(../assets/font/SuisseNeue-Medium-WebS.woff);
@@ -53,7 +57,6 @@
         padding: 0;
         line-height: 1.5;
         background: #EFE8DC;
-        overflow-x: hidden;
         background-size: auto;
     }
 
