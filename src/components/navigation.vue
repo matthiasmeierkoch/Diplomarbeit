@@ -21,16 +21,16 @@
 </static-query>
 
 <script>
-/*    let prevScrollpos = window.pageYOffset;
-    window.onscroll = function () {
-        let currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-        } else {
-            document.getElementById("navbar").style.top = "-80px";
-        }
-        prevScrollpos = currentScrollPos;
-    }*/
+    /*    let prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            let currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-80px";
+            }
+            prevScrollpos = currentScrollPos;
+        }*/
 </script>
 
 <style>
@@ -93,7 +93,7 @@
 
     @media (max-width: 667px) {
 
-        #header  {
+        #header {
             display: flex;
             justify-content: space-between;
             align-items: center;
