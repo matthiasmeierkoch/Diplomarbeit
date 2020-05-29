@@ -33,7 +33,7 @@
                 if (prevScrollpos > currentScrollPos) {
                     document.getElementById("navbar").style.top = "0";
                 } else {
-                    document.getElementById("navbar").style.top = "-100px";
+                    document.getElementById("navbar").style.top = "-150px";
                 }
                 prevScrollpos = currentScrollPos;
             }
@@ -50,28 +50,27 @@
 
     #navbar {
         top: 0;
+        left:0;
         z-index: 100;
+        transition: top 0.3s;
+        display: flex;
+        justify-content: space-between;
         position: fixed;
-        transition: .3s;
+        width: 100%;
+        height: 5rem;
+        align-items: center;
+        background-color: #FCFBF9;
     }
 
     .nav {
         display: flex;
         justify-content: space-between;
+        font-size: 1.25rem;
+        font-weight: bold;
     }
 
     #header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 20px;
-        font-size: 1.25rem;
-        font-weight: bold;
-        position: relative;
-        transition: top 0.3s;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        border-radius: 100px;
+
 
     }
 
@@ -86,8 +85,7 @@
     }
 
     .nav__link {
-        justify-content: right;
-        margin-left: 4rem;
+        justify-content: space-between;
         color: #E4665C;
         padding: 16px 24px;
         border-radius: 5rem;
