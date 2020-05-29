@@ -1,16 +1,16 @@
 <template>
     <div class="navigation_wrapper">
-    <div id="navbar">
-        <header id="header">
-            <div>
-                <g-link class="site_name" to="/">{{ $static.metadata.siteName }}</g-link>
-            </div>
-            <nav class="nav">
-                <g-link class="nav__link" to="/">Über das Projekt</g-link>
-                <g-link class="nav__link" to="/about/">Kreis 3 App</g-link>
-            </nav>
-        </header>
-    </div>
+        <div id="navbar">
+            <header id="header">
+                <!--            <div>
+                                <g-link class="site_name" to="/">{{ $static.metadata.siteName }}</g-link>
+                            </div>-->
+                <nav class="nav">
+                    <g-link class="nav__link" to="/">Über das Projekt</g-link>
+                    <g-link class="nav__link" to="/about/">Kreis 3 App</g-link>
+                </nav>
+            </header>
+        </div>
     </div>
 </template>
 
@@ -23,7 +23,6 @@
 </static-query>
 
 <script>
-
 
 
     export default {
@@ -44,7 +43,7 @@
 
 <style>
 
-    template{
+    template {
         padding-left: 0;
         padding-right: 0;
     }
@@ -57,7 +56,8 @@
     }
 
     .nav {
-
+        display: flex;
+        justify-content: space-between;
     }
 
     #header {
@@ -107,12 +107,12 @@
 
     @media (max-width: 768px) {
 
-        .site_name{
-            padding:8px 16px;
+        .site_name {
+            padding: 8px 16px;
             margin-left: 1rem;
         }
 
-        .site_name:hover{
+        .site_name:hover {
 
         }
 
@@ -129,7 +129,7 @@
             margin-left: 1rem;
             color: #E4665C;
             text-decoration: none;
-            padding:8px 16px;
+            padding: 8px 16px;
         }
 
         .nav__link:hover {
@@ -141,12 +141,12 @@
 
     @media (max-width: 420px) {
 
-        .site_name{
-            padding:8px 16px;
+        .site_name {
+            padding: 8px 16px;
             margin-left: 0;
         }
 
-        .site_name:hover{
+        .site_name:hover {
             margin-left: 0;
         }
 
@@ -163,7 +163,7 @@
             margin-left: 1rem;
             color: #E4665C;
             text-decoration: none;
-            padding:8px 16px;
+            padding: 8px 16px;
         }
 
         .nav__link:hover {

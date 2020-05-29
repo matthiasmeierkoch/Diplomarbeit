@@ -2,7 +2,6 @@
     <div class="content" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
          data-sal-easing="ease-out-bounce">
         <div class="Section">
-
             <div class="Section__content">
                 <h2 class="Section__title">{{ title }}</h2>
                 <slot></slot>
@@ -30,8 +29,7 @@
     }
 </script>
 
-<style>
-
+<style scoped>
 
     .Section {
         position: relative;
@@ -39,7 +37,8 @@
         justify-content: space-between;
         align-items: center;
         max-width: 100%;
-        margin-top: 7rem;
+        margin-top: 2.5rem;
+        height: 100vh;
     }
 
     .Section__image {
