@@ -51,11 +51,12 @@
             display: contents;
             font-size: 2rem;
             line-height: 3rem;
+            margin-top: 2rem;
         }
 
         .lead__title{
             width: 100%;
-            margin-top: 70vh;
+            margin-top: 60vh;
         }
 
         .lead__content{

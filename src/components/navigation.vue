@@ -93,6 +93,15 @@
 
     @media (max-width: 667px) {
 
+        .site_name{
+            padding:8px 16px;
+            margin-left: 0;
+        }
+
+        .site_name:hover{
+            margin-left: 0;
+        }
+
         #header {
             display: flex;
             justify-content: space-between;
@@ -101,20 +110,19 @@
             height: 80px;
             font-size: 1rem;
             font-weight: bold;
-            width: 100vw;
+            width: 100%;
         }
 
         .nav__link {
             margin-left: 1rem;
-            color: #ffffff;
+            color: #E4665C;
             text-decoration: none;
+            padding:8px 16px;
         }
 
         .nav__link:hover {
             margin-left: 1rem;
-            color: #E4665C;
-            border-bottom: 4px solid #E4665C;
-            stroke-linecap: round;
+            color: #ffffff;
         }
 
     }

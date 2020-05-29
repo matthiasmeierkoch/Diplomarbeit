@@ -63,4 +63,12 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    @media (max-width: 667px) {
+        .layout{
+            padding-left: 16px;
+            padding-right: 16px;
+
+        }
+    }
 </style>

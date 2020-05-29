@@ -158,6 +158,10 @@
 </script>
 
 <style>
+    html{
+        overflow-x:hidden;
+    }
+
 
     .container {
         max-width: 75ch;
