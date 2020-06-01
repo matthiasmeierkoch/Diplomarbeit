@@ -59,7 +59,7 @@
         width: 100%;
         height: 5rem;
         align-items: center;
-        background-color: #FCFBF9;
+        background-color: rgba(252, 251, 249, 1);
     }
 
     .nav {
