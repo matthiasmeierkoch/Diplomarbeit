@@ -3,7 +3,7 @@
         <div>
             <!--<g-image class="background__image" src="../assets/img/zurich.jpg"/>-->
             <div class="gradient"></div>
-            <video autoplay loop muted class="background__image" src="../assets/img/video.mp4"></video>
+            <video autoplay loop muted class="background__image" src="../assets/img/Kreis3.mp4"></video>
         </div>
     </div>
 </template>

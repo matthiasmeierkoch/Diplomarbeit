@@ -114,24 +114,15 @@
         }
 
         #header {
-            align-items: center;
-            margin-bottom: 20px;
-            height: 80px;
-            font-size: 1rem;
-            font-weight: bold;
-            width: 100%;
+
         }
 
         .nav__link {
-            margin-left: 1rem;
-            color: #E4665C;
-            text-decoration: none;
-            padding: 8px 16px;
+
         }
 
         .nav__link:hover {
-            margin-left: 1rem;
-            color: #ffffff;
+
         }
 
     }
@@ -148,24 +139,15 @@
         }
 
         #header {
-            align-items: center;
-            margin-bottom: 20px;
-            height: 80px;
-            font-size: 0.7rem;
-            font-weight: bold;
-            width: 100%;
+
         }
 
         .nav__link {
-            margin-left: 1rem;
-            color: #E4665C;
-            text-decoration: none;
-            padding: 8px 16px;
+
         }
 
         .nav__link:hover {
-            margin-left: 1rem;
-            color: #ffffff;
+
         }
 
     }

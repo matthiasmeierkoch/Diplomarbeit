@@ -1,6 +1,8 @@
 <template>
     <Layout>
+<!--
         <AboutBackground/>
+-->
         <Leftstage title="So lebt der Kreis 3">
             <p>Profitiere von Tipps und Tricks anderer Bewohner des Kreis 3 und entdecke deinen Kreis jeden Tag neu.
             </p>

@@ -1,7 +1,7 @@
 <template>
-    <div class="content" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-         data-sal-easing="ease-out-bounce">
-        <div class="Section">
+    <div class="content">
+        <div class="Section" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+             data-sal-easing="ease-out-bounce">
             <div class="Section__content">
                 <h2 class="Section__title">{{ title }}</h2>
                 <slot></slot>
@@ -14,6 +14,9 @@
                     <g-image calss="Section__image" width="400" src="../assets/img/Startseite.png"></g-image>
                 </div>
             </div>
+        </div>
+        <div class="background__image">
+            <g-image src="../assets/img/Background.png"></g-image>
         </div>
     </div>
 </template>
@@ -30,6 +33,16 @@
 </script>
 
 <style scoped>
+
+    .background__image{
+        position: absolute;
+        z-index: -10;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
 
     .Section {
         position: relative;
