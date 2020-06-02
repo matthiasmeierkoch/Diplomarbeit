@@ -15,9 +15,6 @@
                 </div>
             </div>
         </div>
-        <div class="background__image">
-            <g-image src="../assets/img/Background.png"></g-image>
-        </div>
     </div>
 </template>
 

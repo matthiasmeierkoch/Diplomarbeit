@@ -105,6 +105,8 @@
                     <p>«Der einfachste Weg zu einer guten Idee, ist viele Ideen zu haben.»</p>
                 </Quote>
             </chapter>
+            <g-image src="../assets/img/ideation.jpg"></g-image>
+
 
             <chapter title="Benutzerrollen">
                 <p> In einem Vorprojekt habe ich eine Umfrage mit bewohner der Kreis 3 durchgeführt, in dieser ich auf

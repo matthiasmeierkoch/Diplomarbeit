@@ -1,6 +1,7 @@
 <template>
     <div class="persona">
         <div class="persona__content">
+            <LightBox class="thumbnail" :thumbnail="images[4]" :images="images"/>
             <LightBox class="thumbnail" :thumbnail="images[0]" :images="images"/>
             <LightBox class="thumbnail" :thumbnail="images[1]" :images="images"/>
             <LightBox class="thumbnail" :thumbnail="images[2]" :images="images"/>
@@ -20,7 +21,7 @@
 
         data() {
             return {
-                images: ["/Persona - Jan Neumann.png", "Persona - Lara Schreiber.png", "Persona - Larissa Spirituell.png", "Persona - Valentin Christen.png"]
+                images: ["/Persona - Jan Neumann.png", "/Persona - Lara Schreiber.png", "/Persona - Larissa Spirituell.png", "/Persona - Valentin Christen.png", "/Benutzerrollen.png"]
             }
         },
 

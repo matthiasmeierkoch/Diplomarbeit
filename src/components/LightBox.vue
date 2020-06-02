@@ -4,7 +4,7 @@
             <img class="w-64" :src="thumbnail">
         </a>
         <div class="lightbox fixed pin z-50 flex justify-center items-center" v-if="visible" @click="hide">
-            <div class="fixed pin-r pin-t text-white cursor-pointer text-4xl p-1 mr-2" @click.stop="hide">&times;</div>
+            <div class=" close fixed pin-r pin-t text-white cursor-pointer text-4xl p-1 mr-2" @click.stop="hide">&times;</div>
             <div class="flex">
                 <div class="cursor-pointer self-center px-8"
                      @click.stop="prev"
@@ -120,6 +120,15 @@
         top: 0;
         left: 0;
         z-index: 200;
+    }
+
+    .close{
+       position: fixed;
+        right: 16px;
+        top: 8px;
+        font-size: 2rem;
+        color: #ffffff;
+        cursor: pointer;
     }
 
     .lightbox-image {
