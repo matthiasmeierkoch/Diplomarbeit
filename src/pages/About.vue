@@ -1,6 +1,5 @@
 <template>
     <Layout>
-        <AboutBackground/>
         <Startseite title="Die App des Kreis 3">
             <p>
                 Profitiere von Tipps und Tricks anderer Bewohner des Kreis 3 und entdecke deinen Kreis jeden Tag neu.
@@ -20,7 +19,7 @@
                 veröffentliche deine Bucketlists.
             </p>
         </Bucketlist>
-
+        <AboutBackground/>
     </Layout>
 </template>
 
