@@ -15,6 +15,7 @@
                         <path d="M0-.5h24v24H0z" fill="none"/>
                     </svg>
                 </div>
+
                 <div class="lightbox-image" @click.stop="">
                     <img :src="images[index]">
                 </div>
