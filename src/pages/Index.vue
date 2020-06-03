@@ -204,11 +204,12 @@
                         Umfang: Meine ersten Darfst des Konzepts umfasste zu viele Funktionen, besonders da es in diesem
                         Projekt darum geht ein minimum viable product (MVP) Konzept zu entwickeln welches später mit
                         Funktionen, die sich die Community auch wünscht, ausgebaut werden kann.
-                        <br>
+                    </li>
+                        <p>
                         Die vielen Funktionen hatte zur Folge dass das Konzept und das Ziel der App nicht klar
                         verstanden wurde. Als Massnahme dafür habe ich den Funktionsumfang der App bedeutend reduziert
                         und eine klare Abgrenzung gemacht, was die App können soll und was nicht.
-                    </li>
+                        </p>
 
                     <li>
                         Lorem ipsom dolor
@@ -270,6 +271,9 @@
 
     li {
         margin-top: 1.75rem;
+        font-size: 1.375rem;
+        line-height: 2.0625rem;
+        color: #003041;
     }
 
     .container {
