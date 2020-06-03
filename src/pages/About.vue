@@ -1,27 +1,34 @@
 <template>
     <Layout>
         <AboutBackground/>
-        <Leftstage title="So lebt der Kreis 3">
-            <p>Profitiere von Tipps und Tricks anderer Bewohner des Kreis 3 und entdecke deinen Kreis jeden Tag neu.
+        <Startseite title="Die App des Kreis 3">
+            <p>
+                Profitiere von Tipps und Tricks anderer Bewohner des Kreis 3 und entdecke deinen Kreis jeden Tag neu.
             </p>
-        </Leftstage>
+        </Startseite>
 
-        <Leftstage title="Entdecke dein Zuhause neu">
-            <p>Teile deine Erfahrungen und deine Lieblingsorte des Kreis 3 mit deinen Freunden und bewohner des Kreis.
+        <Explore title="Eine neue Art des Entdeckens">
+            <p>
+                Sieh dir an was im Kreis 3 erlebt wird und speichere Beiträge die dir gefallen auf deiner eigenen
+                Bucketlist.
             </p>
-        </Leftstage>
+        </Explore>
 
-        <Leftstage title="Entdecke dein Zuhause neu">
-            <p>Teile deine Erfahrungen und deine Lieblingsorte des Kreis 3 mit deinen Freunden und bewohner des Kreis.
+        <Bucketlist title="Von der Community für die Community">
+            <p>
+                Teile deine Erfahrungen und deine Lieblingsorte des Kreis 3 mit den Bewohnern des Kreis 3 und
+                veröffentliche deine Bucketlists.
             </p>
-        </Leftstage>
+        </Bucketlist>
 
     </Layout>
 </template>
 
 <script>
     import sal from 'sal.js';
-    import Leftstage from "../components/leftstage.vue";
+    import Startseite from "../components/aboutstartseite.vue";
+    import Explore from "../components/about_explore.vue";
+    import Bucketlist from "../components/about_bucketlist.vue";
     import AboutBackground from "../components/aboutbackground.vue";
 
     export default {
@@ -30,7 +37,9 @@
         },
         components: {
             AboutBackground,
-            Leftstage
+            Startseite,
+            Explore,
+            Bucketlist
         },
         props: ['title'],
         mounted() {
