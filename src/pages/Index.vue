@@ -31,7 +31,8 @@
                 <Population data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                             data-sal-easing="ease-out-bounce" title="Bevölkerung Stadt Zürich 2019"></Population>
             </div>
-            <p>
+
+            <p class="comment__map2">
                 Im Jahr 2019 war es der Kreis der am dritt meisten Zuzügler von anderen Kreisen der Stadt Zürich
                 verzeichnete.
             </p>
@@ -42,7 +43,7 @@
                             title="Zuwanderer aus einem anderen Kreis 2019"></Zuwanderer>
             </div>
 
-            <chapter title="Befragung der Zielgruppe:">
+            <chapter title="Befragung">
                 <p> Besonders weil ich einen persönlichen Bezug zu diesem Thema habe, da ich selber neu in den Kreis 3
                     gezogen bin war es mir wichtig in meiner Erarbeitung objektive Entscheidungen zu treffen und diese
                     wenn immer möglich auf Daten zu stützen. Daher und um mich vertieft mit meiner Fragestellungen
@@ -190,7 +191,6 @@
                     können aus den Bucketlists von anderen Ihre eigenen Bucketlists mit neuen Lieblingsorten oder
                     Aktivitäten erstellen.
                 </p>
-                </p>
             </chapter>
 
             <chapter title="Testings">
@@ -198,6 +198,7 @@
                     Während der Erarbeitung habe ich das Konzept in mehreren Feedback-Runden und mit diversen und
                     Usability Testings auf Schwachstellen und Unklarheiten getestet. Dabei konnte ich eine Aussensicht
                     meines Projekt erlangen und habe dabei einige Unklarheiten gefunden:
+                </p>
                 <ol>
                     <li>
                         Umfang: Meine ersten Darfst des Konzepts umfasste zu viele Funktionen, besonders da es in diesem
@@ -213,7 +214,6 @@
                         Lorem ipsom dolor
                     </li>
                 </ol>
-                </p>
             </chapter>
 
             <Weekday/>
@@ -306,6 +306,13 @@
 
     .prototype {
         margin-top: 4rem;
+    }
+
+    .comment__map2{
+       max-width: 50ch;
+        margin: auto;
+        font-size: 1.375rem;
+        line-height: 2.0625rem;
     }
 
 </style>
