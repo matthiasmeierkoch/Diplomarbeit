@@ -6,7 +6,7 @@
                                 <g-link class="site_name" to="/">{{ $static.metadata.siteName }}</g-link>
                             </div>-->
                 <nav class="nav">
-                    <g-link class="nav__link" to="/">Über das Projekt</g-link>
+                    <g-link class="nav__link" to="/"  exact>Über das Projekt</g-link>
                     <g-link class="nav__link" to="/about/">Kreis 3 App</g-link>
                 </nav>
             </header>
@@ -26,6 +26,7 @@
 
 
     export default {
+
         mounted() {
             let prevScrollpos = window.pageYOffset;
             window.onscroll = function () {
@@ -84,17 +85,25 @@
         text-decoration: none;
     }
 
+
     .nav__link {
         justify-content: space-between;
-        color: #E4665C;
+        color: #003041;
         padding: 16px 24px;
         border-radius: 5rem;
         text-decoration: none;
+        margin-right: 2rem;
+        font-weight: bold;
+    }
+
+    .nav__link.active {
+        color: #ffffff;
+        background-color: #E4665C;
     }
 
     .nav__link:hover {
         color: #ffffff;
-        background-color: #E4665C;
+        background-color: rgba(228, 102, 92, 1);
     }
 
     .site_name:hover {
@@ -102,11 +111,12 @@
         background-color: #E4665C;
     }
 
+
     @media (max-width: 768px) {
 
         .site_name {
             padding: 8px 16px;
-            margin-left: 1rem;
+            margin-left: 2rem;
         }
 
         .site_name:hover {
@@ -118,7 +128,7 @@
         }
 
         .nav__link {
-
+            font-size: 1.25rem;
         }
 
         .nav__link:hover {
@@ -143,7 +153,8 @@
         }
 
         .nav__link {
-
+            font-size: 1rem;
+            padding: 8px 16px;
         }
 
         .nav__link:hover {
