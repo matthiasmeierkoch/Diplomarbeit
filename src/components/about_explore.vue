@@ -89,7 +89,7 @@
 
         .Section__title {
             width: 100%;
-            font-size: 3rem;
+            font-size: 3.2rem;
             line-height: 4rem;
             margin-top: 6rem;
 
