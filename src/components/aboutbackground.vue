@@ -30,7 +30,9 @@
     @media (max-width: 900px) {
 
         .background__image {
-            position: fixed;
+            position: absolute;
+            height: 100%;
+            width: auto;
         }
     }
 </style>

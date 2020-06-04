@@ -60,7 +60,10 @@
         width: 100%;
         height: 5rem;
         align-items: center;
-        background-color: rgba(252, 251, 249, 1);
+        background-color: rgba(239, 232, 220, 1);
+        -webkit-box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        -moz-box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
+        box-shadow: 0 0 16px 0 rgba(0,0,0,0.25);
     }
 
     .nav {

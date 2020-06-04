@@ -84,7 +84,15 @@
 
     @media (max-width: 420px) {
         .Section__image img {
-            width: auto;
+            margin-top: 1rem;
+        }
+
+        .Section__title {
+            width: 100%;
+            font-size: 3rem;
+            line-height: 4rem;
+            margin-top: 6rem;
+
         }
     }
 
