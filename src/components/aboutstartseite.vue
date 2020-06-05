@@ -116,7 +116,7 @@
             max-width: 100%;
             font-size: 3.5rem;
             line-height: 4.25rem;
-            margin-top: 8rem;
+            margin-top: 10rem;
 
         }
 

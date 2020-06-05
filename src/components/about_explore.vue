@@ -84,19 +84,19 @@
             margin-top: 6rem;
 
         }
-
     }
 
     @media (max-width: 768px) {
 
         .Section {
             display: contents;
+            margin-top: 5rem;
         }
 
         .Section__title {
             width: 100%;
             font-size: 3.5rem;
-            margin-top: 4rem;
+            margin-top: 6rem;
 
         }
 
@@ -115,7 +115,8 @@
         .Section__title {
             max-width: 100%;
             font-size: 3.5rem;
-            margin-top: 4rem;
+            line-height: 4.25rem;
+            margin-top: 5rem;
 
         }
 
@@ -124,5 +125,4 @@
             margin-top: 2rem;
         }
     }
-
 </style>
