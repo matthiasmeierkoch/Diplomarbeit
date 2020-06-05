@@ -33,8 +33,8 @@
             </div>
 
             <p class="comment__map2">
-                Im Jahr 2019 war es der Kreis der am dritt meisten Zuzügler von anderen Kreisen der Stadt Zürich
-                verzeichnete.
+                Im Jahr 2019 verzeichnete der Kreis 3 am dritt meisten Zuzügler von anderen Kreisen innerhalb der Stadt
+                Zürich.
             </p>
 
             <div>
@@ -140,8 +140,11 @@
                 </p>
             </chapter>
 
-            <Personas data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                      data-sal-easing="ease-out-bounce">
+            <Personas
+                    data-sal="slide-up"
+                    data-sal-delay="100"
+                    data-sal-duration="1000"
+                    data-sal-easing="ease-out-bounce">
             </Personas>
 
             <!--
@@ -163,7 +166,12 @@
                 </p>
             </chapter>
 
-            <Wireframes/>
+            <Wireframes
+                    data-sal="slide-up"
+                    data-sal-delay="100"
+                    data-sal-duration="1000"
+                    data-sal-easing="ease-out-bounce">
+            </Wireframes>
 
             <chapter title="Das Konzept">
                 <p>
@@ -189,6 +197,13 @@
                     Aktivitäten erstellen.
                 </p>
             </chapter>
+
+            <Konzept
+                    data-sal="slide-up"
+                    data-sal-delay="100"
+                    data-sal-duration="1000"
+                    data-sal-easing="ease-out-bounce">
+            </Konzept>
 
             <chapter title="Testings">
                 <p>
@@ -219,7 +234,7 @@
 
                     <li>
                         Community: Der USP (Unique Selling Point) der App ist die Community, die Applikation muss mehr
-                        sein als «nur» ein Verzeichnis wo was ist, die User sollen aktiv die möglichkeit haben eigene
+                        sein als «nur» ein Verzeichnis wo was ist, die User sollen aktiv die Möglichkeit haben eigene
                         Beiträge zum Entdecken hinzuzufügen.
                     </li>
                     <p>
@@ -240,7 +255,12 @@
                     gemacht habe ist auf dem Bild weiter unten zu sehen.
                 </p>
             </Chapter>
-            <Designsystem/>
+            <Designsystem
+                data-sal="slide-up"
+                data-sal-delay="100"
+                data-sal-duration="1000"
+                data-sal-easing="ease-out-bounce">
+            </Designsystem>
             <Weekday/>
         </div>
         <Background/>
@@ -261,6 +281,7 @@
     import Personas from "../components/personas.vue";
     import Wireframes from "../components/wireframes.vue";
     import Designsystem from "../components/designsystem.vue";
+    import Konzept from "../components/concept.vue";
 
     export default {
         metaInfo: {
@@ -280,7 +301,8 @@
             Quote,
             Personas,
             Wireframes,
-            Designsystem
+            Designsystem,
+            Konzept
         },
 
         mounted() {
