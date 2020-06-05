@@ -93,21 +93,21 @@
     .nav__link {
         justify-content: space-between;
         color: #003041;
-        padding: 16px 24px;
-        border-radius: 5rem;
+        padding: 8px 4px;
         text-decoration: none;
         margin-right: 2rem;
         font-weight: bold;
     }
 
     .nav__link.active {
-        color: #ffffff;
-        background-color: #E4665C;
+        color: #E4665C;
+        border-bottom: 4px;
+        border-bottom-style: solid;
     }
 
     .nav__link:hover {
-        color: #ffffff;
-        background-color: rgba(228, 102, 92, 1);
+        color: #E4665C;
+
     }
 
     .site_name:hover {
