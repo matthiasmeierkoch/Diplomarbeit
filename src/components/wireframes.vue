@@ -39,5 +39,4 @@
         width: 50%;
         margin-left: 1rem;
     }
-
 </style>
