@@ -18,7 +18,7 @@
 
         data() {
             return {
-                images: ["/Userjourney.png", "/Wireframes.png"]
+                images: ["/Atoms.png", "/Components.png"]
             }
         },
 

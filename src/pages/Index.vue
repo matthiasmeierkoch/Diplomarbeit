@@ -240,7 +240,7 @@
                     gemacht habe ist auf dem Bild weiter unten zu sehen.
                 </p>
             </Chapter>
-
+            <Designsystem/>
             <Weekday/>
         </div>
         <Background/>
@@ -260,6 +260,7 @@
     import Zuwanderer from "../components/zuwanderer.vue";
     import Personas from "../components/personas.vue";
     import Wireframes from "../components/wireframes.vue";
+    import Designsystem from "../components/designsystem.vue";
 
     export default {
         metaInfo: {
@@ -278,7 +279,8 @@
             Background,
             Quote,
             Personas,
-            Wireframes
+            Wireframes,
+            Designsystem
         },
 
         mounted() {
