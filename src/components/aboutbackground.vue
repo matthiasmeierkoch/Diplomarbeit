@@ -31,18 +31,10 @@
     @media (max-width: 900px) {
 
         .background__image {
-            height: 100%;
-            width: auto;
-        }
-    }
-
-    @media (max-width: 420px) {
-
-        .background__image {
+            height: auto;
+            width: 100vw;
             position: fixed;
-            top: 0;
-            left: 0;
-            height: 100vh;
         }
     }
+
 </style>

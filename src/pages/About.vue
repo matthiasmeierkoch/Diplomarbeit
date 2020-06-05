@@ -2,20 +2,22 @@
     <Layout>
         <Startseite title="Die App des Kreis 3">
             <p>
-                Profitiere von Tipps und Tricks anderer Bewohner des Kreis&#x202F;3 und entdecke deinen Kreis jeden Tag neu.
+                Profitiere von Tipps und Tricks anderer Bewohner des Kreis&nbsp;3 und entdecke deinen Kreis jeden Tag
+                neu.
             </p>
         </Startseite>
 
         <Explore title="Eine neue Art des Entdeckens">
             <p>
-                Sieh dir an was im Kreis&#x202F;3 erlebt wird und speichere Beiträge die dir gefallen auf deiner eigenen
+                Sieh dir an was im Kreis&nbsp;3 erlebt wird und speichere Beiträge die dir gefallen auf deiner eigenen
                 Bucketlist.
             </p>
         </Explore>
 
         <Bucketlist title="Von der Community für die Community">
             <p>
-                Teile deine Erfahrungen und deine Lieblingsorte des Kreis&#x202F;3 mit den Bewohnern des Kreis&#x202F;3 und
+                Teile deine Erfahrungen und deine Lieblingsorte des Kreis&nbsp;3 mit den Bewohnern des Kreis&nbsp;3
+                und
                 veröffentliche deine Bucketlists.
             </p>
         </Bucketlist>
