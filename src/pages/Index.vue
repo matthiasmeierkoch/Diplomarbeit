@@ -23,7 +23,7 @@
                 </p>
                 <p>
                     Der Kreis 3 umfasst die Quartiere: Sihlfeld, Alt-Wiedikon und Friesenberg. 2019 lebten etwas über 45&#x202F;000
-                    Personen im Kreis 3, damit ist er der am zweit stärksten bevölkerte Kreis in Zürich.
+                    Personen im Kreis 3, damit ist er der am zweit stärksten bevölkerte Kreis in der Stadt Zürich.
                 </p>
             </chapter>
 
@@ -48,7 +48,7 @@
                     gezogen bin war es mir wichtig in meiner Erarbeitung objektive Entscheidungen zu treffen und diese
                     wenn immer möglich auf Daten zu stützen. Daher und um mich vertieft mit meiner Fragestellungen
                     auseinander zusetzten habe ich mich als ersten Schritt mit den betroffenen direkt ausgetauscht und
-                    habe 17 Zuzügler und Zuzüglerinnen von Wiedikon befragt.
+                    habe 17 Zuzügler und Zuzüglerinnen des Kreis 3 befragt.
                 </p>
                 <p>
                     In meiner Befragung habe ich darauf abgezielt zu verstehen welche Bedürfnisse neue Bewohner im Kreis
@@ -63,7 +63,7 @@
                 <p>
                     Die Befragungen haben gezeigt dass die Mehrheit der Zuwanderer besonders von Tips und Empfehlungen
                     von Freuenden und einem bestehenden Umfeld profitieren konnten. Nach den persönlichen Empfehlungen
-                    ist bei meiner Befragung Facebook am zweit häufigsten erwähnt worden. Da jüngeren vermehrt auf
+                    ist bei meiner Befragung Facebook am zweit häufigsten erwähnt worden. Da immer mehr jüngere auf
                     Facebook verzichten, könnten Sie besonders auf die Empfehlungen anderer angewiesen sein.
                 </p>
                 <p>
@@ -96,7 +96,7 @@
                     Aspekt beinhaltet.
                 </p>
                 <p>
-                    Zusätzlich habe ich mir Applikationen von Überbauungen angesehen, diese verfolgen unteranderem auch
+                    Zusätzlich habe ich mir Applikationen von Überbauungen angesehen, diese verfolgen unter anderem auch
                     das Ziel dass die Nachbarschaft stärker zusammenwächst. Jedoch lag in der App welche ich mir
                     angesehen habe der Fokus klar auf der eigenen Wohnung sowie der Kommunikation zur Bewirtschaftung.
                 </p>
@@ -149,15 +149,13 @@
 
                       -->
 
-            <chapter title="User Journey">
+            <chapter title="User Journey und Wireframes">
                 <p>Da ich die Bedürfnisse verschiedner Benutzergruppe auf meiner Plattform abdecken möchte habe ich User
                     Journeys für die Benutzergruppen erstellt. Diese zeigen in schriftlicher Form wie dass User mit
                     einem Bedürfnis die Applikation bedienen würde und wie er durch die App navigiert um zu seinem Ziel
                     zu gelangen.
                 </p>
-            </chapter>
 
-            <chapter title="Wireframes">
                 <p>
                     Die Wireframes basieren auf frühen entwürfen des Konzept und den Flows der User Journeys und
                     enthalten die nötigsten Elemente damit ein User die Applikation bedienen kann. Die Wireframes helfen
@@ -173,10 +171,9 @@
                     Ausgangsmöglichkeiten, Sport, Kunst, Kultur Workshops und vieles mehr.
                 </p>
                 <p>
-                    Basierend auf seinen Interessen werden auf der Startseite, dem «Feed», «Bucketlists» anderer
-                    Bewohner deines Quartier angezeigt, diese Bewohner haben also ähnlichen Interessen. In den
-                    Bucketlists findet man Kombinierte Orte oder Aktivitäten welche man wiederum auf den eigenen
-                    Bucketlists speichern kann.
+                    Basierend auf den angegebenen Interessen werden auf der Startseite diverse, passende Angebote im
+                    Kreis 3 angezeigt. Gefällt einem ein Angebot kann dieses auf seiner Bucketlist gespeichert werden.
+
                 </p>
                 <p>
                     Anbieter können, nachdem sie sich registriert haben, ein Beitrag ihres Angebot einreichen welches
@@ -205,17 +202,44 @@
                         Projekt darum geht ein minimum viable product (MVP) Konzept zu entwickeln welches später mit
                         Funktionen, die sich die Community auch wünscht, ausgebaut werden kann.
                     </li>
-                        <p>
+                    <p>
                         Die vielen Funktionen hatte zur Folge dass das Konzept und das Ziel der App nicht klar
                         verstanden wurde. Als Massnahme dafür habe ich den Funktionsumfang der App bedeutend reduziert
                         und eine klare Abgrenzung gemacht, was die App können soll und was nicht.
-                        </p>
+                    </p>
 
                     <li>
-                        Lorem ipsom dolor
+                        Unklahrheit in der Navigation, da Schweizer eher Privat sind keine Nachrichten innerhalb der
+                        App.
                     </li>
+                    <p>
+                        Darauf habe ich die Navigation angepasst. Mit dem «+» haben die User immer eine Möglichkeit
+                        eigene Inhalte hinzuzufügen.
+                    </p>
+
+                    <li>
+                        Community: Der USP (Unique Selling Point) der App ist die Community, die Applikation muss mehr
+                        sein als «nur» ein Verzeichnis wo was ist, die User sollen aktiv die möglichkeit haben eigene
+                        Beiträge zum Entdecken hinzuzufügen.
+                    </li>
+                    <p>
+
+                    </p>
                 </ol>
             </chapter>
+
+            <Chapter title="Designsystem">
+                <p>
+                    Im Design habe ich mich für eine Kombination der Schriften «Suisse Neue» und «Suisse BP int'l»
+                    entschieden weil es mir Wichtig war eine Schweizer Schrift zu verwenden. Ich habe mich für eine
+                    Farbpalette entschieden welche freundlich, einladend und modern sein soll.
+                </p>
+                <p>
+                    Das Designsystem meiner App ist auf einem 8px Grid aufgebaut, d.h. alle Abstände lassen
+                    sich durch 8px Teilen. Meine Komponenten bestehen aus diversen Atomen, wie ich diese unterteilung
+                    gemacht habe ist auf dem Bild weiter unten zu sehen.
+                </p>
+            </Chapter>
 
             <Weekday/>
         </div>
@@ -312,8 +336,8 @@
         margin-top: 4rem;
     }
 
-    .comment__map2{
-       max-width: 50ch;
+    .comment__map2 {
+        max-width: 50ch;
         margin: auto;
         font-size: 1.375rem;
         line-height: 2.0625rem;

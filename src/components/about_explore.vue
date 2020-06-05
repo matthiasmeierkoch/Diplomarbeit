@@ -31,16 +31,6 @@
 
 <style scoped>
 
-    .background__image{
-        position: absolute;
-        z-index: -10;
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        object-fit: cover;
-    }
-
     .Section {
         position: relative;
         display: flex;
@@ -89,11 +79,12 @@
 
         .Section__title {
             width: 100%;
-            font-size: 3.2rem;
-            line-height: 4rem;
+            font-size: 2rem;
+            line-height: 3.25rem;
             margin-top: 6rem;
 
         }
+
     }
 
     @media (max-width: 768px) {

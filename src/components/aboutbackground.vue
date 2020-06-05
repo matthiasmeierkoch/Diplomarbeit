@@ -24,15 +24,25 @@
     }
 
     .background {
-        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 50%);
     }
+
 
     @media (max-width: 900px) {
 
         .background__image {
-            position: absolute;
             height: 100%;
             width: auto;
+        }
+    }
+
+    @media (max-width: 420px) {
+
+        .background__image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
         }
     }
 </style>
