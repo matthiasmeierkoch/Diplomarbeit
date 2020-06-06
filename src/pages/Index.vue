@@ -241,6 +241,7 @@
 
                     </p>
                 </ol>
+                <g-image src="../assets/img/Navigation.png"></g-image>
             </chapter>
 
             <Chapter title="Designsystem">

@@ -3,6 +3,7 @@
         <div class="persona__content">
             <LightBox class="thumbnail" :thumbnail="images[0]" :images="images"/>
             <LightBox class="thumbnail" :thumbnail="images[1]" :images="images"/>
+            <LightBox class="thumbnail" :thumbnail="images[2]" :images="images"/>
         </div>
     </div>
 </template>
@@ -18,7 +19,7 @@
 
         data() {
             return {
-                images: ["/Placeholder.png", "/Placeholder.png"]
+                images: ["/Onboarding.png", "/Entdecken.png", "/Bucketlists.png"]
             }
         },
 
@@ -36,7 +37,7 @@
         display:flex;
     }
     .thumbnail {
-        width: 50%;
+        width: 33%;
         margin-left: 1rem;
     }
 
