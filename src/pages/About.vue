@@ -7,14 +7,14 @@
             </p>
         </Startseite>
 
-        <Explore title="Eine neue Art des Entdeckens">
+        <Explore title="Neues Entdecken">
             <p>
                 Sieh dir an was im Kreis&nbsp;3 erlebt wird und speichere Beiträge die dir gefallen auf deiner eigenen
                 Bucketlist.
             </p>
         </Explore>
 
-        <Bucketlist title="Von der Community für die Community">
+        <Bucketlist title="Für die Gemeinschaft">
             <p>
                 Teile deine Erfahrungen und deine Lieblingsorte des Kreis&nbsp;3 mit den Bewohnern des Kreis&nbsp;3
                 und
