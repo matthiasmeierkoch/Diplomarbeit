@@ -67,8 +67,8 @@
                     Facebook verzichten, könnten Sie besonders auf die Empfehlungen anderer angewiesen sein.
                 </p>
                 <p>
-                    Komplette Auswertung der Daten CSV:
-                    <a class="home-links" href="../assets/uploads/Zürcher%20Zuwanderer%20Umfrage.csv"> Download
+                    Komplette Auswertung:
+                    <a class="home-links" href="../assets/uploads/Umfrage.pdf"> Download
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -5 24 24"><title>
                             download_icon</title>
                             <g class="nc-icon-wrapper" fill="#E4665C">
