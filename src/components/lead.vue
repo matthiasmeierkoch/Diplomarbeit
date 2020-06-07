@@ -45,6 +45,7 @@
         margin-block-end: 0.35em;
     }
 
+
     @media (max-width: 768px) {
 
         .lead {
