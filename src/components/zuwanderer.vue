@@ -141,16 +141,11 @@
 
     .map2 {
         background-color: #FCFBF9;
-        padding-top: 2rem;
-        padding-left: 4rem;
-        padding-right: 4rem;
-        padding-bottom: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
         max-width: 100%;
-        margin-top: 4rem;
         margin-bottom: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 24px;
+        border-radius: 16px;
     }
 
     #map2 {
@@ -159,17 +154,27 @@
 
     .map__title {
         color: #003041;
+        margin-left: 1rem;
+    }
+
+    p{
+        margin-left: 1rem;
     }
 
     @media (max-width: 768px) {
         .legend {
             position: relative;
+            margin-top: 3rem;
 
         }
 
         #map2 {
-            margin-top: auto;
+            padding: 0;
+            max-width: 100%;
+            margin: 2rem auto 2rem;
+            border-radius: 24px;
         }
     }
+
 
 </style>

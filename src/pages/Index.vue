@@ -434,14 +434,17 @@
 
     .comment__map2 {
         max-width: 50ch;
-        margin: auto;
+        margin: 4rem 3rem 2rem;
         font-size: 1.375rem;
         line-height: 2.0625rem;
     }
 
-    @media (max-width: 420px) {
+    @media (min-width: 420px) {
         .prototype{
             visibility: hidden;
+        }
+        .comment__map2{
+            margin: 1.25rem;
         }
     }
 

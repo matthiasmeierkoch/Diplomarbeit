@@ -130,7 +130,7 @@
     }
 </script>
 
-<style>
+<style scoped>
 
     .legend{
         position: absolute;
@@ -140,10 +140,11 @@
 
     .map1 {
         background-color: #FCFBF9;
-        padding: 2rem 4rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
         max-width: 100%;
-        margin: 4rem auto 2rem;
-        border-radius: 24px;
+        margin-bottom: 2rem;
+        border-radius: 16px;
     }
 
     #map1 {
@@ -152,19 +153,25 @@
 
     .map__title {
         color: #003041;
+        margin-left: 1rem;
     }
 
-.map__title{
-    color: #003041;
-}
+    p{
+        margin-left: 1rem;
+    }
+
     @media (max-width: 768px) {
         .legend {
             position: relative;
+            margin-top: 3rem;
 
         }
 
         #map1 {
-            margin-top: auto;
+            padding: 0;
+            max-width: 100%;
+            margin: 2rem auto 2rem;
+            border-radius: 24px;
         }
     }
 
