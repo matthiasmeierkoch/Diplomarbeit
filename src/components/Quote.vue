@@ -41,7 +41,18 @@
     @media (max-width: 768px) {
 
         .quote {
-            width: 80%;
+            width: 100%;
+            padding: 0;
+        }
+        .quote__autor{
+            padding-left: 1rem;
+            padding-bottom: 1.5rem;
+        }
+        .quote__content{
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+            padding-left: 1rem;
+            padding-top: 0.25rem;
         }
 
     }
