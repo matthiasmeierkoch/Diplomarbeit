@@ -11,7 +11,7 @@
                      data-sal-delay="100"
                      data-sal-duration="1000"
                      data-sal-easing="ease-out-bounce">
-                    <g-image calss="Section__image" width="400" src="../assets/img/Bucketlist_Transparent.gif"></g-image>
+                    <g-image calss="Section__image" width="400" src="../assets/img/Bucketlist_bearbeiten.gif"></g-image>
                 </div>
             </div>
         </div>

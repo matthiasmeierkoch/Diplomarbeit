@@ -1,6 +1,23 @@
 <template>
     <Layout>
-        <Startseite title="Die App des Kreis 3">
+
+        <div data-sal="slide-up"
+             data-sal-delay="100"
+             data-sal-duration="1000"
+             data-sal-easing="ease-out-bounce"
+             class="title__about">
+            <h1>Die App des Kreis 3</h1>
+        </div>
+
+        <g-image data-sal="slide-up"
+                 data-sal-delay="100"
+                 data-sal-duration="1000"
+                 data-sal-easing="ease-out-bounce"
+                 class="mockup"
+                 src="../assets/img/Mockup.png">
+        </g-image>
+
+        <Startseite title="Finde was zu dir passt">
             <p>
                 Profitiere von Tipps und Tricks anderer Bewohner des Kreis&nbsp;3 und entdecke deinen Kreis jeden Tag
                 neu.
@@ -48,3 +65,28 @@
         }
     }
 </script>
+
+<style>
+    .mockup {
+        margin-top: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    .title__about{
+        font-family: "Suisse Neue";
+        font-size: 3rem;
+        margin:auto;
+        color: #003041;
+        text-align: center;
+        margin-top: 15vh;
+    }
+
+
+    @media (max-width: 780px) {
+        .title__about{
+            font-size: 2rem;
+        }
+
+    }
+</style>

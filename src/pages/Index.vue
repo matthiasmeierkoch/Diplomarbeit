@@ -323,7 +323,7 @@
                      data-sal-duration="1000"
                      data-sal-easing="ease-out-bounce"
                      class="prototype">
-                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="600"
                         src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FmAZXKAf5XL25AJiwQECGzP%2FDiplomarbeit%3Fnode-id%3D791%253A1966%26viewport%3D-1500%252C-483%252C0.3589903712272644%26scaling%3Dscale-down&chrome=DOCUMENTATION"
                         allowfullscreen></iframe>
             </chapter>
@@ -440,11 +440,14 @@
     }
 
     @media (min-width: 420px) {
-        .prototype{
-            visibility: hidden;
-        }
         .comment__map2{
             margin: 1.25rem;
+        }
+    }
+
+    @media (max-width: 420px) {
+        .prototype{
+            visibility: hidden;
         }
     }
 
