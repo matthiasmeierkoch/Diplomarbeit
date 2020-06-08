@@ -38,6 +38,12 @@
                 veröffentliche deine Bucketlists.
             </p>
         </Bucketlist>
+        <CTA
+                data-sal="slide-up"
+                data-sal-delay="100"
+                data-sal-duration="1000"
+                data-sal-easing="ease-out-bounce">
+        </CTA>
         <AboutBackground/>
     </Layout>
 </template>
@@ -48,6 +54,7 @@
     import Explore from "../components/about_explore.vue";
     import Bucketlist from "../components/about_bucketlist.vue";
     import AboutBackground from "../components/aboutbackground.vue";
+    import CTA from "../components/appstore.vue";
 
     export default {
         metaInfo: {
@@ -57,7 +64,8 @@
             AboutBackground,
             Startseite,
             Explore,
-            Bucketlist
+            Bucketlist,
+            CTA
         },
         props: ['title'],
         mounted() {
@@ -73,10 +81,10 @@
         position: relative;
     }
 
-    .title__about{
+    .title__about {
         font-family: "Suisse Neue";
         font-size: 3rem;
-        margin:auto;
+        margin: auto;
         color: #003041;
         text-align: center;
         margin-top: 15vh;
@@ -84,7 +92,7 @@
 
 
     @media (max-width: 780px) {
-        .title__about{
+        .title__about {
             font-size: 2rem;
         }
 
