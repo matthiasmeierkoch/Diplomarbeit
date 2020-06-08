@@ -12,7 +12,7 @@
             </div>
         </div>
     </div>
-    <p>Quelle der Daten:
+    <p class="quelle">Quelle der Daten:
         <a href="https://opendata.swiss/de/dataset/umzuge-nach-stadtquartier-geschlecht-altersgruppe-und-zivilstand-seit-19931/resource/27051ba4-ccf1-43de-8d4e-a97ea1c37959">
             opendata.swiss</a></p>
     </div>
@@ -154,11 +154,11 @@
 
     .map__title {
         color: #003041;
-        margin-left: 1rem;
+        padding-left: 2rem;
     }
 
-    p{
-        margin-left: 1rem;
+    .quelle {
+        margin-left: 2rem
     }
 
     @media (max-width: 768px) {

@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="content">
-            <p>Lade dir jetzt die App herunter und beginne zu entdecken</p>
+            <p>Lade dir jetzt die App herunter und wird zum Teil des Kreis 3</p>
         </div>
         <div class="appbilder">
             <g-image src="../assets/img/appstore.png"></g-image>
@@ -35,7 +35,6 @@
     .appbilder {
         width: 35%;
         margin: auto;
-        align-items: center;
     }
 
     p{
@@ -48,6 +47,7 @@
             display: block;
             width: auto;
             margin-top: 3rem;
+            padding: 1rem;
         }
 
         .content {
@@ -59,6 +59,9 @@
         .appbilder {
             margin: auto;
             width: 70%;
+        }
+        p{
+            font-size: 2rem;
         }
 
     }

@@ -82,12 +82,6 @@
                 <p>
                     Alle Daten als CSV:
                     <a class="home-links" href="/Umfrage.csv"> Download
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 -5 24 24"><title>
-                            download_icon</title>
-                            <g class="nc-icon-wrapper" fill="#E4665C">
-                                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-                            </g>
-                        </svg>
                     </a>
                 </p>
             </chapter>
@@ -323,12 +317,16 @@
                      data-sal-duration="1000"
                      data-sal-easing="ease-out-bounce"
                      class="prototype">
-                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="600"
-                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FmAZXKAf5XL25AJiwQECGzP%2FDiplomarbeit%3Fnode-id%3D791%253A1966%26viewport%3D-1500%252C-483%252C0.3589903712272644%26scaling%3Dscale-down&chrome=DOCUMENTATION"
-                        allowfullscreen></iframe>
             </chapter>
+            <iframe       data-sal="slide-up"
+                          data-sal-delay="100"
+                          data-sal-duration="1000"
+                          data-sal-easing="ease-out-bounce"
+                          style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FmAZXKAf5XL25AJiwQECGzP%2FDiplomarbeit%3Fnode-id%3D791%253A1966%26viewport%3D-1500%252C-483%252C0.3589903712272644%26scaling%3Dscale-down&chrome=DOCUMENTATION"
+                    allowfullscreen></iframe>
            <chapter>
-            <Thanks/>
+               <Thanks title="Credits"></Thanks>
            </chapter>
             <Weekday/>
         </div>

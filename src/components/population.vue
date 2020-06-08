@@ -2,17 +2,17 @@
     <div class="map1">
         <h3 class="map__title">{{title}}:</h3>
         <div style="position:relative;">
-            <div id="map1" />
+            <div id="map1"/>
             <div class="legend">
                 <div v-for="threshold in thresholds" style="display:flex;margin-bottom:0.25rem;align-items:center;">
-                    <div v-bind:style="{ background: threshold.color, width: '1.5rem', height: '1.5rem', marginRight: '0.75rem' }" />
+                    <div v-bind:style="{ background: threshold.color, width: '1.5rem', height: '1.5rem', marginRight: '0.75rem' }"/>
                     <div style="font-family:'Suisse BP Int';font-size:0.875rem;">
                         {{ threshold.step }}
                     </div>
                 </div>
             </div>
         </div>
-        <p>Quelle der Daten:
+        <p class="quelle">Quelle der Daten:
             <a href="https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_nationalitaet_od3361">
                 Open Data Zürich</a></p>
     </div>
@@ -20,18 +20,18 @@
 
 <script>
 
-    import { json, csv } from "d3-fetch"
-    import { feature } from "topojson-client"
-    import { geoPath, geoAzimuthalEqualArea } from "d3-geo"
-    import { select } from "d3-selection"
-    import { scaleLinear, scaleQuantize } from "d3-scale"
-    import { extent } from "d3-array"
+    import {json, csv} from "d3-fetch"
+    import {feature} from "topojson-client"
+    import {geoPath, geoAzimuthalEqualArea} from "d3-geo"
+    import {select} from "d3-selection"
+    import {scaleLinear, scaleQuantize} from "d3-scale"
+    import {extent} from "d3-array"
 
     const width = 400
     const height = 400
 
     export default {
-        data: function() {
+        data: function () {
             return {
                 message: "Hello, world!",
                 thresholds: [],
@@ -60,7 +60,7 @@
             Promise.all([
                 this.getGeographyData(),
                 this.getDistrictsData(),
-            ]).then(([ geoData, csvData ]) => {
+            ]).then(([geoData, csvData]) => {
                 const features = this.parseGeographies(geoData)
                 const districtData = csvData
 
@@ -87,7 +87,7 @@
                 ]
 
                 this.thresholds = steps.map((d, i) => {
-                    return { step: `${d} - ${steps[i+1]}`, color: colors[i] }
+                    return {step: `${d} - ${steps[i + 1]}`, color: colors[i]}
                 }).slice(0, -1).reverse()
 
                 const kreise = svg.selectAll("path")
@@ -132,7 +132,7 @@
 
 <style scoped>
 
-    .legend{
+    .legend {
         position: absolute;
         bottom: 2.5rem;
         left: 2.5rem;
@@ -153,11 +153,7 @@
 
     .map__title {
         color: #003041;
-        margin-left: 1rem;
-    }
-
-    p{
-        margin-left: 1rem;
+        padding-left: 2rem;
     }
 
     @media (max-width: 768px) {
@@ -173,6 +169,10 @@
             margin: 2rem auto 2rem;
             border-radius: 24px;
         }
+    }
+
+    .quelle {
+        margin-left: 2rem
     }
 
 </style>
