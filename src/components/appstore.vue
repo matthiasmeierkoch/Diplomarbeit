@@ -22,7 +22,10 @@
         border-radius: 1rem;
         width: 100%;
         margin-bottom: 5rem;
-        padding: 2rem;
+        padding-bottom: 2rem;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+        padding-top: 0.1rem;
         font-family: "Suisse Neue";
     }
 
