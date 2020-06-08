@@ -439,7 +439,7 @@
 
     @media (min-width: 420px) {
         .comment__map2{
-            margin: 1.25rem;
+            margin-left: 1rem;
         }
     }
 
