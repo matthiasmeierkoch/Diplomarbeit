@@ -39,15 +39,16 @@
 
     h3{
         font-family: 'Suisse Neue', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         line-height: 2.25rem;
+        color: #003041;
     }
 
     h2{
         font-family: 'Suisse BP Int', sans-serif;
         font-size: 3.5rem;
         line-height: 4rem;
-        color: #0066CC;
+        color: #003041;
         -webkit-margin-before: 0.35em;
         margin-block-end: 0.35em;
     }

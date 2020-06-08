@@ -79,6 +79,22 @@
                     bei meiner Befragung Facebook am zweithäufigsten erwähnt worden. Da jüngere Personen vermehrt auf
                     Facebook verzichten, sind sie besonders auf die Empfehlungen anderer Personen angewiesen.
                 </p>
+                <g-image data-sal="slide-up"
+                         data-sal-delay="100"
+                         data-sal-duration="1000"
+                         data-sal-easing="ease-out-bounce"
+                         src="../assets/img/Freizeitangebote.png">
+                </g-image>
+                <p>
+                    Ebenfalls habe ich in der Befragung herausgefunden dass die Mehrheit der Befragten dazu bereit sind
+                    eigene Angebote in Form von Workshops, Deutschkursen oder Nachhilfe anzubieten.
+                </p>
+                <g-image data-sal="slide-up"
+                         data-sal-delay="100"
+                         data-sal-duration="1000"
+                         data-sal-easing="ease-out-bounce"
+                         src="../assets/img/Bereitschaft.png">
+                </g-image>
                 <p>
                     Alle Daten als CSV:
                     <a class="home-links" href="/Umfrage.csv"> Download
@@ -293,13 +309,13 @@
 
             <Chapter title="Design">
                 <p>
-                    Im Design habe ich mich für eine Kombination einer Serifen Schrift, die «Suisse Neue» und der Sans
+                    Im Design habe ich mich für eine Kombination einer Serifenschrift, die «Suisse Neue» und der Sans
                     Serif «Suisse BP int'l» entschieden. Dabei war es mir sehr wichtig eine Schweizer Schrift zu
                     verwenden. Ich habe mich für eine Farbpalette entschieden welche freundlich, einladend und modern
                     sein soll.
                 </p>
                 <p>
-                    Das Designsystem meiner App ist auf einem 8px Grid aufgebaut, d.h. alle Abstände lassen sich durch
+                    Das Design System meiner App ist auf einem 8px Grid aufgebaut, d.h. alle Abstände lassen sich durch
                     8px teilen. Meine Komponenten bestehen aus diversen Atomen, wie ich diese Unterteilung gemacht habe,
                     ist auf dem Bild weiter unten zu sehen.
                 </p>
@@ -311,6 +327,29 @@
                     data-sal-easing="ease-out-bounce">
             </Designsystem>
 
+            <chapter>
+                <h3>Designentscheidungen</h3>
+                <p>
+                    Einige Entscheidungen die ich im Design und Konzept getroffen haben möchte ich besonders
+                    hervorheben. Dieses Konzept wurde am Beispiel des Kreis 3 konzipiert, das Konzept könnte sehr gut
+                    auf weitere Kreise oder sogar die Stadt erweitert werden. Da zur Zeit der Fokus des Konzept auf
+                    einem Kreis liegt habe ich mich gegen den Einsatz einer Karte entschieden da sich die Aktivitäten
+                    meistens in Laufweite befinden.
+                </p>
+                <p>
+                    Auch wenn es sich positiv auf das bilden einer Gemeinschaft auswirken könnte habe ich mich gegen
+                    eine Nachrichten Funktion innerhalb der App entschieden. Der Grund dafür ist dass die Aktivitäten
+                    auf der App möglichst offen angeboten werden sollen ohne dass eine «vorauswahl» via Nachrichten
+                    stattfindet, zudem war es mir wichtig dass sich die App nicht in die richtung einer «Dating-App»
+                    entwickelt . Die Gemeinschaft wird durch das Gemeinsame erleben von aktivitäten gestärkt.
+                </p>
+                <p>
+                    Das Konzept stützt sich stark auf die in meiner Umfrage gewonnenen Erkenntnisse dass die Mehrheit
+                    der Befragten nicht sehr Engagiert im Kreis ist, jedoch sind sie dazu bereit sich stärker zu
+                    engagieren. Zudem können die Zuzügelnden von dem Wissen der bestehenden Gemeinschaft profitieren.
+                </p>
+            </chapter>
+
             <chapter title="Prototyp"
                      data-sal="slide-up"
                      data-sal-delay="100"
@@ -318,16 +357,16 @@
                      data-sal-easing="ease-out-bounce"
                      class="prototype">
             </chapter>
-            <iframe       data-sal="slide-up"
-                          data-sal-delay="100"
-                          data-sal-duration="1000"
-                          data-sal-easing="ease-out-bounce"
-                          style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600"
+            <iframe data-sal="slide-up"
+                    data-sal-delay="100"
+                    data-sal-duration="1000"
+                    data-sal-easing="ease-out-bounce"
+                    style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FmAZXKAf5XL25AJiwQECGzP%2FDiplomarbeit%3Fnode-id%3D791%253A1966%26viewport%3D-1500%252C-483%252C0.3589903712272644%26scaling%3Dscale-down&chrome=DOCUMENTATION"
                     allowfullscreen></iframe>
-           <chapter>
-               <Thanks title="Credits"></Thanks>
-           </chapter>
+            <chapter>
+                <Thanks title="Credits"></Thanks>
+            </chapter>
             <Weekday/>
         </div>
         <Background/>
@@ -438,13 +477,13 @@
     }
 
     @media (min-width: 420px) {
-        .comment__map2{
+        .comment__map2 {
             margin-left: 1rem;
         }
     }
 
     @media (max-width: 420px) {
-        .prototype{
+        .prototype {
             visibility: hidden;
         }
     }
