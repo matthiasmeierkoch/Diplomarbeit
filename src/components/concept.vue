@@ -1,9 +1,21 @@
 <template>
     <div class="persona">
         <div class="persona__content">
-            <LightBox class="thumbnail" :thumbnail="images[0]" :images="images"/>
-            <LightBox class="thumbnail" :thumbnail="images[1]" :images="images"/>
-            <LightBox class="thumbnail" :thumbnail="images[2]" :images="images"/>
+            <LightBox data-sal="slide-up"
+                      data-sal-delay="100"
+                      data-sal-duration="1000"
+                      data-sal-easing="ease-out-bounce"
+                      class="thumbnail" :thumbnail="images[0]" :images="images"/>
+            <LightBox data-sal="slide-up"
+                      data-sal-delay="100"
+                      data-sal-duration="1000"
+                      data-sal-easing="ease-out-bounce"
+                      class="thumbnail" :thumbnail="images[1]" :images="images"/>
+            <LightBox data-sal="slide-up"
+                      data-sal-delay="100"
+                      data-sal-duration="1000"
+                      data-sal-easing="ease-out-bounce"
+                      class="thumbnail" :thumbnail="images[2]" :images="images"/>
         </div>
     </div>
 </template>
@@ -29,15 +41,15 @@
 <style scoped>
 
     .persona {
-        display: flex;
+        display: block;
         justify-content: space-between;
     }
 
     .persona__content{
-        display:flex;
+        display:block;
     }
     .thumbnail {
-        width: 33%;
+        width: 100%;
         margin-left: 1rem;
     }
 
