@@ -38,7 +38,7 @@
         align-items: center;
         max-width: 100%;
         margin-top: 2.5rem;
-        height: 100vh;
+        height: 90vh;
     }
 
     .Section__image {

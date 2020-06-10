@@ -16,6 +16,11 @@
                  src="../assets/img/Mockup.png">
         </g-image>
 
+        <Community>
+            <h2>Die Gemeinschaft</h2>
+            <p>Integriere dich in die bestehende Gemeinschaft des Kreis 3 durch das gemeinsame Erleben.</p>
+        </Community>
+
         <Startseite title="Finde was zu dir passt">
             <p>
                 Profitiere von Tipps und Tricks anderer Bewohner des Kreis&nbsp;3 und entdecke deinen Kreis jeden Tag
@@ -56,6 +61,7 @@
     import Bucketlist from "../components/about_bucketlist.vue";
     import AboutBackground from "../components/aboutbackground.vue";
     import CTA from "../components/appstore.vue";
+    import Community from "../components/community.vue";
 
     export default {
         metaInfo: {
@@ -66,7 +72,8 @@
             Startseite,
             Explore,
             Bucketlist,
-            CTA
+            CTA,
+            Community
         },
         props: ['title'],
         mounted() {

@@ -295,8 +295,7 @@
                 </p>
             </chapter>
 
-            <Konzept>
-            </Konzept>
+            <Konzept/>
 
             <Chapter title="Design">
                 <p>
