@@ -339,6 +339,12 @@
                     entwickelt . Die Gemeinschaft wird durch das Gemeinsame erleben von aktivitäten gestärkt.
                 </p>
                 <p>
+                    In App wird das Wort «Bucketlist» verwendet. Dies steht für die Listen von gespeicherten
+                    Beiträgen. Ich habe mich hier bewusst für das englische Wort entschieden. Das Wort Bucketlist wird
+                    oft im Zusammenhang mit reisen und erleben verwendet und aus diesem Grund schien es mir für meinen
+                    Verwendungszweck sehr passend.
+                </p>
+                <p>
                     Das Konzept stützt sich stark auf die in meiner Umfrage gewonnenen Erkenntnisse dass die Mehrheit
                     der Befragten nicht sehr Engagiert im Kreis ist, jedoch sind sie dazu bereit sich stärker zu
                     engagieren. Zudem können die Zuzügelnden von dem Wissen der bestehenden Gemeinschaft profitieren.
