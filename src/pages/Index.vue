@@ -71,8 +71,11 @@
                 <p>
                     Die Befragung hat gezeigt, dass die Mehrheit der Zuwanderer besonders von Tipps und Empfehlungen von
                     Freunden und einem bestehenden Umfeld profitieren konnten. Nach den persönlichen Empfehlungen ist
-                    bei meiner Befragung Facebook am zweithäufigsten erwähnt worden. Da jüngere Personen vermehrt auf
-                    Facebook verzichten, sind sie besonders auf die Empfehlungen anderer Personen angewiesen.
+                    bei meiner Befragung Facebook am zweithäufigsten erwähnt worden. Davon ausgegangen dass jüngere
+                    Personen vermehrt auf
+                    Facebook verzichten, was <a href="https://www.emarketer.com/content/global-facebook-users-2019">eine
+                    Studie von eMarketer</a> besagt, sind sie besonders auf die Empfehlungen anderer Personen
+                    angewiesen.
                 </p>
                 <g-image data-sal="slide-up"
                          data-sal-delay="100"
