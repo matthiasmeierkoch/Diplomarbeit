@@ -58,11 +58,6 @@
                     habe 17 Zuzüger und Zuzügerinnen vom Kreis 3 diesbezüglich befragt.
                 </p>
                 <p>
-                    In meiner Befragung habe ich darauf abgezielt zu verstehen welche Bedürfnisse neue Bewohner im Kreis
-                    3 haben. Zuwanderer die schon länger im Quartier wohnen habe ich über ihr Informationsverhalten, ihr
-                    Engagement im Kreis, Tips und Tricks die ihnen geholfen haben als Sie neu im Quartier waren befragt.
-                </p>
-                <p>
                     In meiner Befragung habe ich darauf abgezielt zu verstehen, welche Bedürfnisse neue Bewohner im
                     Kreis 3 haben. Bewohner, die schon länger im Quartier wohnen, habe ich über ihr
                     Informationsverhalten, ihr Engagement im Kreis, Tipps und Tricks, die ihnen geholfen haben, als sie
@@ -123,7 +118,7 @@
                 </p>
                 <p>
                     Zusätzlich habe ich mir Apps wie <a
-                        href="https://www.allthings.me/de/wohnungswirtschaft">Allthings</a> aus der Immobilienbranche
+                        href="https://www.allthings.me/de/wohnungswirtschaft">«Allthings»</a> aus der Immobilienbranche
                     angesehen, diese verfolgen unter anderem auch das Ziel,
                     dass die Nachbarschaft stärker zusammenwächst. Durch die Begrenzung auf die Nachbarschaft innerhalb
                     der Überbauung ist die Community sehr klein und eingeschränkt. Der Fokus dieser Apps lag jedoch ganz
