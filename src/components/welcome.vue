@@ -3,7 +3,8 @@
     <div class="welcome" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
          data-sal-easing="ease-out-bounce">
         <h1 class="project__title">Willkommen im Kreis 3</h1>
-        <div class="project__subtitle">
+        <div class="welcome__subtitle">
+            <p class="welcome__subtitle">Eine Arbeit über die Integration in ein bestehendes Quartierleben anhand des Kreis 3 in Zürich</p>
         </div>
     </div>
 
@@ -25,7 +26,8 @@
 
     .welcome{
         position: relative;
-        margin-top: $test;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 5rem;
         z-index: 10;
     }
@@ -34,10 +36,13 @@
 
     }
 
-    .project__subtitle {
-        width: 100%;
-        font-size: 1.375rem;
-        line-height: 2.0625rem;
+    .welcome__subtitle {
+        width: 90%;
+        font-size: 2rem;
+        line-height: 3rem;
+        color: #ffffff;
+        text-align: center;
+        margin: auto;
     }
 
     .project__title {
@@ -70,11 +75,13 @@
             font-size: 3rem;
             width: 100%;
             line-height: 4rem;
-            margin-top: 20vh;
+            margin-top: 35vh;
         }
 
-        .project__subtitle {
+        .welcome__subtitle {
             width: 100%;
+            font-size: 1.5rem;
+            line-height: 2rem;
         }
     }
 </style>
