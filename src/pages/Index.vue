@@ -77,6 +77,12 @@
                     Studie von eMarketer</a> besagt, sind sie besonders auf die Empfehlungen anderer Personen
                     angewiesen.
                 </p>
+                <g-image src="../assets/img/Facebook_Agegroup.png"></g-image>
+                <p>Eigene Abbildung basierend auf den Daten von <a
+                        href="https://sproutsocial.com/insights/new-social-media-demographics/#FB-demos">Sprout
+                    Social</a></p>
+
+
                 <g-image data-sal="slide-up"
                          data-sal-delay="100"
                          data-sal-duration="1000"
@@ -94,7 +100,7 @@
                          src="../assets/img/Bereitschaft.png">
                 </g-image>
                 <p>
-                    Alle Daten als CSV:
+                    Alle Antworten der Umfrage als CSV:
                     <a class="home-links" href="/Umfrage.csv"> Download
                     </a>
                 </p>
@@ -104,6 +110,14 @@
                 <p> Gibt es bereits Lösungen für die Problemstellung? Ich habe mir in einer Recherche folgende Angebote
                     genauer angesehen:
                 </p>
+
+                <g-image data-sal="slide-up"
+                         data-sal-delay="100"
+                         data-sal-duration="1000"
+                         data-sal-easing="ease-out-bounce"
+                         class="recherche"
+                         src="../assets/img/hellozurich.png">
+                </g-image>
                 <p>
                     <a href="https://www.hellozurich.ch/de">«hellozurich – Das Stadtmagazin»</a><br>
                     Das Stadtmagazin hat besonders gut aufbereitete redaktionelle Artikel, meistens in Form von
@@ -111,6 +125,14 @@
                     speichern. Leider kommt dafür der Austausch in der Gemeinschaft (Community) und das Profitieren von
                     den Erfahrungen anderen zu kurz.
                 </p>
+
+                <g-image data-sal="slide-up"
+                         data-sal-delay="100"
+                         data-sal-duration="1000"
+                         data-sal-easing="ease-out-bounce"
+                         class="recherche"
+                         src="../assets/img/AirBnB.png">
+                </g-image>
                 <p>
                     <a href="https://www.airbnb.ch/s/experiences">«AirBnb Erlebnisse»</a><br>
                     Die Angebote auf AirBnb haben einen starken Fokus auf Erlebnisse und richten sich hauptsächlich an
@@ -119,6 +141,14 @@
                     Aspekt beinhaltet.
 
                 </p>
+
+                <g-image data-sal="slide-up"
+                         data-sal-delay="100"
+                         data-sal-duration="1000"
+                         data-sal-easing="ease-out-bounce"
+                         class="recherche"
+                         src="../assets/img/Allthings.png">
+                </g-image>
                 <p>
                     Zusätzlich habe ich mir Apps wie <a
                         href="https://www.allthings.me/de/wohnungswirtschaft">«Allthings»</a> aus der Immobilienbranche
@@ -444,6 +474,14 @@
 
     img {
         width: 100%;
+    }
+
+    .recherche {
+        border-radius: 1rem;
+        width: 75%;
+        margin-left: 12.5%;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
     }
 
     .quelle__name {
