@@ -185,7 +185,7 @@
 
 
             </chapter>
-            <g-image src="../assets/img/ideation.jpg"></g-image>
+            <g-image class="content__image" src="../assets/img/ideation.jpg"></g-image>
 
 
             <chapter title="Personas">
@@ -237,7 +237,7 @@
                 </p>
                 <p>
                     Meine ersten Entwürfe des Konzepts umfassten zu viele Funktionen, das Konzept soll ein schlüssig
-                    sein um ein minimum viable product (MVP) Produkt zu entwickeln welches zu einem späteren Zeitpunkt
+                    sein um ein minimum viable product <a href="https://de.wikipedia.org/wiki/Minimum_Viable_Product">(MVP)</a> Produkt zu entwickeln welches zu einem späteren Zeitpunkt
                     immer noch ausgebaut werden kann.
                 </p>
                 <p>
@@ -465,6 +465,10 @@
         max-width: 75ch;
         margin: auto;
         z-index: 10;
+    }
+
+    .content__image{
+        border-radius: 1rem;
     }
 
     svg {
