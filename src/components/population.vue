@@ -13,7 +13,7 @@
             </div>
         </div>
         <p class="quelle">Quelle der Daten:
-            <a href="https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_nationalitaet_od3361">
+            <a href="https://data.stadt-zuerich.ch/dataset/bev_bestand_jahr_quartier_nationalitaet_od3361" target="_blank">
                 Open Data Zürich</a></p>
     </div>
 </template>

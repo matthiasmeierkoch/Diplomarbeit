@@ -13,7 +13,7 @@
         </div>
     </div>
     <p class="quelle">Quelle der Daten:
-        <a href="https://opendata.swiss/de/dataset/umzuge-nach-stadtquartier-geschlecht-altersgruppe-und-zivilstand-seit-19931/resource/27051ba4-ccf1-43de-8d4e-a97ea1c37959">
+        <a href="https://opendata.swiss/de/dataset/umzuge-nach-stadtquartier-geschlecht-altersgruppe-und-zivilstand-seit-19931/resource/27051ba4-ccf1-43de-8d4e-a97ea1c37959" target="_blank">
             opendata.swiss</a></p>
     </div>
 </template>

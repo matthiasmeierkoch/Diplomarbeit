@@ -25,10 +25,10 @@
 <style scoped>
 
     .welcome{
-        position: relative;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 5rem;
+        text-align: center;
         z-index: 10;
     }
 
@@ -41,14 +41,12 @@
         font-size: 2rem;
         line-height: 3rem;
         color: #ffffff;
-        text-align: center;
         margin: auto;
     }
 
     .project__title {
         font-size: 6.5rem;
         line-height: 7.3rem;
-        max-width: 43rem;
         margin-top: 35vh;
         width: 100%;
         text-align: center;

@@ -5,7 +5,7 @@
              data-sal-duration="1000"
              data-sal-easing="ease-out-bounce"
              class="title__about">
-            <h1>Die App des Kreis 3</h1>
+            <h1>Die App des <br>Kreis 3</h1>
         </div>
 
         <g-image data-sal="slide-up"
@@ -84,7 +84,7 @@
 
 <style>
     .mockup {
-        margin-top: auto;
+        margin-top: 5vh;
         width: 100%;
         position: relative;
     }
@@ -95,7 +95,7 @@
         margin: auto;
         color: #003041;
         text-align: center;
-        margin-top: 15vh;
+        margin-top: 17vh;
     }
 
 

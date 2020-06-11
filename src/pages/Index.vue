@@ -73,13 +73,13 @@
                     Freunden und einem bestehenden Umfeld profitieren konnten. Nach den persönlichen Empfehlungen ist
                     bei meiner Befragung Facebook am zweithäufigsten erwähnt worden. Davon ausgegangen dass jüngere
                     Personen vermehrt auf
-                    Facebook verzichten, was <a href="https://www.emarketer.com/content/global-facebook-users-2019">eine
+                    Facebook verzichten, was <a href="https://www.emarketer.com/content/global-facebook-users-2019" target="_blank">eine
                     Studie von eMarketer</a> besagt, sind sie besonders auf die Empfehlungen anderer Personen
                     angewiesen.
                 </p>
                 <g-image src="../assets/img/Facebook_Agegroup.png"></g-image>
                 <p>Eigene Abbildung basierend auf den Daten von <a
-                        href="https://sproutsocial.com/insights/new-social-media-demographics/#FB-demos">Sprout
+                        href="https://sproutsocial.com/insights/new-social-media-demographics/#FB-demos" target="_blank">Sprout
                     Social</a></p>
 
 
@@ -134,7 +134,7 @@
                          src="../assets/img/AirBnB.png">
                 </g-image>
                 <p>
-                    <a href="https://www.airbnb.ch/s/experiences">«AirBnb Erlebnisse»</a><br>
+                    <a href="https://www.airbnb.ch/s/experiences" target="_blank">«AirBnb Erlebnisse»</a><br>
                     Die Angebote auf AirBnb haben einen starken Fokus auf Erlebnisse und richten sich hauptsächlich an
                     Touristen, die sich für die Stadt Zürich interessieren. Aus diesem Grund eher unpassend für eine
                     Community des Kreis 3. Dafür lassen sich die Erlebnisse kommentieren, was einen gewissen «Community»
@@ -237,7 +237,7 @@
                 </p>
                 <p>
                     Meine ersten Entwürfe des Konzepts umfassten zu viele Funktionen, das Konzept soll ein schlüssig
-                    sein um ein minimum viable product <a href="https://de.wikipedia.org/wiki/Minimum_Viable_Product">(MVP)</a> Produkt zu entwickeln welches zu einem späteren Zeitpunkt
+                    sein um ein minimum viable product <a href="https://de.wikipedia.org/wiki/Minimum_Viable_Product" target="_blank">(MVP)</a> Produkt zu entwickeln welches zu einem späteren Zeitpunkt
                     immer noch ausgebaut werden kann.
                 </p>
                 <p>

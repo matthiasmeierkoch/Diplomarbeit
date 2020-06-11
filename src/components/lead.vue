@@ -57,7 +57,7 @@
 
         .lead__title{
             width: 100%;
-            margin-top: 42vh;
+            margin-top: 50vh;
         }
 
         .lead__content{
