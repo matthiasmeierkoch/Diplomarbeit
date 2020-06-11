@@ -78,7 +78,12 @@
                     Studie von eMarketer</a> besagt, sind sie besonders auf die Empfehlungen anderer Personen
                     angewiesen.
                 </p>
-                <g-image src="../assets/img/Facebook_Agegroup.png"></g-image>
+                <g-image data-sal="slide-up"
+                         data-sal-delay="100"
+                         data-sal-duration="1000"
+                         data-sal-easing="ease-out-bounce"
+                         src="../assets/img/Facebook_Agegroup.png">
+                </g-image>
                 <p>Eigene Abbildung basierend auf den Daten von <a
                         href="https://sproutsocial.com/insights/new-social-media-demographics/#FB-demos"
                         target="_blank">Sprout
@@ -160,7 +165,7 @@
                 </ol>
                 <ol>
                     <p><b>Kontra:</b></p>
-                    <ul>- Tourismus orientiert und daher ungeeignet für eine Lokale gemeinschaft</ul>
+                    <ul>- Tourismus orientiert und daher ungeeignet für eine lokale Gemeinschaft</ul>
                 </ol>
 
 
@@ -172,24 +177,25 @@
                          src="../assets/img/Allthings.png">
                 </g-image>
                 <p>
-                    Zusätzlich habe ich mir Apps wie <a
+                    Zusätzlich habe ich mir die App <a
                         href="https://www.allthings.me/de/wohnungswirtschaft">«Allthings»</a> aus der Immobilienbranche
-                    angesehen, diese verfolgen unter anderem auch das Ziel,
+                    angesehen, diese verfolgt unter anderem auch das Ziel,
                     dass die Nachbarschaft stärker zusammenwächst. Durch die Begrenzung auf die Nachbarschaft innerhalb
-                    der Überbauung ist die Community sehr klein und eingeschränkt. Der Fokus dieser Apps lag jedoch ganz
-                    klar auf den eigenen Wohnungen sowie der Kommunikation zur Bewirtschaftung der Überbauung.
+                    der Überbauung ist die Gemeinschaft allerdings sehr klein und eingeschränkt. Der Fokus dieser App lag jedoch auch
+                    auf der eigenen Wohnung, sowie der Kommunikation zur Bewirtschaftung der Überbauung.
                 </p>
+                <ol>
+                    <p><b>Pro:</b></p>
+                    <ul>+ Unterstützt die Bildung einer Gemeinschaft</ul>
+                    <ul>+ Eigenes inserieren</ul>
+                </ol>
+                <ol>
+                    <p><b>Kontra:</b></p>
+                    <ul>- Die Gemeinschaft ist sehr klein</ul>
+                    <ul>- Fokus liegt eher auf der Kommunikation zur Immobilienverwaltung</ul>
+                </ol>
             </chapter>
-            <ol>
-                <p><b>Pro:</b></p>
-                <ul>+ Unterstützt die Bildung einer Gemeinschaft</ul>
-                <ul>+ Eigenes inserieren</ul>
-            </ol>
-            <ol>
-                <p><b>Kontra:</b></p>
-                <ul>- Die Gemeinschaft ist sehr klein</ul>
-                <ul>- Fokus liegt eher auf der Kommunikation zur Immobilienverwaltung</ul>
-            </ol>
+
 
             <chapter title="Ideation">
                 <p> Mit den Einblicken, die ich durch meine Befragung der Zielgruppe und durch meine eigenen Erfahrungen
@@ -206,15 +212,15 @@
                     Eine meiner Lieblingsmethoden dafür ist die <a
                         href="https://blog.prototypr.io/how-to-run-a-crazy-eights-workshop-60d0a67b29a" target="_blank">«Crazy-8-Methode»</a>:
                     man faltet ein Blatt Papier 1x in die
-                    horizontale Hälfte und 2x in die Vertikale hälfe, so entstehen 8 Flächen. In diese Flächen werden 8
-                    Ideen in 8 Minuten gezeichnet (Pro Idee eine Minute).
+                    horizontale Hälfte und 2x in die Vertikale hälfte, so entstehen acht Flächen. In diese Flächen werden 8
+                    Ideen in 8 Minuten gezeichnet (pro Idee eine Minute).
                 </p>
                 <p>
                     Dabei formte sich mir die Idee einer Sammlung von Informationen zu gestalten. Darin sollten
                     möglichst alle Informationen zum Kreis enthalten sein, Restaurants, Bars, Clubs, Vereine aber auch
                     Informationen zum Abfall-und Recyclingsystem ect. Zusätzlich im Fokus sollte die
-                    Gemeinschaft sein und aus diesem Grund habe ich in den ersten Entwürfen ein digitales schwarzes
-                    Brett angedacht auf welchem die Bewohner inserieren können und auf die inserate anderer antworten
+                    Gemeinschaft sein und aus diesem Grund habe ich in den ersten Entwürfen zusätzlich ein digitales Schwarzes
+                    Brett angedacht auf welchem die Bewohner inserieren können und auf die Inserate anderer antworten
                     können, entweder in Form eines Kommentar oder als Privatnachricht.
                 </p>
 
@@ -339,7 +345,7 @@
                 </ol>
                 <div style="margin-top: 4rem"></div>
                 <p>
-                    Die App soll den Bewohenden des Kreis 3 ermöglichen ihr Quartier (neu) zu entdecken und sich in der
+                    Die App soll den Bewohnenden des Kreis 3 ermöglichen ihr Quartier (neu) zu entdecken und sich in der
                     Gemeinschaft einzubringen. Der natürlichste Weg sich nachhaltig zu integrieren ist das gemeinsamen
                     Erleben. Dies machen sie indem sie Angebote inserieren oder an inserierten Angeboten anderer
                     Benutzer teilnehmen.

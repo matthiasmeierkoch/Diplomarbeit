@@ -48,9 +48,32 @@
                 data-sal-easing="ease-out-bounce">
         </CTA>
 
+        <Chapter title="Erkentnisse">
+            <p>Ich habe in meiner Diplomarbeit ein Konzept erarbeitet zur Gemeinschaftsbildung des Stadtkreis 3 in
+                Zürich. Dabei konnte ich mich vertieft damit auseinandersetzen was es heisst neu in dem Kreis 3 zu sein.
+                Eine meiner Erkenntnisse dabei war dass man nicht wirklich lange «neu» in einem Quartier ist, nach
+                einigen Wochen kennt man bereits die wichtigsten Punkte zum Leben, ist deswegen aber noch nicht in der
+                Gemeinschaft integriert.</p>
+            <p>
+                Eine weitere Erkenntnis der Arbeit war dass eine integration nicht erzwungen werden kann. Zudem ist eine
+                Integration niemals wirklich vollendet und sollte stets fortgeführt werden womit auch die Bewohnenden
+                betroffen sind die schon länger im Kreis 3 leben.
+            </p>
+            <p>
+                Weiter möchte ich hervorheben dass es die eigene Entscheidung ist, diese soll es auch sein, ob und wie sehr
+                man sich integrieren möchte. Aus diesem Grund sollte die integration möglichst zugänglich gemacht
+                werden. Ein Weg wie diese möglichst zugänglich gemacht werden kann ist das von mir erarbeitete Produkt
+                die «Kreis 3 App».
+            </p>
+            <p>
+                Vielen Dank für das Interesse an meiner Diplomarbeit. <br>
+                - Matthias Koch
+            </p>
+        </Chapter>
+
         <AboutBackground/>
 
-         </Layout>
+    </Layout>
 </template>
 
 <script>
@@ -61,6 +84,7 @@
     import AboutBackground from "../components/aboutbackground.vue";
     import CTA from "../components/appstore.vue";
     import Community from "../components/community.vue";
+    import Chapter from "../components/chapter.vue";
 
     export default {
         metaInfo: {
@@ -72,7 +96,8 @@
             Explore,
             Bucketlist,
             CTA,
-            Community
+            Community,
+            Chapter
         },
         props: ['title'],
         mounted() {
@@ -100,7 +125,7 @@
 
     @media (max-width: 780px) {
         .title__about {
-            font-size:1.5rem;
+            font-size: 1.5rem;
             line-height: 4rem;
         }
 

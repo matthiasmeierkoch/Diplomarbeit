@@ -50,6 +50,12 @@
     }
 
     @font-face {
+        font-family: "Suisse BP Int";
+        font-weight: bold;
+        src: url(../assets/font/SuisseIntl-Bold-WebS.woff);
+    }
+
+    @font-face {
         font-family: "SangBleu";
         src: url(../assets/font/SangBleuRepublic-Bold-WebS.woff);
     }

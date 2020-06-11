@@ -4,7 +4,7 @@
          data-sal-easing="ease-out-bounce">
         <h1 class="project__title">Willkommen im Kreis 3</h1>
         <div class="welcome__subtitle">
-            <p class="welcome__subtitle">Eine Arbeit über die Integration in ein bestehendes Quartierleben anhand des Kreis 3 in Zürich</p>
+            <p class="welcome__subtitle">Eine Arbeit über die Integration in eine bestehende Gemeinschaft am Beispiel des Kreis 3 in Zürich</p>
         </div>
     </div>
 
