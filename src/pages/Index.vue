@@ -260,11 +260,7 @@
                 </p>
             </chapter>
 
-            <Personas
-                    data-sal="slide-up"
-                    data-sal-delay="100"
-                    data-sal-duration="1000"
-                    data-sal-easing="ease-out-bounce">
+            <Personas>
             </Personas>
 
 
