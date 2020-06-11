@@ -73,13 +73,15 @@
                     Freunden und einem bestehenden Umfeld profitieren konnten. Nach den persönlichen Empfehlungen ist
                     bei meiner Befragung Facebook am zweithäufigsten erwähnt worden. Davon ausgegangen dass jüngere
                     Personen vermehrt auf
-                    Facebook verzichten, was <a href="https://www.emarketer.com/content/global-facebook-users-2019" target="_blank">eine
+                    Facebook verzichten, was <a href="https://www.emarketer.com/content/global-facebook-users-2019"
+                                                target="_blank">eine
                     Studie von eMarketer</a> besagt, sind sie besonders auf die Empfehlungen anderer Personen
                     angewiesen.
                 </p>
                 <g-image src="../assets/img/Facebook_Agegroup.png"></g-image>
                 <p>Eigene Abbildung basierend auf den Daten von <a
-                        href="https://sproutsocial.com/insights/new-social-media-demographics/#FB-demos" target="_blank">Sprout
+                        href="https://sproutsocial.com/insights/new-social-media-demographics/#FB-demos"
+                        target="_blank">Sprout
                     Social</a></p>
 
 
@@ -101,7 +103,7 @@
                 </g-image>
                 <p>
                     Alle Antworten der Umfrage als CSV:
-                    <a class="home-links" href="/Umfrage.csv"> Download
+                    <a class="home-links" href="/Umfrage.csv">Download
                     </a>
                 </p>
             </chapter>
@@ -125,6 +127,17 @@
                     speichern. Leider kommt dafür der Austausch in der Gemeinschaft (Community) und das Profitieren von
                     den Erfahrungen anderen zu kurz.
                 </p>
+                <ol>
+                    <p><b>Pro:</b></p>
+                    <ul>+ Qualität der Beiträge</ul>
+                    <ul>+ Merkliste</ul>
+                    <ul>+ Kartenansicht</ul>
+                </ol>
+                <ol>
+                    <p><b>Kontra:</b></p>
+                    <ul>- Kein Austausch innerhalb der Gemeinschaft</ul>
+                    <ul>- Keine eigenen Beiträge</ul>
+                </ol>
 
                 <g-image data-sal="slide-up"
                          data-sal-delay="100"
@@ -139,8 +152,17 @@
                     Touristen, die sich für die Stadt Zürich interessieren. Aus diesem Grund eher unpassend für eine
                     Community des Kreis 3. Dafür lassen sich die Erlebnisse kommentieren, was einen gewissen «Community»
                     Aspekt beinhaltet.
-
                 </p>
+                <ol>
+                    <p><b>Pro:</b></p>
+                    <ul>+ Du kannst selber auch ein Anbieter sein</ul>
+                    <ul>+ Kommentare auf den Erlebnissen</ul>
+                </ol>
+                <ol>
+                    <p><b>Kontra:</b></p>
+                    <ul>- Tourismus orientiert und daher ungeeignet für eine Lokale gemeinschaft</ul>
+                </ol>
+
 
                 <g-image data-sal="slide-up"
                          data-sal-delay="100"
@@ -158,6 +180,16 @@
                     klar auf den eigenen Wohnungen sowie der Kommunikation zur Bewirtschaftung der Überbauung.
                 </p>
             </chapter>
+            <ol>
+                <p><b>Pro:</b></p>
+                <ul>+ Unterstützt die Bildung einer Gemeinschaft</ul>
+                <ul>+ Eigenes inserieren</ul>
+            </ol>
+            <ol>
+                <p><b>Kontra:</b></p>
+                <ul>- Die Gemeinschaft ist sehr klein</ul>
+                <ul>- Fokus liegt eher auf der Kommunikation zur Immobilienverwaltung</ul>
+            </ol>
 
             <chapter title="Ideation">
                 <p> Mit den Einblicken, die ich durch meine Befragung der Zielgruppe und durch meine eigenen Erfahrungen
@@ -171,16 +203,19 @@
                 </Quote>
 
                 <p>
-                    Eine meiner Lieblingsmethoden dafür ist die «Crazy-8-Methode»: man zeichnet 8 Ideen in 8 Minuten.
-                    Dabei formte sich mir die Idee eine App zu konzipieren, auf der die Bewohner des Kreis 3 ihr
-                    Quartier (neu) entdecken und sich in der Gemeinschaft einbringen können. Dies machen sie indem sie
-                    Angebote inserieren oder an inserierten Angeboten anderer Benutzer teilnehmen.
+                    Eine meiner Lieblingsmethoden dafür ist die <a
+                        href="https://blog.prototypr.io/how-to-run-a-crazy-eights-workshop-60d0a67b29a" target="_blank">«Crazy-8-Methode»</a>:
+                    man faltet ein Blatt Papier 1x in die
+                    horizontale Hälfte und 2x in die Vertikale hälfe, so entstehen 8 Flächen. In diese Flächen werden 8
+                    Ideen in 8 Minuten gezeichnet (Pro Idee eine Minute).
                 </p>
                 <p>
-                    Früher hat man sich auf dem Dorfplatz darüber ausgetauscht, wo was und wann los ist. Dafür soll die
-                    App des Kreis 3 eine moderne Alternative bieten. Basierend auf den Interessen des Users werden ihm
-                    Vorschläge aufgezeigt was er unternehmen kann (Freizeitangebote, Veranstaltungen, Sport,
-                    Restaurantvorschläge ect.).
+                    Dabei formte sich mir die Idee einer Sammlung von Informationen zu gestalten. Darin sollten
+                    möglichst alle Informationen zum Kreis enthalten sein, Restaurants, Bars, Clubs, Vereine aber auch
+                    Informationen zum Abfall-und Recyclingsystem ect. Zusätzlich im Fokus sollte die
+                    Gemeinschaft sein und aus diesem Grund habe ich in den ersten Entwürfen ein digitales schwarzes
+                    Brett angedacht auf welchem die Bewohner inserieren können und auf die inserate anderer antworten
+                    können, entweder in Form eines Kommentar oder als Privatnachricht.
                 </p>
 
 
@@ -196,6 +231,26 @@
                 </p>
                 <p>
                     Darf ich vorstellen, das sind Jan Neumann, Valentin Christen, Larissa Spirituell und Lara Schreiber.
+                </p>
+                <p>
+                    <b>Jan Neumann:</b> Er ist der neue im Quartier er möchte sich mit seinen Freunden im Kreis 3
+                    integrieren.
+                </p>
+                <p>
+                    <b>Valentin Christen:</b> Er ist schon einige Jahre im Quartier zuhause und nutzt die App um Neues
+                    in
+                    seinem Quartier zu entdecken er möchte zu den ersten gehören die den nächsten Trend entdeckt haben.
+                </p>
+                <p>
+                    <b>Larissa Spirituell:</b> Sie ist Besitzerin einer neuen Yogaschule im Kreis 3 und sie nutzt die
+                    App um
+                    Schnupperlektionen ihrer Yogaschule zu inserieren und erhofft sich dadurch mehr Besucher in ihren
+                    regulären Klassen.
+                </p>
+                <p>
+                    <b>Lara Schreiber:</b> Sie ist freischaffende Journalistin, in Ihrer Freizeit schreibt sie gerne
+                    Erfahrungsberichte von Kaffees und Restaurants die sie besucht hat und veröffentlicht diese in der
+                    App.
                 </p>
             </chapter>
 
@@ -217,7 +272,9 @@
 
                 <p>
                     Die Wireframes sind Konzeptentwürfe, die aus den Flows der User Journeys entstanden sind. Darauf zu
-                    sehen sind alle nötigen Elemente damit ein User die Applikation bedienen kann.
+                    sehen sind alle nötigen Elemente damit ein User die Applikation bedienen kann. Zusätzlich helfen die
+                    Wireframes
+                    zu verstehen ob die Idee als Konzept funktioniert.
                 </p>
             </chapter>
 
@@ -237,7 +294,9 @@
                 </p>
                 <p>
                     Meine ersten Entwürfe des Konzepts umfassten zu viele Funktionen, das Konzept soll ein schlüssig
-                    sein um ein minimum viable product <a href="https://de.wikipedia.org/wiki/Minimum_Viable_Product" target="_blank">(MVP)</a> Produkt zu entwickeln welches zu einem späteren Zeitpunkt
+                    sein um ein minimum viable product <a href="https://de.wikipedia.org/wiki/Minimum_Viable_Product"
+                                                          target="_blank">(MVP)</a> Produkt zu entwickeln welches zu
+                    einem späteren Zeitpunkt
                     immer noch ausgebaut werden kann.
                 </p>
                 <p>
@@ -279,6 +338,18 @@
                     </li>
                 </ol>
                 <div style="margin-top: 4rem"></div>
+                <p>
+                    Die App soll den Bewohenden des Kreis 3 ermöglichen ihr Quartier (neu) zu entdecken und sich in der
+                    Gemeinschaft einzubringen. Der natürlichste Weg sich nachhaltig zu integrieren ist das gemeinsamen
+                    Erleben. Dies machen sie indem sie Angebote inserieren oder an inserierten Angeboten anderer
+                    Benutzer teilnehmen.
+                </p>
+                <p>
+                    Früher hat man sich auf dem Dorfplatz darüber ausgetauscht, wo was und wann los ist. Dafür soll die
+                    App des Kreis 3 eine moderne Alternative bieten. Basierend auf den Interessen des Users werden ihm
+                    Vorschläge aufgezeigt was er unternehmen kann (Freizeitangebote, Veranstaltungen, Sport,
+                    Restaurantvorschläge ect.).
+                </p>
                 <p>
                     Als Folge der Usability Testings habe ich die Navigation angepasst um die Priorisierung meiner
                     Fragestellung stärker in den Fokus zu bringen.
@@ -332,11 +403,24 @@
 
             <Chapter title="Design">
                 <p>
-                    Im Design habe ich mich für eine Kombination einer Serifenschrift, die «Suisse Neue» und der Sans
-                    Serif «Suisse BP int'l» entschieden. Dabei war es mir sehr wichtig eine Schweizer Schrift zu
-                    verwenden. Ich habe mich für eine Farbpalette entschieden welche freundlich, einladend und modern
-                    sein soll.
+                    In einer Feedbackrunde bekam ich eine kritische Rückmeldung zum Entwurf meines ersten Designs. Der
+                    erste Entwurf hatte sehr wenig Charakter und war ein schlichtes «Flat Design». Meine erste
+                    Schriftwahl, die auf Google Fonts angebotene «Inter», hatte sich auch nicht besonders mit der
+                    Thematik meiner Arbeit gedeckt. Aus diesem Grund habe ich dann nach lokalen, schweizer Schriften
+                    mit mehr Charakter gesucht. Ich habe mich für eine Kombination einer Serifenschrift, die «Suisse
+                    Neue» und der Sans Serif «Suisse BP int'l» von <a href="https://www.swisstypefaces.com/"
+                                                                      target="_blank">Swiss Typefaces</a> entschieden.
                 </p>
+                <p>
+                    Weiter habe ich mich für eine Farbpalette entschieden welche freundlich, einladend und modern sein
+                    soll und der App einen emotionalen Charakter verleiht.
+                </p>
+                <g-image data-sal="slide-up"
+                         data-sal-delay="100"
+                         data-sal-duration="1000"
+                         data-sal-easing="ease-out-bounce"
+                         src="../assets/img/DesignEntwicklung.png">
+                </g-image>
                 <p>
                     Das Design System meiner App ist auf einem 8px Grid aufgebaut, d.h. alle Abstände lassen sich durch
                     8px teilen. Meine Komponenten bestehen aus diversen Atomen, wie ich diese Unterteilung gemacht habe,
@@ -461,13 +545,20 @@
         color: #003041;
     }
 
+    ol {
+        margin-top: 1.75rem;
+        font-size: 1.375rem;
+        line-height: 2.0625rem;
+        color: #003041;
+    }
+
     .container {
         max-width: 75ch;
         margin: auto;
         z-index: 10;
     }
 
-    .content__image{
+    .content__image {
         border-radius: 1rem;
     }
 
@@ -517,9 +608,15 @@
         line-height: 2.0625rem;
     }
 
-    @media (min-width: 420px) {
+    @media (max-width: 420px) {
         .comment__map2 {
             margin-left: 1rem;
+        }
+
+        .recherche {
+            width: 100%;
+            margin: auto;
+            margin-top: 2rem;
         }
     }
 

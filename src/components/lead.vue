@@ -57,7 +57,7 @@
 
         .lead__title{
             width: 100%;
-            margin-top: 50vh;
+            margin-top:30rem;
         }
 
         .lead__content{
@@ -68,5 +68,13 @@
             color: #0066CC;
         }
     }
+
+@media (max-width: 420px) {
+    .lead__title{
+        width: 100%;
+        margin-top: 16rem;
+    }
+}
+
 
 </style>

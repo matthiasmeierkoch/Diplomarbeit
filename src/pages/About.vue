@@ -5,7 +5,7 @@
              data-sal-duration="1000"
              data-sal-easing="ease-out-bounce"
              class="title__about">
-            <h1>Die App des <br>Kreis 3</h1>
+            <h1>Die App des <br>Kreis&nbsp;3</h1>
         </div>
 
         <g-image data-sal="slide-up"
@@ -17,7 +17,6 @@
         </g-image>
 
         <Community>
-            <h2>Die Gemeinschaft</h2>
             <p>Integriere dich in die bestehende Gemeinschaft des Kreis 3 durch das gemeinsame Erleben.</p>
         </Community>
 
@@ -35,7 +34,7 @@
             </p>
         </Explore>
 
-        <Bucketlist title="Für die Gemeinschaft">
+        <Bucketlist title="Teile deine Erfahrungen">
             <p>
                 Teile deine Erfahrungen und deine Lieblingsorte des Kreis&nbsp;3 mit den Bewohnern des Kreis&nbsp;3
                 und
@@ -101,7 +100,8 @@
 
     @media (max-width: 780px) {
         .title__about {
-            font-size: 2rem;
+            font-size:1.5rem;
+            line-height: 4rem;
         }
 
     }

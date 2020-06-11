@@ -55,8 +55,8 @@
 
     .Section__title {
         width: 100%;
-        font-size: 5rem;
-        line-height: 6rem;
+        font-size: 4rem;
+        line-height: 5.5rem;
         color: #003041;
         font-family: "Suisse Neue";
         text-align: center;

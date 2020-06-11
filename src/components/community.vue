@@ -57,8 +57,8 @@
 
     .Section__title {
         width: 100%;
-        font-size: 5rem;
-        line-height: 6rem;
+        font-size: 4rem;
+        line-height: 5.5rem;
         color: #003041;
         font-family: "Suisse Neue";
         text-align: center;
@@ -79,7 +79,7 @@
     }
 
     h2 {
-        font-size: 2.75rem;
+        font-size: 2rem;
     }
 
     p{
@@ -111,7 +111,7 @@
         .Section__title {
             width: 100%;
             font-size: 3.5rem;
-            margin-top: 6rem;
+            margin-top: 1rem;
 
         }
 
@@ -123,6 +123,9 @@
 
     @media (max-width: 900px) {
 
+        .content{
+        }
+
         .Section {
             display: contents;
         }
@@ -131,13 +134,17 @@
             max-width: 100%;
             font-size: 3.5rem;
             line-height: 4.25rem;
-            margin-top: 10rem;
-
+            margin-top: 1rem;
+            text-align: center;
         }
 
         .Section__content {
             max-width: 100%;
-            margin-top: 2rem;
+            margin-top: 5rem;
+            font-size: 2rem;
+            line-height: 3.5rem;
+            padding:2rem;
+            text-align: center;
         }
     }
 
