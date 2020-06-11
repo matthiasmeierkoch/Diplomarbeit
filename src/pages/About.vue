@@ -16,29 +16,20 @@
                  src="../assets/img/Mockup.png">
         </g-image>
 
-        <Community>
+<!--        <Community>
             <p>Integriere dich in die bestehende Gemeinschaft des Kreis 3 durch das gemeinsame Erleben.</p>
-        </Community>
+        </Community>-->
 
-        <Startseite title="Finde was zu dir passt">
+        <Startseite title="Finde was du suchst">
             <p>
-                Profitiere von Tipps und Tricks anderer Bewohner des Kreis&nbsp;3 und entdecke deinen Kreis jeden Tag
-                neu.
+                Sieh dir an was der Kreis&nbsp;3 genau für deine interessen zu bieten hat und was dir gefällt speicherst du auf in einer deiner Bucketlist.
             </p>
         </Startseite>
 
-        <Explore title="Neues Entdecken">
-            <p>
-                Sieh dir an was im Kreis&nbsp;3 erlebt wird und speichere Beiträge die dir gefallen auf deiner eigenen
-                Bucketlist.
-            </p>
-        </Explore>
-
         <Bucketlist title="Teile deine Erfahrungen">
             <p>
-                Teile deine Erfahrungen und deine Lieblingsorte des Kreis&nbsp;3 mit den Bewohnern des Kreis&nbsp;3
-                und
-                veröffentliche deine Bucketlists.
+                Teile deine Erfahrungen und deine Lieblingsorte des Kreis&nbsp;3 mit der Gemeinschaft,
+                indem du Tipps und Tricks in deiner Bucketlist festhältst und diese veröffentlichst.
             </p>
         </Bucketlist>
         <CTA

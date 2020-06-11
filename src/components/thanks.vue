@@ -1,29 +1,56 @@
 <template>
     <div class="thanks">
-        <h2 class="chapter__title" >{{ title }}</h2>
-        <h3>Diplomarbeitarbeit von:</h3>
-        <p>Matthias Koch</p>
-        <h3>Mentoriert von:</h3>
-        <p>Richard Zimerman<br>
-            <a href="https://www.zcreativelabs.com/" target="_blank">z creative labs</a>
-        </p>
+        <h2 class="chapter__title">{{ title }}</h2>
+        <div data-sal="slide-up"
+             data-sal-delay="100"
+             data-sal-duration="1000"
+             data-sal-easing="ease-out-bounce">
+            <h3>Diplomarbeitarbeit von:</h3>
+            <p>Matthias Koch</p>
+        </div>
+        <div data-sal="slide-up"
+             data-sal-delay="100"
+             data-sal-duration="1000"
+             data-sal-easing="ease-out-bounce">
+            <h3>Mentoriert von:</h3>
+            <p>Richard Zimerman<br>
+                <a href="https://www.zcreativelabs.com/" target="_blank">z creative labs</a>
+            </p>
+        </div>
 
-        <h3>Bildungsgang:</h3>
-        <p>Dipl. Gestalter/-in HF Fachrichtung Kommunikationsdesign mit Vertiefungsrichtung Interaction Design<br>
-            <a href="https://sfgz.ch/" target="_blank">Schule für Gestaltung Zürich</a>
-        </p>
-
-        <h3>Bilder von:</h3>
-        <p><a href="https://unsplash.com" target="_blank">Unsplash</a></p>
-
+        <div data-sal="slide-up"
+             data-sal-delay="100"
+             data-sal-duration="1000"
+             data-sal-easing="ease-out-bounce">
+            <h3>Bildungsgang:</h3>
+            <p>Dipl. Gestalter/-in HF Fachrichtung Kommunikationsdesign mit Vertiefungsrichtung Interaction Design<br>
+                <a href="https://sfgz.ch/" target="_blank">Schule für Gestaltung Zürich</a>
+            </p>
+        </div>
+        <div data-sal="slide-up"
+             data-sal-delay="100"
+             data-sal-duration="1000"
+             data-sal-easing="ease-out-bounce">
+            <h3>Bilder von:</h3>
+            <p><a href="https://unsplash.com" target="_blank">Unsplash</a></p>
+        </div>
     </div>
 </template>
 
 <script>
+    import sal from "sal.js";
+
     export default {
         name: "thanks",
-        props: ['title']
+        props: ['title'],
+
+        mounted() {
+            this.$nextTick(() => sal());
+        }
     }
+
+
+
 </script>
 
 <style scoped>

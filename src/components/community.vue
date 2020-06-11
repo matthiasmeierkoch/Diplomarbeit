@@ -87,9 +87,11 @@
     }
 
 
-    @media (max-width: 420px) {
+    @media (max-width: 520px) {
         .Section__image img {
-            margin-top: 1rem;
+            margin-top: -2.5rem;
+            display: block;
+            width: 100%;
         }
 
         .Section__title {
@@ -103,22 +105,6 @@
 
     @media (max-width: 768px) {
 
-        .Section {
-            display: contents;
-            margin-top: 5rem;
-        }
-
-        .Section__title {
-            width: 100%;
-            font-size: 3.5rem;
-            margin-top: 1rem;
-
-        }
-
-        .Section__content {
-            max-width: 100%;
-            margin-top: 2rem;
-        }
     }
 
     @media (max-width: 900px) {
@@ -127,7 +113,6 @@
         }
 
         .Section {
-            display: contents;
         }
 
         .Section__title {
