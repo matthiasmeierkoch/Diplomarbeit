@@ -30,6 +30,7 @@
     .persona {
         display: flex;
         justify-content: space-between;
+        margin-top: 3rem;
     }
 
     .persona__content{
@@ -37,7 +38,20 @@
     }
     .thumbnail {
         width: 50%;
-        margin-left: 1rem;
+        margin-left:3rem;
+        transform: scale(1.0);
+        -o-transition: 02s ease-out;
+        -ms-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        -webkit-transition: 0.2s ease-out;
+    }
+
+    .thumbnail :hover{
+        transform: scale(1.2);
+        -o-transition: 02s ease-out;
+        -ms-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        -webkit-transition: 0.2s ease-out;
     }
 
 </style>
