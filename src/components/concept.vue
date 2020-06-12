@@ -51,6 +51,20 @@
     .thumbnail {
         width: 100%;
         margin-left: 1rem;
+        margin-top: 2rem;
+        transform: scale(1.0);
+        -o-transition: 02s ease-out;
+        -ms-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        -webkit-transition: 0.2s ease-out;
+    }
+
+    .thumbnail :hover {
+        transform: scale(1.1);
+        -o-transition: 02s ease-out;
+        -ms-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        -webkit-transition: 0.2s ease-out;
     }
 
 </style>
