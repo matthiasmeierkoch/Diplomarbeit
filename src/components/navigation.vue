@@ -4,7 +4,7 @@
             <header id="header">
 
                 <nav class="nav">
-                    <g-link class="nav__link" to="/"  exact>Über das Projekt</g-link>
+                    <g-link class="nav__link" to="/"  exact>Das Projekt</g-link>
                     <g-link class="nav__link" to="/about/">Kreis 3 App</g-link>
                 </nav>
 

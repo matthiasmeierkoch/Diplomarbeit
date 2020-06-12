@@ -119,6 +119,5 @@
             font-size: 1.5rem;
             line-height: 4rem;
         }
-
     }
 </style>
