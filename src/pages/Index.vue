@@ -35,8 +35,11 @@
             </chapter>
 
             <div>
-                <Population data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                            data-sal-easing="ease-out-bounce" title="Bevölkerung Stadt Zürich 2019"></Population>
+                <Population data-sal="slide-up"
+                            data-sal-delay="100"
+                            data-sal-duration="1000"
+                            data-sal-easing="ease-out-bounce"
+                            title="Bevölkerung Stadt Zürich 2019"></Population>
             </div>
 
             <p class="comment__map2">
@@ -529,7 +532,9 @@
         },
 
         mounted() {
-            this.$nextTick(() => sal());
+            this.$nextTick(() => sal({
+                threshold: 0.2
+            }));
         },
 
     }

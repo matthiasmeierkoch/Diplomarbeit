@@ -57,7 +57,7 @@
                 die «Kreis 3 App».
             </p>
             <p>
-                Vielen Dank für das Interesse an meiner Diplomarbeit. <br>
+                Vielen Dank für das Interesse an meiner Diplomarbeit. <br><br>
                 - Matthias Koch
             </p>
         </Chapter>
