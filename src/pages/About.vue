@@ -30,7 +30,7 @@
         <Bucketlist title="Teile deine Erfahrungen">
             <p>
                 Teile deine Erfahrungen und deine Lieblingsorte des Kreis&nbsp;3 mit der Gemeinschaft,
-                indem du Tipps und Tricks in deiner Bucketlist festhältst und diese veröffentlichst.
+                indem du Tipps und Tricks in deinen Bucketlists festhältst und diese veröffentlichst.
             </p>
         </Bucketlist>
         <CTA
