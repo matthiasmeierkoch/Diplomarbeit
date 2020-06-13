@@ -64,6 +64,9 @@
                 Matthias Koch
             </p>
         </Chapter>
+        <chapter title="Credits">
+            <Thanks/>
+        </chapter>
 
         <AboutBackground/>
 
@@ -79,12 +82,14 @@
     import CTA from "../components/appstore.vue";
     import Community from "../components/community.vue";
     import Chapter from "../components/chapter.vue";
+    import Thanks from "../components/thanks";
 
     export default {
         metaInfo: {
             title: 'Kreis 3 App'
         },
         components: {
+            Thanks,
             AboutBackground,
             Startseite,
             Explore,

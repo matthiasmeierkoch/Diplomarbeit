@@ -471,6 +471,7 @@
                     der Befragten nicht sehr engagiert im Kreis sind, jedoch sind sie dazu bereit, sich stärker zu
                     engagieren. Zudem können die Zuzügelnden von dem Wissen der bestehenden Gemeinschaft profitieren.
                 </p>
+                <button><g-link class="" to="/about/">Zur Kreis 3 App</g-link></button>
             </chapter>
 
             <chapter title="Prototyp"
@@ -487,9 +488,8 @@
                     style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600"
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FmAZXKAf5XL25AJiwQECGzP%2FDiplomarbeit%3Fnode-id%3D791%253A1966%26viewport%3D-1500%252C-483%252C0.3589903712272644%26scaling%3Dscale-down&chrome=DOCUMENTATION"
                     allowfullscreen></iframe>
-            <chapter>
-                <Thanks title="Credits"></Thanks>
-            </chapter>
+
+
             <Weekday/>
         </div>
         <Background/>
@@ -511,7 +511,6 @@
     import Wireframes from "../components/wireframes.vue";
     import Designsystem from "../components/designsystem.vue";
     import Konzept from "../components/concept.vue";
-    import Thanks from "../components/thanks.vue";
 
     export default {
         metaInfo: {
@@ -532,8 +531,7 @@
             Personas,
             Wireframes,
             Designsystem,
-            Konzept,
-            Thanks
+            Konzept
         },
 
         mounted() {
@@ -572,6 +570,26 @@
 
     .content__image {
         border-radius: 1rem;
+    }
+
+    button {
+        background-color: #FCFBF9;
+        color: #003041;
+        font-size: 1.325rem;
+        font-weight: bold;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        border: none;
+        border-radius: 2rem;
+        margin-left: 25%;
+        text-decoration: none;
+    }
+
+    button :visited{
+        color: #003041;
+        text-decoration: none;
     }
 
     svg {
