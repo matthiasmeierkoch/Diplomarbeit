@@ -198,10 +198,11 @@
                     <li>Unterstützt die Bildung einer Gemeinschaft</li>
                     <li>Eigenes inserieren</li>
                 </ul>
+
+                <p><b>Kontra:</b></p>
                 <ul>
-                    <p><b>Kontra:</b></p>
-                    <ul>Die Gemeinschaft ist sehr klein</ul>
-                    <ul>Fokus liegt eher auf der Kommunikation zur Immobilienverwaltung</ul>
+                    <li>Die Gemeinschaft ist sehr klein</li>
+                    <li>Fokus liegt eher auf der Kommunikation zur Immobilienverwaltung</li>
                 </ul>
             </chapter>
 
