@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="content">
-            <p>Lade dir jetzt die App herunter und wird zum Teil des Kreis 3</p>
+            <p>Lade dir jetzt die App herunter und werde damit einen Teil des Kreis 3</p>
         </div>
         <div class="appbilder">
             <g-image src="../assets/img/appstore.png"></g-image>

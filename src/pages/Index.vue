@@ -9,7 +9,7 @@
                     gezogen.¹ Für viele ist ein Umzug und besonders ein Kantons- oder sogar Landeswechsel immer auch mit
                     Komplikationen und Unsicherheiten verbunden.
                 </p>
-                <p class="quelle__name"> ¹ Quelle:
+                <p class="quelle__name">¹ Quelle:
                     <a
                             href="https://www.tagesanzeiger.ch/zuerich/stadt/die-grosse-zuercher-zuwanderungsstatistik/story/18344973">
                         Tages Anzeiger, Die grosse Zürcher Zuwanderungsstatistik
@@ -19,7 +19,7 @@
 
             <chapter title="Einleitung">
                 <p> Wie integriere ich mich möglichst schnell und einfach in ein bestehendes Quartierleben? Und wie kann
-                    ich mein Quartier, in dem ich schön länger wohne, noch besser kennenlernen?
+                    ich mein Quartier, in dem ich schon länger wohne, noch besser kennenlernen?
                 </p>
                 <p>
                     Mit diesen Problemstellungen habe ich mich in meiner Diplomarbeit auseinandergesetzt. In meiner
@@ -43,7 +43,7 @@
             </div>
 
             <p class="comment__map2">
-                Im Jahr 2019 war der Kreis 3 der am drittmeisten Zuzüger von anderen Kreisen der Stadt Zürich
+                Im Jahr 2019 war der Kreis 3 der am drittmeisten Zuzüger von anderen Kreisen der Stadt Zürich
                 verzeichnete.
             </p>
 
@@ -54,15 +54,16 @@
             </div>
 
             <chapter title="Befragung">
-                <p> Besonders weil ich einen persönlichen Bezug zu diesem Thema habe, ich bin selber neu in den Kreis 3
+                <p>
+                    Besonders weil ich einen persönlichen Bezug zu diesem Thema habe, ich bin selber neu in den Kreis 3
                     gezogen, war es mir wichtig, in meiner Erarbeitung objektive Entscheidungen zu treffen und diese,
-                    wenn immer möglich, auf Daten zu stützen. Daher und auch um mich vertieft mit meiner Fragestellung
-                    auseinander zusetzten, habe ich mich als ersten Schritt mit den betroffenen direkt ausgetauscht und
-                    habe 17 Zuzüger und Zuzügerinnen vom Kreis 3 diesbezüglich befragt.
+                    wenn immer möglich, auf Daten zu stützen. Daher und auch um mich vertieft mit meiner Fragestellung
+                    auseinander zusetzten, habe ich mich in einem ersten Schritt mit den Betroffenen direkt ausgetauscht
+                    und 17 Zuzüger und Zuzügerinnen vom Kreis 3 diesbezüglich befragt.
                 </p>
                 <p>
-                    In meiner Befragung habe ich darauf abgezielt zu verstehen, welche Bedürfnisse neue Bewohner im
-                    Kreis 3 haben. Bewohner, die schon länger im Quartier wohnen, habe ich über ihr
+                    In meiner Befragung habe ich darauf abgezielt zu verstehen, welche Bedürfnisse neue Bewohner im
+                    Kreis 3 haben. Bewohner, die schon länger im Quartier wohnen, habe ich über ihr
                     Informationsverhalten, ihr Engagement im Kreis, Tipps und Tricks, die ihnen geholfen haben, als sie
                     selber neu im Kreis waren, befragt.
                 </p>
@@ -135,17 +136,18 @@
                     speichern. Leider kommt dafür der Austausch in der Gemeinschaft (Community) und das Profitieren von
                     den Erfahrungen anderen zu kurz.
                 </p>
-                <ol>
-                    <p><b>Pro:</b></p>
-                    <ul>+ Qualität der Beiträge</ul>
-                    <ul>+ Merkliste</ul>
-                    <ul>+ Kartenansicht</ul>
-                </ol>
-                <ol>
-                    <p><b>Kontra:</b></p>
-                    <ul>- Kein Austausch innerhalb der Gemeinschaft</ul>
-                    <ul>- Keine eigenen Beiträge</ul>
-                </ol>
+                <p><b>Pro:</b></p>
+                <ul>
+                    <li>Qualität der Beiträge</li>
+                    <li>Merkliste</li>
+                    <li>Kartenansicht</li>
+                </ul>
+
+                <p><b>Kontra:</b></p>
+                <ul>
+                    <li>Kein Austausch innerhalb der Gemeinschaft</li>
+                    <li>Keine eigenen Beiträge</li>
+                </ul>
 
                 <g-image data-sal="slide-up"
                          data-sal-delay="100"
@@ -161,15 +163,17 @@
                     Community des Kreis 3. Dafür lassen sich die Erlebnisse kommentieren, was einen gewissen «Community»
                     Aspekt beinhaltet.
                 </p>
-                <ol>
-                    <p><b>Pro:</b></p>
-                    <ul>+ Du kannst selber auch ein Anbieter sein</ul>
-                    <ul>+ Kommentare auf den Erlebnissen</ul>
-                </ol>
-                <ol>
-                    <p><b>Kontra:</b></p>
-                    <ul>- Tourismus orientiert und daher ungeeignet für eine lokale Gemeinschaft</ul>
-                </ol>
+
+                <p><b>Pro:</b></p>
+                <ul>
+                    <li>Du kannst selber auch ein Anbieter sein</li>
+                    <li>Kommentare auf den Erlebnissen</li>
+                </ul>
+
+                <p><b>Kontra:</b></p>
+                <ul>
+                    <li>Tourismus orientiert und daher ungeeignet für eine lokale Gemeinschaft</li>
+                </ul>
 
 
                 <g-image data-sal="slide-up"
@@ -184,25 +188,28 @@
                         href="https://www.allthings.me/de/wohnungswirtschaft">«Allthings»</a> aus der Immobilienbranche
                     angesehen, diese verfolgt unter anderem auch das Ziel,
                     dass die Nachbarschaft stärker zusammenwächst. Durch die Begrenzung auf die Nachbarschaft innerhalb
-                    der Überbauung ist die Gemeinschaft allerdings sehr klein und eingeschränkt. Der Fokus dieser App lag jedoch auch
+                    der Überbauung ist die Gemeinschaft allerdings sehr klein und eingeschränkt. Der Fokus dieser App
+                    lag jedoch auch
                     auf der eigenen Wohnung, sowie der Kommunikation zur Bewirtschaftung der Überbauung.
                 </p>
-                <ol>
-                    <p><b>Pro:</b></p>
-                    <ul>+ Unterstützt die Bildung einer Gemeinschaft</ul>
-                    <ul>+ Eigenes inserieren</ul>
-                </ol>
-                <ol>
+
+                <p><b>Pro:</b></p>
+                <ul>
+                    <li>Unterstützt die Bildung einer Gemeinschaft</li>
+                    <li>Eigenes inserieren</li>
+                </ul>
+                <ul>
                     <p><b>Kontra:</b></p>
-                    <ul>- Die Gemeinschaft ist sehr klein</ul>
-                    <ul>- Fokus liegt eher auf der Kommunikation zur Immobilienverwaltung</ul>
-                </ol>
+                    <ul>Die Gemeinschaft ist sehr klein</ul>
+                    <ul>Fokus liegt eher auf der Kommunikation zur Immobilienverwaltung</ul>
+                </ul>
             </chapter>
 
 
             <chapter title="Ideation">
-                <p> Mit den Einblicken, die ich durch meine Befragung der Zielgruppe und durch meine eigenen Erfahrungen
-                    gemacht habe sowie einer Recherche, was bereits besteht um ähnliche Probleme zu lösen, machte ich
+                <p>
+                    Mit den Einblicken, die ich durch meine Befragung der Zielgruppe und durch meine eigenen Erfahrungen
+                    gemacht habe sowie einer Recherche, was bereits besteht um ähnliche Probleme zu lösen, machte ich
                     mich an die Ideenfindung.
                 </p>
 
@@ -214,17 +221,17 @@
                 <p>
                     Eine meiner Lieblingsmethoden dafür ist die <a
                         href="https://blog.prototypr.io/how-to-run-a-crazy-eights-workshop-60d0a67b29a" target="_blank">«Crazy-8-Methode»</a>:
-                    man faltet ein Blatt Papier 1x in die
-                    horizontale Hälfte und 2x in die Vertikale hälfte, so entstehen acht Flächen. In diese Flächen werden 8
-                    Ideen in 8 Minuten gezeichnet (pro Idee eine Minute).
+                    man faltet ein Blatt Papier 1x in die horizontale Hälfte und 2x in die vertikale Hälfte, so
+                    entstehen acht Flächen. In diese Flächen werden 8 Ideen in 8 Minuten gezeichnet (pro Idee eine
+                    Minute).
                 </p>
                 <p>
                     Dabei formte sich mir die Idee einer Sammlung von Informationen zu gestalten. Darin sollten
-                    möglichst alle Informationen zum Kreis enthalten sein, Restaurants, Bars, Clubs, Vereine aber auch
-                    Informationen zum Abfall-und Recyclingsystem ect. Zusätzlich im Fokus sollte die
-                    Gemeinschaft sein und aus diesem Grund habe ich in den ersten Entwürfen zusätzlich ein digitales Schwarzes
-                    Brett angedacht auf welchem die Bewohner inserieren können und auf die Inserate anderer antworten
-                    können, entweder in Form eines Kommentar oder als Privatnachricht.
+                    möglichst alle Informationen zum Kreis 3 beinhaltet sein; Restaurants, Bars, Clubs, Vereine aber
+                    auch Informationen zum Abfall und Recyclingsystem im Kreis 3 ect. Zusätzlich im Fokus sollte ja die
+                    Gemeinschaft sein und aus diesem Grund habe ich in den ersten Entwürfen ein digitales schwarzes
+                    Brett angedacht, auf welchem die Bewohner inserieren und auf die Inserate anderer antworten können,
+                    entweder in Form eines Kommentar oder als Privatnachricht.
                 </p>
 
 
@@ -235,30 +242,28 @@
             <chapter title="Personas">
                 <p>
                     Um meine Zielgruppe besser zu verstehen, habe ich 4 Personas entwickelt, welche mir dabei helfen,
-                    die Empathie zur Zielgruppe zu verstärken. Zudem habe ich den Personas eine entsprechende
+                    die Empathie der Zielgruppe zu verstärken. Zudem habe ich den Personas eine entsprechende
                     Benutzerrolle in meiner App zugewiesen.
                 </p>
                 <p>
-                    Darf ich vorstellen, das sind Jan Neumann, Valentin Christen, Larissa Spirituell und Lara Schreiber.
+                    Darf ich vorstellen: Jan Neumann, Valentin Christen, Larissa Spirituell und Lara Schreiber.
                 </p>
                 <p>
-                    <b>Jan Neumann:</b> Er ist der neue im Quartier er möchte sich mit seinen Freunden im Kreis 3
+                    <b>Jan Neumann:</b> Er ist der Neue im Quartier, er möchte sich mit seinen Freunden im Kreis 3
                     integrieren.
                 </p>
                 <p>
                     <b>Valentin Christen:</b> Er ist schon einige Jahre im Quartier zuhause und nutzt die App um Neues
-                    in
-                    seinem Quartier zu entdecken er möchte zu den ersten gehören die den nächsten Trend entdeckt haben.
+                    in seinem Quartier zu entdecken. Er möchte zu den ersten gehören, die die neusten Trends entdecken.
                 </p>
                 <p>
                     <b>Larissa Spirituell:</b> Sie ist Besitzerin einer neuen Yogaschule im Kreis 3 und sie nutzt die
-                    App um
-                    Schnupperlektionen ihrer Yogaschule zu inserieren und erhofft sich dadurch mehr Besucher in ihren
-                    regulären Klassen.
+                    App um Schnupperlektionen ihrer Yogaschule zu inserieren und erhofft sich dadurch mehr Besucher in
+                    ihren regulären Klassen.
                 </p>
                 <p>
-                    <b>Lara Schreiber:</b> Sie ist freischaffende Journalistin, in Ihrer Freizeit schreibt sie gerne
-                    Erfahrungsberichte von Kaffees und Restaurants die sie besucht hat und veröffentlicht diese in der
+                    <b>Lara Schreiber:</b> Sie ist freischaffende Journalistin, in ihrer Freizeit schreibt sie gerne
+                    Erfahrungsberichte von Kaffees und Restaurants, die sie besucht hat und veröffentlicht diese in der
                     App.
                 </p>
             </chapter>
@@ -271,14 +276,13 @@
                 <p>
                     Da ich die Bedürfnisse verschiedener Benutzergruppe auf meiner Plattform abdecken möchte, habe ich
                     User Journeys für die Benutzergruppen erstellt. Diese zeigen in schriftlicher Form, wie dass der
-                    User mit einem Bedürfnis die App bedient und wie er durch die App navigiert, um zu seinem Ziel zu
+                    User mit einem Bedürfnis, die App bedient und wie er durch die App navigiert, um zu seinem Ziel zu
                     gelangen.
                 </p>
 
                 <p>
                     Die Wireframes sind Konzeptentwürfe, die aus den Flows der User Journeys entstanden sind. Darauf zu
-                    sehen sind alle nötigen Elemente damit ein User die Applikation bedienen kann. Zusätzlich helfen die
-                    Wireframes
+                    sehen sind alle nötigen Elemente damit ein User die Applikation bedienen kann. Die Wireframes helfen
                     zu verstehen ob die Idee als Konzept funktioniert.
                 </p>
             </chapter>
@@ -298,14 +302,13 @@
                     grossen Funktionsumfang zurückzuführen waren.
                 </p>
                 <p>
-                    Meine ersten Entwürfe des Konzepts umfassten zu viele Funktionen, das Konzept soll ein schlüssig
-                    sein um ein minimum viable product <a href="https://de.wikipedia.org/wiki/Minimum_Viable_Product"
-                                                          target="_blank">(MVP)</a> Produkt zu entwickeln welches zu
-                    einem späteren Zeitpunkt
-                    immer noch ausgebaut werden kann.
+                    Meine ersten Entwürfe des Konzepts umfassten zu viele Funktionen, das Konzept soll schlüssig sein um
+                    ein minimum viable product <a href="https://de.wikipedia.org/wiki/Minimum_Viable_Product"
+                                                  target="_blank">(MVP)</a> Produkt zu entwickeln, welches zu einem
+                    späteren Zeitpunkt immer noch mit zusätzlichen Funktionen ausgebaut werden kann.
                 </p>
                 <p>
-                    Die vielen Funktionen hatte zur Folge, dass das Ziel der App nicht klar verstanden wurde. Als
+                    Die vielen Funktionen hatten zur Folge, dass das Ziel der App nicht klar verstanden wurde. Als
                     Massnahme dafür habe ich den Funktionsumfang der App bedeutend auf das Wesentliche reduziert und
                     eine klare Abgrenzung gemacht, was die App kann und was nicht.
                 </p>
@@ -344,15 +347,15 @@
                 </ol>
                 <div style="margin-top: 4rem"></div>
                 <p>
-                    Die App soll den Bewohnenden des Kreis 3 ermöglichen ihr Quartier (neu) zu entdecken und sich in der
-                    Gemeinschaft einzubringen. Der natürlichste Weg sich nachhaltig zu integrieren ist das gemeinsamen
-                    Erleben. Dies machen sie indem sie Angebote inserieren oder an inserierten Angeboten anderer
-                    Benutzer teilnehmen.
+                    Die App soll den Bewohnenden des Kreis 3 ermöglichen, ihr Quartier (neu) zu entdecken und sich in
+                    der Gemeinschaft einzubringen. Der natürlichste Weg sich nachhaltig zu integrieren ist das
+                    gemeinsame Erleben. Dies machen sie, indem sie Angebote inserieren oder an inserierten Angeboten
+                    anderer Benutzer teilnehmen.
                 </p>
                 <p>
-                    Früher hat man sich auf dem Dorfplatz darüber ausgetauscht, wo was und wann los ist. Dafür soll die
-                    App des Kreis 3 eine moderne Alternative bieten. Basierend auf den Interessen des Users werden ihm
-                    Vorschläge aufgezeigt was er unternehmen kann (Freizeitangebote, Veranstaltungen, Sport,
+                    Früher hat man sich auf dem Dorfplatz darüber ausgetauscht, wo was und wann los ist. Dafür soll
+                    die App des Kreis 3 eine moderne Alternative bieten. Basierend auf den Interessen des Users werden
+                    ihm Vorschläge aufgezeigt, was er unternehmen kann (Freizeitangebote, Veranstaltungen, Sport,
                     Restaurantvorschläge ect.).
                 </p>
                 <p>
@@ -411,14 +414,15 @@
                     In einer Feedbackrunde bekam ich eine kritische Rückmeldung zum Entwurf meines ersten Designs. Der
                     erste Entwurf hatte sehr wenig Charakter und war ein schlichtes «Flat Design». Meine erste
                     Schriftwahl, die auf Google Fonts angebotene «Inter», hatte sich auch nicht besonders mit der
-                    Thematik meiner Arbeit gedeckt. Aus diesem Grund habe ich dann nach lokalen, schweizer Schriften
-                    mit mehr Charakter gesucht. Ich habe mich für eine Kombination einer Serifenschrift, die «Suisse
+                    Thematik meiner Arbeit gedeckt. Aus diesem Grund habe ich dann nach einer lokalen, schweizer Schrift
+                    gesucht mit mehr Charakter. Ich habe mich für eine Kombination einer Serifenschrift, die «Suisse
                     Neue» und der Sans Serif «Suisse BP int'l» von <a href="https://www.swisstypefaces.com/"
                                                                       target="_blank">Swiss Typefaces</a> entschieden.
                 </p>
                 <p>
-                    Weiter habe ich mich für eine Farbpalette entschieden welche freundlich, einladend und modern sein
+                    Weiter habe ich mich für eine Farbpalette entschieden, welche freundlich, einladend und modern sein
                     soll und der App einen emotionalen Charakter verleiht.
+
                 </p>
                 <g-image data-sal="slide-up"
                          data-sal-delay="100"
@@ -442,28 +446,28 @@
             <chapter>
                 <h3>Designentscheidungen</h3>
                 <p>
-                    Einige Entscheidungen die ich im Design und Konzept getroffen haben möchte ich besonders
+                    Einige Entscheidungen, die ich im Design und Konzept getroffen haben möchte ich besonders
                     hervorheben. Dieses Konzept wurde am Beispiel des Kreis 3 konzipiert, das Konzept könnte sehr gut
-                    auf weitere Kreise oder sogar die Stadt erweitert werden. Da zur Zeit der Fokus des Konzept auf
-                    einem Kreis liegt habe ich mich gegen den Einsatz einer Karte entschieden da sich die Aktivitäten
-                    meistens in Laufweite befinden.
+                    auch auf weitere Kreise oder sogar auf die gesamte Stadt erweitert werden. Da zur Zeit der Fokus des
+                    Konzepts auf einem Kreis liegt, habe ich mich gegen den Einsatz einer Karte entschieden, da sich die
+                    Aktivitäten meistens in Gehdistanz befinden.
                 </p>
                 <p>
-                    Auch wenn es sich positiv auf das bilden einer Gemeinschaft auswirken könnte habe ich mich gegen
-                    eine Nachrichten Funktion innerhalb der App entschieden. Der Grund dafür ist dass die Aktivitäten
-                    auf der App möglichst offen angeboten werden sollen ohne dass eine «vorauswahl» via Nachrichten
-                    stattfindet, zudem war es mir wichtig dass sich die App nicht in die richtung einer «Dating-App»
-                    entwickelt . Die Gemeinschaft wird durch das Gemeinsame erleben von aktivitäten gestärkt.
+                    Auch wenn es sich positiv auf das bilden einer Gemeinschaft auswirken könnte, habe ich mich gegen
+                    eine Nachrichten Funktion innerhalb der App entschieden. Der Grund dafür ist, dass die Aktivitäten
+                    auf der App möglichst offen angeboten werden sollen, ohne dass eine «Vorauswahl» via Nachrichten
+                    stattfindet. Zudem war es mir wichtig, dass sich die App nicht in die Richtung einer «Dating-App»
+                    entwickelt. Die Gemeinschaft wird durch das gemeinsame Erleben von Aktivitäten gestärkt.
                 </p>
                 <p>
-                    In App wird das Wort «Bucketlist» verwendet. Dies steht für die Listen von gespeicherten
-                    Beiträgen. Ich habe mich hier bewusst für das englische Wort entschieden. Das Wort Bucketlist wird
-                    oft im Zusammenhang mit reisen und erleben verwendet und aus diesem Grund schien es mir für meinen
+                    In der App wird das Wort «Bucketlist» verwendet. Dies steht für die Listen von gespeicherten
+                    Beiträgen. Ich habe mich hier bewusst für das englische Wort entschieden. Das Wort “Bucketlist” wird
+                    oft im Zusammenhang mit Reisen und Erleben verwendet und aus diesem Grund schien es mir für meinen
                     Verwendungszweck sehr passend.
                 </p>
                 <p>
-                    Das Konzept stützt sich stark auf die in meiner Umfrage gewonnenen Erkenntnisse dass die Mehrheit
-                    der Befragten nicht sehr Engagiert im Kreis ist, jedoch sind sie dazu bereit sich stärker zu
+                    Das Konzept stützt sich stark auf die in meiner Umfrage gewonnenen Erkenntnisse, dass die Mehrheit
+                    der Befragten nicht sehr engagiert im Kreis sind, jedoch sind sie dazu bereit, sich stärker zu
                     engagieren. Zudem können die Zuzügelnden von dem Wissen der bestehenden Gemeinschaft profitieren.
                 </p>
             </chapter>
