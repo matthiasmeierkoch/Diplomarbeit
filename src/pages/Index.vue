@@ -11,7 +11,7 @@
                 </p>
                 <p class="quelle__name">¹ Quelle:
                     <a
-                            href="https://www.tagesanzeiger.ch/zuerich/stadt/die-grosse-zuercher-zuwanderungsstatistik/story/18344973">
+                            href="https://web.archive.org/save/https://www.tagesanzeiger.ch/zuerich/stadt/die-grosse-zuercher-zuwanderungsstatistik/story/18344973">
                         Tages Anzeiger, Die grosse Zürcher Zuwanderungsstatistik
                     </a>
                 </p>
@@ -77,7 +77,7 @@
                     Freunden und einem bestehenden Umfeld profitieren konnten. Nach den persönlichen Empfehlungen ist
                     bei meiner Befragung Facebook am zweithäufigsten erwähnt worden. Davon ausgegangen dass jüngere
                     Personen vermehrt auf
-                    Facebook verzichten, was <a href="https://www.emarketer.com/content/global-facebook-users-2019"
+                    Facebook verzichten, was <a href="https://web.archive.org/save/https://www.emarketer.com/content/global-facebook-users-2019"
                                                 target="_blank">eine
                     Studie von eMarketer</a> besagt, sind sie besonders auf die Empfehlungen anderer Personen
                     angewiesen.
@@ -89,7 +89,7 @@
                          src="../assets/img/Facebook_Agegroup.png">
                 </g-image>
                 <p>Eigene Abbildung basierend auf den Daten von <a
-                        href="https://sproutsocial.com/insights/new-social-media-demographics/#FB-demos"
+                        href="https://web.archive.org/web/20200613111424/https://sproutsocial.com/insights/new-social-media-demographics/"
                         target="_blank">Sprout
                     Social</a></p>
 
@@ -304,7 +304,7 @@
                 </p>
                 <p>
                     Meine ersten Entwürfe des Konzepts umfassten zu viele Funktionen, das Konzept soll schlüssig sein um
-                    ein minimum viable product <a href="https://de.wikipedia.org/wiki/Minimum_Viable_Product"
+                    ein minimum viable product <a href="https://web.archive.org/web/20200613111723/https://de.wikipedia.org/wiki/Minimum_Viable_Product"
                                                   target="_blank">(MVP)</a> Produkt zu entwickeln, welches zu einem
                     späteren Zeitpunkt immer noch mit zusätzlichen Funktionen ausgebaut werden kann.
                 </p>
