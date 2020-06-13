@@ -15,12 +15,12 @@
 <style scoped>
 
     .background__image {
+        opacity: 1.0;
         position: absolute;
         z-index: -10;
         width: 100vw;
         top: 0;
         left: 0;
-
     }
 
     .background {
@@ -31,6 +31,7 @@
     @media (max-width: 900px) {
 
         .background__image {
+            opacity: 0.5;
             height: auto;
             width: 100vw;
             position: fixed;
