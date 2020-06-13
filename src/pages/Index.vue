@@ -471,7 +471,9 @@
                     der Befragten nicht sehr engagiert im Kreis sind, jedoch sind sie dazu bereit, sich stärker zu
                     engagieren. Zudem können die Zuzügelnden von dem Wissen der bestehenden Gemeinschaft profitieren.
                 </p>
-                <button><g-link class="" to="/about/">Zur Kreis 3 App</g-link></button>
+                <div class="button__next">
+                    <g-link to="/about/">Zur Kreis 3 App</g-link>
+                </div>
             </chapter>
 
             <chapter title="Prototyp"
@@ -572,24 +574,28 @@
         border-radius: 1rem;
     }
 
-    button {
-        background-color: #FCFBF9;
-        color: #003041;
-        font-size: 1.325rem;
+    .button__next {
+        background-color: #E4665C;
         font-weight: bold;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        border: none;
+        color: white;
+        padding: 1rem;
+        text-align: center;
         border-radius: 2rem;
-        margin-left: 25%;
+        max-width: 50%;
+        margin: auto;
+        margin-top: 4rem;
+    }
+
+    .button__next :visited {
+        color: white;
+    }
+
+    .button__next :link{
         text-decoration: none;
     }
 
-    button :visited{
-        color: #003041;
-        text-decoration: none;
+    .button__next :hover {
+        text-decoration: underline;
     }
 
     svg {
